@@ -1,0 +1,37 @@
+[user]
+	name = GIWTO
+	email = 3033291479@qq.com
+[core]
+	quotepath = false
+	autocrlf = false
+	editor = notepad++
+[help]
+	autocorrect = 30
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	sbtime = "!for k in `git branch|perl -pe s/^..//`;do echo `git show --pretty=format:\"%Cgreen%ci %Cblue%cr%Creset\" $k|head -n 1`\\\\\\t$k;done|sort"
+	sbrtime = "!for k in `git branch -r|perl -pe s/^..//`;do echo `git show --pretty=format:\"%Cgreen%ci %Cblue%cr%Creset\" $k|head -n 1`\\\\\\t$k;done|sort"
+	ci = commit
+	cm = commit --amend -C HEAD
+	co = checkout
+	st = status
+	sts = status -s
+	br = branch
+	re = remote
+	di = diff
+	type = cat-file -t
+	dump = cat-file -p
+	lo = log --oneline
+	ls = log --show-signature
+	ll = log --pretty=format:'%h %ad | %s%d [%Cgreen%an%Creset]' --graph --date=short
+	lg = log --graph --pretty=format:'%Cred%h%Creset %ad |%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%Cgreen%an%Creset]' --abbrev-commit --date=short
+	alias = config --get-regexp ^alias\\.
+	ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
+	iac = "!giac() { git init && git add . && git commit -m 'Initial commit' ;}; giac"
+[http]
+	proxy = http://127.0.0.1:41001
+[https]
+	proxy = https://127.0.0.1:41001

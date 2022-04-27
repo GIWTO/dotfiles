@@ -1,0 +1,13 @@
+mixed-port: 7890
+allow-lan: false
+external-controller: 127.0.0.1:12994
+secret: ''
+dns:
+  enable: true
+  enhanced-mode: fake-ip # 或 redir-host
+  listen: 127.0.0.1:53
+  nameserver:
+    - 223.5.5.5
+experimental:
+  interface-name: 以太网 # WLAN 为物理网卡名
+ipv6: true
