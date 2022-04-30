@@ -15,5 +15,7 @@
     ~/.config/clash: ./config/clash
     ~/.config/scoop: ./config/scoop
 
+    
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
