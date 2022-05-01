@@ -70,10 +70,9 @@ printUpdate "Setting up zsh"
 sudo -i -u $username bash << EOF
 cd ~
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | /bin/bash
-curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh | /bin/bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
-wget https://raw.githubusercontent.com/GIWTO/dotfiles/master/home-dotfiles/p10k
-wget https://raw.githubusercontent.com/GIWTO/dotfiles/master/home-dotfiles/zshrc
+wget https://raw.githubusercontent.com/AndersFelde/dotfiles/master/p10k
+wget https://raw.githubusercontent.com/AndersFelde/dotfiles/master/zshrc
 mv p10k .p10k.zsh
 mv zshrc .zshrc
 cd ~/.oh-my-zsh/custom/plugins/
@@ -83,4 +82,3 @@ EOF
 chsh --shell /bin/zsh $username
 
 printUpdate "You are now done installing, follow the rest of the install guide"
-x1.00
