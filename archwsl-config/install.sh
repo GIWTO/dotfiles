@@ -81,4 +81,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions
 EOF
 chsh --shell /bin/zsh $username
 
-printUpdate "You are now done installing, follow the rest of the install guide"
+printUpdate "You are now done installing, follow the rest of the install guide" 
