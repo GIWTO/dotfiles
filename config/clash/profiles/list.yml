@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: 日本-智能
       - name: 魔戒.net
-        now: 日本-优化
+        now: 日本-智能
       - name: 谷歌服务
         now: 台湾-优化
       - name: Twitter
@@ -25,8 +25,8 @@ files:
         now: 魔戒.net
     interval: 24
     subInfo:
-      upload: 7704615688
-      download: 68935430025
+      upload: 29307399819
+      download: 134115102729
       total: 450971566080
     mode: rule
 index: 1

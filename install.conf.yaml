@@ -10,11 +10,12 @@
     ~/.gitconfig: ./home-dotfiles/.gitconfig
     ~/.npmrc: ./home-dotfiles/.npmrc
     ~/.wslconfig: ./home-dotfiles/.wslconfig
-    
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: 
+      path: ./home-dotfiles/windows-terminal-settings.json
+      force: true
     
     ~/.config/clash: ./config/clash
     ~/.config/scoop: ./config/scoop
-
     
 
 - shell:
