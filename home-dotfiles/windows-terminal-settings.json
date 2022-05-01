@@ -17,9 +17,10 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "right"
             },
-            "keys": "ctrl+shift+t"
+            "keys": "alt+shift+plus"
         },
         {
             "command": "paste",
@@ -28,10 +29,9 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "right"
+                "action": "newTab"
             },
-            "keys": "alt+shift+plus"
+            "keys": "ctrl+shift+t"
         },
         {
             "command": 
@@ -177,6 +177,7 @@
                 "commandline": "ssh -o ServerAliveInterval=60 root@110.40.196.127",
                 "font": 
                 {
+                    "face": "JetBrainsMono Nerd Font",
                     "weight": "bold"
                 },
                 "guid": "{a297b5c0-b256-4f95-9ea6-f9452ec01566}",
@@ -185,6 +186,11 @@
                 "useAcrylic": true
             },
             {
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font",
+                    "weight": "bold"
+                },
                 "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
                 "hidden": false,
                 "name": "Arch",
