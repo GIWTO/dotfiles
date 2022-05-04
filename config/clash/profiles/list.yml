@@ -3,9 +3,9 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1642169181201.yml
+  - time: 1651462119286.yml
     name: "é­æ.net"
-    url: https://mojie.link/api/v1/client/subscribe?token=e21b6c29807191e4eed0d25f60943f8e
+    url: https://mojie.info/api/v1/client/subscribe?token=b966d11d9851bf9a4e58abb5e59a37cf
     selected:
       - name: GLOBAL
         now: 日本-智能
@@ -25,8 +25,8 @@ files:
         now: 魔戒.net
     interval: 24
     subInfo:
-      upload: 29307399819
-      download: 134115102729
+      upload: 48117352065
+      download: 280346379290
       total: 450971566080
     mode: rule
 index: 1
