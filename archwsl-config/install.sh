@@ -5,13 +5,6 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-if ! ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
-    tput setaf 1
-    echo "Please connect to the internet"
-    tput sgr0
-    exit
-fi
-
 printUpdate()
 {
     tput setaf 2
@@ -81,4 +74,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions
 EOF
 chsh --shell /bin/zsh $username
 
-printUpdate "You are now done installing, follow the rest of the install guide"
+printUpdate "You are now done installing, follow the rest of the install guide" 
