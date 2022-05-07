@@ -5,7 +5,7 @@ files:
     selected: []
   - time: 1651462119286.yml
     name: "é­æ.net"
-    url: https://mojie.info/api/v1/client/subscribe?token=b966d11d9851bf9a4e58abb5e59a37cf
+    url: https://mojie.info/api/v1/client/subscribe?token=6493eed3802ac9484a134a97b6eb46e7
     selected:
       - name: GLOBAL
         now: 日本-智能
@@ -25,8 +25,9 @@ files:
         now: 魔戒.net
     interval: 24
     subInfo:
-      upload: 48117352065
-      download: 280346379290
+      upload: 48917135862
+      download: 288583020225
       total: 450971566080
     mode: rule
+    cron: ""
 index: 1
