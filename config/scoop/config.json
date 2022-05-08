@@ -1,11 +1,6 @@
 {
-    "lastupdate":  "2022-05-03T14:35:34.3721560+08:00",
-    "alias":  {
-                  "rm":  "scoop-rm",
-                  "sc":  "scoop-sc"
-              },
-    "SCOOP_REPO":  "https://gitee.com/squallliu/scoop",
+    "lastUpdate":  "2022-05-08T09:12:57.3397575+08:00",
+    "SCOOP_REPO":  "https://github.com/ScoopInstaller/Scoop",
     "SCOOP_BRANCH":  "master",
-    "rootPath":  "D:\\Scoop",
-    "globalPath":  "D:\\GlobalScoopApps"
+    "aria2-enabled":  false
 }

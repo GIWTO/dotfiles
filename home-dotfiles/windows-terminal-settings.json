@@ -86,7 +86,7 @@
                 },
                 "guid": "{41dd7a51-f0e1-4420-a2ec-1a7130b7e950}",
                 "hidden": false,
-                "icon": "C://Users//tao//.dotfiles//pictrue//powershell.png",
+                "icon": "C://Users//wang//.dotfiles//pictrue//powershell.png",
                 "name": "Windows PowerShell Elevated",
                 "opacity": 75,
                 "useAcrylic": true
@@ -109,7 +109,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "C://Users//tao//.dotfiles//pictrue//cmd.png",
+                "icon": "C://Users//wang//.dotfiles//pictrue//cmd.png",
                 "name": "cmd",
                 "opacity": 75,
                 "padding": "0, 0, 0, 0",
