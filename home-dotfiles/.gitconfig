@@ -32,6 +32,6 @@
 	ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
 	iac = "!giac() { git init && git add . && git commit -m 'Initial commit' ;}; giac"
 [https]
-	proxy = http://127.0.0.1:41001
+	proxy = https://127.0.0.1:41001
 [http]
 	proxy = http://127.0.0.1:41001

@@ -3,16 +3,26 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1651462119286.yml
-    name: "é­æ.net"
-    url: https://mojie.info/api/v1/client/subscribe?token=6493eed3802ac9484a134a97b6eb46e7
+  - time: 1663245842207.yml
+    name: 魔戒.net
+    url: https://mojie.nl/api/v1/client/subscribe?token=17c3338df42802cdb15e7ec62014f0ee
     selected:
       - name: GLOBAL
-        now: 日本-智能
+        now: 香港FDC-优化2
       - name: 魔戒.net
-        now: 日本-智能
+        now: 美国LA-优化2
+      - name: 中转节点
+        now: 日本-优化
+      - name: 直连节点
+        now: 日本JP-T
+      - name: Netflix
+        now: 魔戒.net
+      - name: 磁力下载
+        now: DIRECT
+      - name: 哔哩哔哩
+        now: DIRECT
       - name: 谷歌服务
-        now: 台湾-优化
+        now: 魔戒.net
       - name: Twitter
         now: 魔戒.net
       - name: 微软服务
@@ -21,13 +31,12 @@ files:
         now: DIRECT
       - name: Steam
         now: 魔戒.net
-      - name: 其他服务
+      - name: 漏网之鱼
         now: 魔戒.net
     interval: 24
     subInfo:
-      upload: 48917135862
-      download: 288583020225
+      upload: 21908306463
+      download: 309642899278
       total: 450971566080
     mode: rule
-    cron: ""
 index: 1
