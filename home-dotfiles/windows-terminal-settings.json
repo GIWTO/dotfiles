@@ -59,6 +59,12 @@
     "initialCols": 90,
     "launchMode": "default",
     "multiLinePasteWarning": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -124,14 +130,15 @@
             },
             {
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.25,
+                "backgroundImageOpacity": 0.35,
                 "backgroundImageStretchMode": "fill",
                 "bellStyle": "taskbar",
                 "closeOnExit": "graceful",
                 "colorScheme": "Gruvbox Dark",
-                "commandline": "C:/Program Files/Git/bin/bash.exe",
+                "commandline": "C:\\Users\\wang\\scoop\\apps\\git\\current\\bin\\bash.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
+                "elevate": true,
                 "font": 
                 {
                     "face": "JetBrainsMono NF",
@@ -144,12 +151,13 @@
                 "historySize": 9001,
                 "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
-                "opacity": 75,
+                "opacity": 36,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
+                "startingDirectory": null,
                 "tabTitle": "Git Bash",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "useAtlasEngine": true
             },
             {
                 "backgroundImage": "desktopWallpaper",
@@ -447,6 +455,50 @@
     ],
     "snapToGridOnResize": false,
     "startOnUserLogin": false,
-    "themes": [],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
     "useAcrylicInTabRow": true
 }
