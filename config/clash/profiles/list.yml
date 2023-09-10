@@ -3,20 +3,36 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1678978122562.yml
-    name: 魔戒.net
-    url: https://mojie.best/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
+  - time: 1679016360220.yml
+    name: 一元机场
+    url: https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=7790dcf036e4af9cbc6724cf3ee5b63b
     selected:
       - name: GLOBAL
-        now: 剩余流量：66.24 GB
+        now: DIRECT
+      - name: 一元机场
+        now: 🇭🇰香港 02 | 专线
+    interval: 24
+    subInfo:
+      upload: 1118218
+      download: 3264030
+      total: 536870912000
+      expire: 1709083579
+    mode: rule
+    homeWeb: ""
+  - time: 1690468047892.yml
+    name: 魔戒.net
+    url: https://mojie.mx/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
+    selected:
+      - name: GLOBAL
+        now: 台湾HINET-T
       - name: 节点选择
-        now: 故障转移
+        now: 直连节点
       - name: ChatGPT
-        now: 节点选择
+        now: 美国USLA-T  (ChatGPT)
       - name: 中转节点
-        now: 日本-优化
+        now: 日本-优化3
       - name: 直连节点
-        now: 葡萄牙PT-T
+        now: 日本JP-T
       - name: Netflix
         now: DIRECT
       - name: 磁力下载
@@ -37,25 +53,9 @@ files:
         now: 节点选择
     interval: 24
     subInfo:
-      upload: 10190434749
-      download: 58269620123
+      upload: 13654666878
+      download: 115288659292
       total: 139586437120
-    mode: global
-    cron: ""
-    headers: ""
-  - time: 1679016360220.yml
-    name: 一元机场
-    url: https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=7790dcf036e4af9cbc6724cf3ee5b63b
-    selected:
-      - name: GLOBAL
-        now: DIRECT
-      - name: 一元机场
-        now: 🇭🇰香港 02 | 专线
-    interval: 24
-    subInfo:
-      upload: 756434992
-      download: 863176023
-      total: 536870912000
-      expire: 1709083579
+    homeWeb: https://mojie.buzz
     mode: rule
-index: 1
+index: 2

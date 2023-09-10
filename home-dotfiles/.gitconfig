@@ -35,3 +35,5 @@
 	proxy = https://127.0.0.1:41001
 [http]
 	proxy = http://127.0.0.1:41001
+[credential "http://122.112.251.77:3680"]
+	provider = generic

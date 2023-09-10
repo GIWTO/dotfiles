@@ -11,3 +11,5 @@ trayOrders:
     - text
 hideTrayIcon: false
 randomMixedPort: false
+connShowProcess: true
+showTrayProxyDelayIndicator: true

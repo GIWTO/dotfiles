@@ -78,30 +78,6 @@
         "list": 
         [
             {
-                "backgroundImageOpacity": 0.25,
-                "backgroundImageStretchMode": "fill",
-                "bellStyle": 
-                [
-                    "window",
-                    "taskbar"
-                ],
-                "colorScheme": "Campbell Powershell",
-                "commandline": "gsudo.exe powershell.exe",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "JetBrainsMono NF"
-                },
-                "guid": "{41dd7a51-f0e1-4420-a2ec-1a7130b7e950}",
-                "hidden": false,
-                "icon": "C://Users//wang//.dotfiles//pictrue//powershell.png",
-                "name": "PowerShell5",
-                "opacity": 75,
-                "useAcrylic": true
-            },
-            {
                 "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.4,
                 "backgroundImageStretchMode": "fill",
@@ -135,7 +111,7 @@
                 "bellStyle": "taskbar",
                 "closeOnExit": "graceful",
                 "colorScheme": "Gruvbox Dark",
-                "commandline": "C:\\Users\\wang\\scoop\\apps\\git\\current\\bin\\bash.exe",
+                "commandline": "C:\\Users\\wang\\scoop\\apps\\git\\current\\bin\\bash.exe --login -i",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
                 "elevate": true,
@@ -149,7 +125,7 @@
                 "guid": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+                "icon": "C:\\Users\\wang\\scoop\\apps\\git\\2.41.0.windows.1\\usr\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
                 "opacity": 36,
                 "padding": "0, 0, 0, 0",
@@ -217,6 +193,25 @@
                 "hidden": false,
                 "name": "PowerShell7",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh -o ServerAliveInterval=60 pi@192.168.0.207",
+                "font": 
+                {
+                    "weight": "bold"
+                },
+                "guid": "{41e5c5e9-bb2c-448c-b442-0967fff86d87}",
+                "hidden": false,
+                "name": "st-\u6811\u8393\u6d3e",
+                "tabTitle": "linux",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{f8c9cf88-339d-5071-8a4e-cf35e345340a}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
