@@ -14,11 +14,16 @@ REM 设置日志文件路径
 set "logFile=%localRepoPath%\update_log.txt"
 set "scoopExportFile=%localRepoPath%\scoop_export.json"
 
+REM 备份 Scoop 软件列表
+echo "Backing up Scoop software list at %DATE% %TIME%" >> "%logFile%"
+scoop export > "%scoopExportFile%"
+echo "Scoop software list exported to %scoopExportFile%." >> "%logFile%"
+
 REM 执行 Git 操作
 echo "=====================" >> "%logFile%"
 echo "Updating Git Repository at %DATE% %TIME%" >> "%logFile%"
 
-"%gitPath%\git" add . >> "%logFile%" 2>&1
+"%gitPath%\git" add * >> "%logFile%" 2>&1
 "%gitPath%\git" commit -m "Update" >> "%logFile%" 2>&1
 
 REM 先执行 git push
@@ -29,10 +34,5 @@ echo "Git push operation completed." >> "%logFile%"
 
 REM 输出完成消息
 echo "Git Repository updated successfully."
-
-REM 备份 Scoop 软件列表
-echo "Backing up Scoop software list at %DATE% %TIME%" >> "%logFile%"
-scoop export > "%scoopExportFile%" 2>> "%logFile%"
-echo "Scoop software list exported to %scoopExportFile%." >> "%logFile%"
 
 endlocal
