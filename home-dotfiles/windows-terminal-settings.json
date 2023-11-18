@@ -23,6 +23,13 @@
             "keys": "ctrl+shift+c"
         },
         {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+shift+t"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+shift+v"
         },
@@ -33,13 +40,6 @@
                 "split": "down"
             },
             "keys": "alt+shift+minus"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+shift+t"
         },
         {
             "command": 
@@ -196,22 +196,29 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "ssh -o ServerAliveInterval=60 pi@192.168.0.207",
+                "commandline": "ssh -o ServerAliveInterval=60 st@192.168.0.101",
                 "font": 
                 {
                     "weight": "bold"
                 },
-                "guid": "{41e5c5e9-bb2c-448c-b442-0967fff86d87}",
+                "guid": "{037445e4-5470-4752-815b-bcad7f3acd75}",
                 "hidden": false,
-                "name": "st-\u6811\u8393\u6d3e",
+                "name": "st-\u6811\u8393\u6d3e (\u590d\u5236)",
                 "tabTitle": "linux",
                 "useAcrylic": true
             },
             {
-                "guid": "{f8c9cf88-339d-5071-8a4e-cf35e345340a}",
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh -o ServerAliveInterval=60 st@106.14.149.108 -p 1083",
+                "font": 
+                {
+                    "weight": "bold"
+                },
+                "guid": "{7c0d4667-bc40-47a2-a0d4-1d0337de5879}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2017",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "st-\u6811\u8393\u6d3e (\u590d\u5236) (\u590d\u5236)",
+                "tabTitle": "linux",
+                "useAcrylic": true
             }
         ]
     },
@@ -450,50 +457,6 @@
     ],
     "snapToGridOnResize": false,
     "startOnUserLogin": false,
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
+    "themes": [],
     "useAcrylicInTabRow": true
 }

@@ -3,43 +3,29 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1679016360220.yml
-    name: 一元机场
-    url: https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=7790dcf036e4af9cbc6724cf3ee5b63b
-    selected:
-      - name: GLOBAL
-        now: DIRECT
-      - name: 一元机场
-        now: 🇭🇰香港 02 | 专线
-    interval: 24
-    subInfo:
-      upload: 1118218
-      download: 3264030
-      total: 536870912000
-      expire: 1709083579
-    mode: rule
-    homeWeb: ""
-  - time: 1690468047892.yml
+  - time: 1698840521287.yml
     name: 魔戒.net
-    url: https://mojie.mx/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
+    url: https://mojie.cyou/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
     selected:
       - name: GLOBAL
-        now: 台湾HINET-T
+        now: 柬埔寨KH-T
       - name: 节点选择
-        now: 直连节点
+        now: 日本-优化3-GPT
       - name: ChatGPT
-        now: 美国USLA-T  (ChatGPT)
+        now: 日本-优化2-GPT
       - name: 中转节点
-        now: 日本-优化3
+        now: 英国-优化3
       - name: 直连节点
-        now: 日本JP-T
+        now: 尼日利亚NI-T
       - name: Netflix
         now: DIRECT
       - name: 磁力下载
         now: DIRECT
       - name: 哔哩哔哩
-        now: 日本-优化3
+        now: DIRECT
       - name: 谷歌服务
+        now: 节点选择
+      - name: Telegram
         now: 节点选择
       - name: Twitter
         now: 节点选择
@@ -48,14 +34,12 @@ files:
       - name: 苹果服务
         now: DIRECT
       - name: Steam
-        now: 节点选择
-      - name: 漏网之鱼
-        now: 节点选择
+        now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 13654666878
-      download: 115288659292
+      upload: 3904523651
+      download: 31769583650
       total: 139586437120
-    homeWeb: https://mojie.buzz
+    homeWeb: https://mojie.cyou
     mode: rule
-index: 2
+index: 1
