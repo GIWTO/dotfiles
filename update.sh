@@ -19,7 +19,7 @@ scoop export > "$scoopExportFile"
 cd "$localRepoPath" || exit
 
 # 执行 Git 操作
-"$gitPath/git" add .
+"$gitPath/git" add *
 "$gitPath/git" commit -m "Update"
 
 # 先执行 git push
