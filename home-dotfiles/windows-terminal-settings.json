@@ -4,61 +4,34 @@
     "actions": 
     [
         {
-            "command": "closePane",
-            "keys": "ctrl+shift+w"
-        },
-        {
             "command": 
             {
-                "action": "splitPane",
-                "split": "right"
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "alt+shift+plus"
-        },
-        {
-            "command": 
-            {
-                "action": "copy"
-            },
-            "keys": "ctrl+shift+c"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+shift+t"
+            "keys": "ctrl+c"
         },
         {
             "command": "paste",
-            "keys": "ctrl+shift+v"
+            "keys": "ctrl+v"
         },
         {
             "command": 
             {
                 "action": "splitPane",
-                "split": "down"
-            },
-            "keys": "alt+shift+minus"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto"
+                "split": "auto",
+                "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
-    "alwaysOnTop": false,
-    "alwaysShowTabs": true,
+    "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
-    "disableAnimations": false,
-    "experimental.rendering.software": false,
-    "initialCols": 90,
-    "launchMode": "default",
-    "multiLinePasteWarning": false,
     "newTabMenu": 
     [
         {
@@ -70,6 +43,7 @@
         "defaults": 
         {
             "bellStyle": "window",
+            "colorScheme": "Campbell Powershell",
             "font": 
             {
                 "face": "JetBrainsMono NF"
@@ -77,33 +51,6 @@
         },
         "list": 
         [
-            {
-                "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.4,
-                "backgroundImageStretchMode": "fill",
-                "closeOnExit": "graceful",
-                "colorScheme": "Gruvbox Dark",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
-                "font": 
-                {
-                    "face": "JetBrainsMono NF",
-                    "size": 11.0,
-                    "weight": "bold"
-                },
-                "foreground": "#DCDCDC",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "historySize": 9001,
-                "icon": "C://Users//wang//.dotfiles//pictrue//cmd.png",
-                "name": "cmd",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "cmd",
-                "useAcrylic": true
-            },
             {
                 "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.35,
@@ -125,12 +72,12 @@
                 "guid": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "C:\\Users\\wang\\scoop\\apps\\git\\2.41.0.windows.1\\usr\\share\\git\\git-for-windows.ico",
+                "icon": "C://Users//wang//scoop//apps//git//2.42.0.windows.2//usr//share//git//git-for-windows.ico",
                 "name": "Git Bash",
-                "opacity": 36,
+                "opacity": 100,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
-                "startingDirectory": null,
+                "startingDirectory": "C:\\Users\\wang",
                 "tabTitle": "Git Bash",
                 "useAcrylic": true,
                 "useAtlasEngine": true
@@ -159,66 +106,15 @@
                 "useAcrylic": true
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "commandline": "ssh -o ServerAliveInterval=180 root@110.40.196.127",
-                "font": 
-                {
-                    "weight": "bold"
-                },
-                "guid": "{a297b5c0-b256-4f95-9ea6-f9452ec01566}",
-                "name": "\u817e\u8baf\u4e91CentOS",
-                "tabTitle": "centos",
-                "useAcrylic": true
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "commandline": "ssh -o ServerAliveInterval=60 root@192.168.227.131",
-                "font": 
-                {
-                    "weight": "bold"
-                },
-                "guid": "{68b70ac6-11a5-4672-85ad-38fd80652029}",
-                "name": "\u865a\u62df\u673aCentOS",
-                "tabTitle": "centos",
-                "useAcrylic": true
-            },
-            {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell7",
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "colorScheme": "One Half Dark",
-                "commandline": "ssh -o ServerAliveInterval=60 st@192.168.0.101",
-                "font": 
-                {
-                    "weight": "bold"
-                },
-                "guid": "{037445e4-5470-4752-815b-bcad7f3acd75}",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "st-\u6811\u8393\u6d3e (\u590d\u5236)",
-                "tabTitle": "linux",
-                "useAcrylic": true
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "commandline": "ssh -o ServerAliveInterval=60 st@106.14.149.108 -p 1083",
-                "font": 
-                {
-                    "weight": "bold"
-                },
-                "guid": "{7c0d4667-bc40-47a2-a0d4-1d0337de5879}",
-                "hidden": false,
-                "name": "st-\u6811\u8393\u6d3e (\u590d\u5236) (\u590d\u5236)",
-                "tabTitle": "linux",
-                "useAcrylic": true
+                "name": "Command Prompt"
             }
         ]
     },
@@ -458,5 +354,5 @@
     "snapToGridOnResize": false,
     "startOnUserLogin": false,
     "themes": [],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": false
 }

@@ -13,7 +13,7 @@
     ~/.wslconfig: ./home-dotfiles/.wslconfig
     ~/.bash_profile: ./home-dotfiles/.bash_profile
     ~/.bash_history: ./home-dotfiles/.bash_history
-    
+
     ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: 
       path: ./home-dotfiles/windows-terminal-settings.json
       force: true

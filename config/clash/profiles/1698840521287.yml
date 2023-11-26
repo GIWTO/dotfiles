@@ -29,7 +29,7 @@ dns:
     fallback: ['tls://8.8.4.4', 'https://dns.twnic.tw/dns-query']
     fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：88.23 GB', type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
+    - { name: '剩余流量：81.07 GB', type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 套餐到期：长期有效, type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 日本JP-T-GPT, type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 新加坡SG-T, type: trojan, server: sg.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: sg.mjt000.com }
@@ -73,7 +73,7 @@ proxies:
     - { name: 英国-优化2, type: vmess, server: m.cnmjcn.com, port: 16645, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 英国-优化3, type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
 proxy-groups:
-    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 中转节点, 直连节点, '剩余流量：88.23 GB', 套餐到期：长期有效, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾HINET-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 中转节点, 直连节点, '剩余流量：81.07 GB', 套餐到期：长期有效, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾HINET-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
     - { name: 自动选择, type: url-test, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾HINET-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 600, tolerance: 50, lazy: true }
     - { name: 故障转移, type: fallback, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾HINET-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 700, lazy: true }
     - { name: ChatGPT, type: select, proxies: [节点选择, 日本JP-T-GPT, 美国USLA-T-GPT, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT] }
