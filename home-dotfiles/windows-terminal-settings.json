@@ -29,6 +29,7 @@
             "keys": "ctrl+shift+f"
         }
     ],
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
