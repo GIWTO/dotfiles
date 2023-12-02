@@ -18,18 +18,16 @@ hosts:
     services.googleapis.cn: 74.125.203.94
 dns:
     enable: true
-    listen: '127.0.0.1:1053'
+    listen: '127.0.0.1:8853'
+    default-nameserver: [223.5.5.5, 8.8.4.4]
     ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29]
     enhanced-mode: fake-ip
-    fake-ip-range: 28.0.0.1/8
-    use-hosts: true
-    fake-ip-filter: [+.lan, +.cn, +.10010.com, +.chinaunicom.com, '*.alipay.com', '*.alipayobjects.com', connect.rom.miui.com, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.n.n.srv.nintendo.net', +.stun.playstation.net, '*.msftncsi.com', '*.msftconnecttest.com', ntp.ntsc.ac.cn]
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['tls://8.8.4.4', 'https://dns.twnic.tw/dns-query']
-    fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+    nameserver: [119.29.29.29, 223.5.5.5, 'tls://223.5.5.5:853', 'tls://223.6.6.6:853', 'tls://120.53.53.53', 'tls://1.12.12.12']
+    fallback: ['https://1.0.0.1/dns-query', 'https://public.dns.iij.jp/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: false, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: [+.facebook.com, +.twitter.com, +.google.com, +.googleapis.com, +.google.cn, +.googleapis.cn, +.xn--ngstr-lra8j.com, +.googlevideo.com, +.gvt1.com, +.gmail.com, +.youtube.com, +.youtu.be, +.gvt0.com, +.gvt2.com, +.gvt3.com, +.gstatic.com, +.265.com, +.2mdn.net, +.app-measurement.com, +.c.admob.com, +.clickserve.dartsearch.net, +.crl.pki.goog, +.doubleclick.net, +.firebase-settings.crashlytics.com, +.google-analytics.com, +.googleadservices.com, +.googleanalytics.com, +.googleoptimize.com, +.googlesyndication.com, +.googletagmanager.com, +.googletagservices.com] }
+    fake-ip-filter: ['*.lan', '*.localdomain', '*.example', '*.invalid', '*.localhost', '*.test', '*.local', '*.home.arpa', 'time.*.com', 'time.*.gov', 'time.*.edu.cn', 'time.*.apple.com', 'time1.*.com', 'time2.*.com', 'time3.*.com', 'time4.*.com', 'time5.*.com', 'time6.*.com', 'time7.*.com', 'ntp.*.com', 'ntp1.*.com', 'ntp2.*.com', 'ntp3.*.com', 'ntp4.*.com', 'ntp5.*.com', 'ntp6.*.com', 'ntp7.*.com', '*.time.edu.cn', '*.ntp.org.cn', +.pool.ntp.org, time1.cloud.tencent.com, music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, '*.xiami.com', '*.music.migu.cn', music.migu.cn, +.msftconnecttest.com, +.msftncsi.com, msftconnecttest.com, msftncsi.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, +.srv.nintendo.net, +.stun.playstation.net, 'xbox.*.microsoft.com', xnotify.xboxlive.com, +.ipv6.microsoft.com, +.battlenet.com.cn, +.wotgame.cn, +.wggames.cn, +.wowsgame.cn, +.wargaming.net, proxy.golang.org, 'stun.*.*', 'stun.*.*.*', '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', heartbeat.belkin.com, '*.linksys.com', '*.linksyssmartwifi.com', '*.router.asus.com', mesu.apple.com, swscan.apple.com, swquery.apple.com, swdownload.apple.com, swcdn.apple.com, swdist.apple.com, lens.l.google.com, stun.l.google.com, '*.square-enix.com', '*.finalfantasyxiv.com', '*.ffxiv.com', '*.ff14.sdo.com', ff.dorado.sdo.com, '*.mcdn.bilivideo.cn', +.media.dssott.com, +.pvp.net]
 proxies:
-    - { name: '剩余流量：77.57 GB', type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
+    - { name: '剩余流量：75.77 GB', type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 套餐到期：长期有效, type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 日本JP-T-GPT, type: trojan, server: jp.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: jp.mjt000.com }
     - { name: 新加坡SG-T, type: trojan, server: sg.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: sg.mjt000.com }
@@ -59,9 +57,6 @@ proxies:
     - { name: 新加坡-优化3, type: vmess, server: t.cnmjcn.cyou, port: 16618, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 香港WAP-优化, type: vmess, server: yes.cnmjcn.net, port: 16622, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 香港WAP-优化2, type: vmess, server: m.cnmjcn.com, port: 16622, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
-    - { name: 香港HKT-优化, type: vmess, server: yes.cnmjcn.net, port: 16620, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
-    - { name: 香港HKT-优化2, type: vmess, server: m.cnmjcn.com, port: 16620, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
-    - { name: 香港HKT-优化3, type: vmess, server: t.cnmjcn.cyou, port: 16620, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 印度-优化, type: vmess, server: yes.cnmjcn.net, port: 16626, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 台湾-优化, type: vmess, server: yes.cnmjcn.net, port: 16616, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 台湾-优化2, type: vmess, server: m.cnmjcn.com, port: 16616, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
@@ -73,46 +68,57 @@ proxies:
     - { name: 英国-优化2, type: vmess, server: m.cnmjcn.com, port: 16645, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 英国-优化3, type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
 proxy-groups:
-    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 中转节点, 直连节点, '剩余流量：77.57 GB', 套餐到期：长期有效, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: 自动选择, type: url-test, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 600, tolerance: 50, lazy: true }
-    - { name: 故障转移, type: fallback, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 700, lazy: true }
+    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 国内使用, 国外使用, '剩余流量：75.77 GB', 套餐到期：长期有效, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 自动选择, type: url-test, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 600, tolerance: 50, lazy: true }
+    - { name: 故障转移, type: fallback, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3], url: 'http://www.YouTube.com/generate_204', interval: 700, lazy: true }
     - { name: ChatGPT, type: select, proxies: [节点选择, 日本JP-T-GPT, 美国USLA-T-GPT, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT] }
-    - { name: 中转节点, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: 直连节点, type: select, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T] }
-    - { name: Netflix, type: select, proxies: [节点选择, DIRECT, 中转节点, 直连节点, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 国内使用, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 国外使用, type: select, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T] }
+    - { name: Netflix, type: select, proxies: [节点选择, 国内使用, 国外使用, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
     - { name: 磁力下载, type: select, proxies: [DIRECT, REJECT, 卢森堡LUX-T] }
-    - { name: 哔哩哔哩, type: select, proxies: [DIRECT, 节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: 谷歌服务, type: select, proxies: [节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: Telegram, type: select, proxies: [节点选择, 自动选择, 故障转移, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: Twitter, type: select, proxies: [节点选择, 故障转移, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: 微软服务, type: select, proxies: [节点选择, DIRECT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: 苹果服务, type: select, proxies: [DIRECT, 节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
-    - { name: Steam, type: select, proxies: [节点选择, DIRECT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化, 香港HKT-优化2, 香港HKT-优化3, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 哔哩哔哩, type: select, proxies: [DIRECT, 节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 谷歌服务, type: select, proxies: [节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: Telegram, type: select, proxies: [节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: Twitter, type: select, proxies: [节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 微软服务, type: select, proxies: [节点选择, DIRECT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: 苹果服务, type: select, proxies: [DIRECT, 节点选择, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
+    - { name: Steam, type: select, proxies: [节点选择, DIRECT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 越南VN-T, 台湾WAP-T, 香港wap-T, 以色列IL-T, 哈萨克斯坦KZ-T, 美国USLA-T-GPT, 英国UK-T, 波兰PL-T, 瑞士CH-T, 葡萄牙PT-T, 卢森堡LUX-T, 澳大利亚AU-T, 俄罗斯RU-T, 乌克兰UA-T, 土耳其TR-T, 阿根廷AR-T, 尼日利亚NI-T, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港WAP-优化, 香港WAP-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
 rules:
     - 'DOMAIN,mojie.cyou,DIRECT'
     - 'DOMAIN-KEYWORD,mojie,自动选择'
-    - 'DOMAIN-KEYWORD,openai,ChatGPT'
-    - 'DOMAIN-SUFFIX,cloudflare.com,ChatGPT'
-    - 'DOMAIN-SUFFIX,statsigapi.net,ChatGPT'
-    - 'DOMAIN-SUFFIX,sentry.io,ChatGPT'
-    - 'DOMAIN-SUFFIX,azureedge.net,ChatGPT'
+    - 'PROCESS-NAME,Thunder,磁力下载'
+    - 'PROCESS-NAME,DownloadService,磁力下载'
+    - 'PROCESS-NAME,qBittorrent,磁力下载'
+    - 'PROCESS-NAME,Transmission,磁力下载'
+    - 'PROCESS-NAME,fdm,磁力下载'
+    - 'PROCESS-NAME,aria2c,磁力下载'
+    - 'PROCESS-NAME,Folx,磁力下载'
+    - 'PROCESS-NAME,NetTransport,磁力下载'
+    - 'PROCESS-NAME,uTorrent,磁力下载'
+    - 'PROCESS-NAME,WebTorrent,磁力下载'
+    - 'PROCESS-NAME,aria2c.exe,磁力下载'
+    - 'PROCESS-NAME,BitComet.exe,磁力下载'
+    - 'PROCESS-NAME,fdm.exe,磁力下载'
+    - 'PROCESS-NAME,NetTransport.exe,磁力下载'
+    - 'PROCESS-NAME,qbittorrent.exe,磁力下载'
+    - 'PROCESS-NAME,Thunder.exe,磁力下载'
+    - 'PROCESS-NAME,ThunderVIP.exe,磁力下载'
+    - 'PROCESS-NAME,transmission-daemon.exe,磁力下载'
+    - 'PROCESS-NAME,transmission-qt.exe,磁力下载'
+    - 'PROCESS-NAME,uTorrent.exe,磁力下载'
+    - 'PROCESS-NAME,WebTorrent.exe,磁力下载'
+    - 'DOMAIN,challenges.cloudflare.com,ChatGPT'
+    - 'DOMAIN,events.statsigapi.net,ChatGPT'
+    - 'DOMAIN,featuregates.org,ChatGPT'
+    - 'DOMAIN,o33249.ingest.sentry.io,ChatGPT'
+    - 'DOMAIN,openaiapi-site.azureedge.net,ChatGPT'
     - 'DOMAIN-SUFFIX,ai.com,ChatGPT'
     - 'DOMAIN-SUFFIX,auth0.com,ChatGPT'
     - 'DOMAIN-SUFFIX,identrust.com,ChatGPT'
     - 'DOMAIN-SUFFIX,intercom.io,ChatGPT'
-    - 'DOMAIN-SUFFIX,ChatGPT.com,ChatGPT'
-    - 'IP-CIDR,127.0.0.1/32,REJECT,no-resolve'
-    - 'DOMAIN,injections.adguard.org,DIRECT,no-resolve'
-    - 'DOMAIN,local.adguard.org,DIRECT,no-resolve'
-    - 'DOMAIN-SUFFIX,local,DIRECT,no-resolve'
-    - 'IP-CIDR,127.0.0.0/8,DIRECT,no-resolve'
-    - 'IP-CIDR,172.16.0.0/12,DIRECT,no-resolve'
-    - 'IP-CIDR,192.168.0.0/16,DIRECT,no-resolve'
-    - 'IP-CIDR,10.0.0.0/8,DIRECT,no-resolve'
-    - 'IP-CIDR,17.0.0.0/8,DIRECT,no-resolve'
-    - 'IP-CIDR,100.64.0.0/10,DIRECT,no-resolve'
-    - 'IP-CIDR,224.0.0.0/4,DIRECT,no-resolve'
-    - 'IP-CIDR6,fe80::/10,DIRECT,no-resolve'
+    - 'DOMAIN-SUFFIX,oaistatic.com,ChatGPT'
+    - 'DOMAIN-SUFFIX,oaiusercontent.com,ChatGPT'
+    - 'DOMAIN-SUFFIX,openai.com,ChatGPT'
     - 'DOMAIN-SUFFIX,amazonaws.com,Netflix'
     - 'DOMAIN-SUFFIX,aws.amazon.com,Netflix'
     - 'DOMAIN-SUFFIX,awsstatic.com,Netflix'
@@ -350,13 +356,19 @@ rules:
     - 'IP-CIDR,205.180.175.0/24,苹果服务,no-resolve'
     - 'IP-CIDR,63.92.224.0/19,苹果服务,no-resolve'
     - 'IP-CIDR,65.199.22.0/23,苹果服务,no-resolve'
+    - 'DOMAIN,f3b7q2p3.ssl.hwcdn.net,Steam'
+    - 'DOMAIN,steammobile.akamaized.net,Steam'
+    - 'DOMAIN,steampipe-kr.akamaized.net,Steam'
+    - 'DOMAIN,steampipe-partner.akamaized.net,Steam'
     - 'DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,Steam'
     - 'DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,Steam'
     - 'DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,Steam'
+    - 'DOMAIN-SUFFIX,cm.steampowered.com,Steam'
     - 'DOMAIN-SUFFIX,csgo.wmsj.cn,Steam'
     - 'DOMAIN-SUFFIX,dl.steam.clngaa.com,Steam'
     - 'DOMAIN-SUFFIX,dl.steam.ksyna.com,Steam'
     - 'DOMAIN-SUFFIX,dota2.wmsj.cn,Steam'
+    - 'DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,Steam'
     - 'DOMAIN-SUFFIX,fanatical.com,Steam'
     - 'DOMAIN-SUFFIX,humblebundle.com,Steam'
     - 'DOMAIN-SUFFIX,playartifact.com,Steam'
@@ -366,29 +378,39 @@ rules:
     - 'DOMAIN-SUFFIX,st.dl.pinyuncloud.com,Steam'
     - 'DOMAIN-SUFFIX,steam-api.com,Steam'
     - 'DOMAIN-SUFFIX,steam-chat.com,Steam'
+    - 'DOMAIN-SUFFIX,steam.apac.qtlglb.com,Steam'
+    - 'DOMAIN-SUFFIX,steam.cdn.on.net,Steam'
+    - 'DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,Steam'
+    - 'DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,Steam'
+    - 'DOMAIN-SUFFIX,steam.cdn.webra.ru,Steam'
+    - 'DOMAIN-SUFFIX,steam.eca.qtlglb.com,Steam'
+    - 'DOMAIN-SUFFIX,steam.naeu.qtlglb.com,Steam'
+    - 'DOMAIN-SUFFIX,steam.ru.qtlglb.com,Steam'
     - 'DOMAIN-SUFFIX,steambroadcast.akamaized.net,Steam'
     - 'DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,Steam'
     - 'DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,Steam'
     - 'DOMAIN-SUFFIX,steamcommunity.com,Steam'
-    - 'DOMAIN-SUFFIX,steamcontent.com,Steam'
     - 'DOMAIN-SUFFIX,steamcontent.tnkjmec.com,Steam'
+    - 'DOMAIN-SUFFIX,steamdeck.com,Steam'
     - 'DOMAIN-SUFFIX,steamgames.com,Steam'
     - 'DOMAIN-SUFFIX,steampipe.akamaized.net,Steam'
     - 'DOMAIN-SUFFIX,steampowered.com,Steam'
     - 'DOMAIN-SUFFIX,steampowered.com.8686c.com,Steam'
+    - 'DOMAIN-SUFFIX,steamserver.net,Steam'
     - 'DOMAIN-SUFFIX,steamstat.us,Steam'
     - 'DOMAIN-SUFFIX,steamstatic.com,Steam'
     - 'DOMAIN-SUFFIX,steamstatic.com.8686c.com,Steam'
     - 'DOMAIN-SUFFIX,steamstore-a.akamaihd.net,Steam'
     - 'DOMAIN-SUFFIX,steamunlocked.net,Steam'
     - 'DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,Steam'
-    - 'DOMAIN-SUFFIX,steamusercontent.com,Steam'
     - 'DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,Steam'
     - 'DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,Steam'
     - 'DOMAIN-SUFFIX,underlords.com,Steam'
     - 'DOMAIN-SUFFIX,valvesoftware.com,Steam'
     - 'DOMAIN-SUFFIX,wmsjsteam.com,Steam'
-    - 'PROCESS-NAME,steamwebhelper.exe,Steam'
+    - 'DOMAIN-KEYWORD,steambroadcast,Steam'
+    - 'DOMAIN-KEYWORD,steamstore,Steam'
+    - 'DOMAIN-KEYWORD,steamuserimages,Steam'
     - 'DOMAIN-SUFFIX,periscope.tv,Twitter'
     - 'DOMAIN-SUFFIX,pscp.tv,Twitter'
     - 'DOMAIN-SUFFIX,t.co,Twitter'
@@ -1336,27 +1358,109 @@ rules:
     - 'DOMAIN-SUFFIX,vungle.com,REJECT'
     - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
     - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
-    - 'PROCESS-NAME,Thunder,磁力下载'
-    - 'PROCESS-NAME,DownloadService,磁力下载'
-    - 'PROCESS-NAME,qBittorrent,磁力下载'
-    - 'PROCESS-NAME,Transmission,磁力下载'
-    - 'PROCESS-NAME,fdm,磁力下载'
-    - 'PROCESS-NAME,aria2c,磁力下载'
-    - 'PROCESS-NAME,Folx,磁力下载'
-    - 'PROCESS-NAME,NetTransport,磁力下载'
-    - 'PROCESS-NAME,uTorrent,磁力下载'
-    - 'PROCESS-NAME,WebTorrent,磁力下载'
-    - 'PROCESS-NAME,aria2c.exe,磁力下载'
-    - 'PROCESS-NAME,BitComet.exe,磁力下载'
-    - 'PROCESS-NAME,fdm.exe,磁力下载'
-    - 'PROCESS-NAME,NetTransport.exe,磁力下载'
-    - 'PROCESS-NAME,qbittorrent.exe,磁力下载'
-    - 'PROCESS-NAME,Thunder.exe,磁力下载'
-    - 'PROCESS-NAME,ThunderVIP.exe,磁力下载'
-    - 'PROCESS-NAME,transmission-daemon.exe,磁力下载'
-    - 'PROCESS-NAME,transmission-qt.exe,磁力下载'
-    - 'PROCESS-NAME,uTorrent.exe,磁力下载'
-    - 'PROCESS-NAME,WebTorrent.exe,磁力下载'
+    - 'IP-CIDR,37.77.184.0/21,Netflix'
+    - 'IP-CIDR,45.57.0.0/17,Netflix'
+    - 'IP-CIDR,64.120.128.0/17,Netflix'
+    - 'IP-CIDR,66.197.128.0/17,Netflix'
+    - 'IP-CIDR,69.53.224.0/19,Netflix'
+    - 'IP-CIDR,108.175.32.0/20,Netflix'
+    - 'IP-CIDR,185.2.220.0/22,Netflix'
+    - 'IP-CIDR,185.9.188.0/22,Netflix'
+    - 'IP-CIDR,192.173.64.0/18,Netflix'
+    - 'IP-CIDR,198.38.96.0/19,Netflix'
+    - 'IP-CIDR,198.45.48.0/20,Netflix'
+    - 'IP-CIDR,208.75.76.0/22,Netflix'
+    - 'IP-CIDR,3.0.0.0/8,Netflix'
+    - 'IP-CIDR,13.24.0.0/13,Netflix'
+    - 'IP-CIDR,13.32.0.0/12,Netflix'
+    - 'IP-CIDR,13.244.0.0/14,Netflix'
+    - 'IP-CIDR,13.248.0.0/14,Netflix'
+    - 'IP-CIDR,15.177.0.0/16,Netflix'
+    - 'IP-CIDR,15.181.0.0/16,Netflix'
+    - 'IP-CIDR,15.193.0.0/16,Netflix'
+    - 'IP-CIDR,15.220.0.0/16,Netflix'
+    - 'IP-CIDR,15.221.0.0/16,Netflix'
+    - 'IP-CIDR,15.230.0.0/16,Netflix'
+    - 'IP-CIDR,15.251.0.0/16,Netflix'
+    - 'IP-CIDR,16.182.0.0/16,Netflix'
+    - 'IP-CIDR,18.34.0.0/16,Netflix'
+    - 'IP-CIDR,18.88.0.0/18,Netflix'
+    - 'IP-CIDR,18.89.128.0/18,Netflix'
+    - 'IP-CIDR,18.204.0.0/14,Netflix'
+    - 'IP-CIDR,18.208.0.0/13,Netflix'
+    - 'IP-CIDR,18.232.0.0/14,Netflix'
+    - 'IP-CIDR,23.20.0.0/14,Netflix'
+    - 'IP-CIDR,34.192.0.0/12,Netflix'
+    - 'IP-CIDR,34.224.0.0/12,Netflix'
+    - 'IP-CIDR,35.71.68.0/22,Netflix'
+    - 'IP-CIDR,35.153.0.0/16,Netflix'
+    - 'IP-CIDR,35.168.0.0/13,Netflix'
+    - 'IP-CIDR,44.192.0.0/11,Netflix'
+    - 'IP-CIDR,46.51.208.0/22,Netflix'
+    - 'IP-CIDR,50.16.0.0/15,Netflix'
+    - 'IP-CIDR,50.19.0.0/16,Netflix'
+    - 'IP-CIDR,52.0.0.0/8,Netflix'
+    - 'IP-CIDR,54.0.0.0/8,Netflix'
+    - 'IP-CIDR,63.246.119.0/24,Netflix'
+    - 'IP-CIDR,64.187.128.0/20,Netflix'
+    - 'IP-CIDR,64.252.0.0/16,Netflix'
+    - 'IP-CIDR,67.202.0.0/18,Netflix'
+    - 'IP-CIDR,67.220.240.0/20,Netflix'
+    - 'IP-CIDR,68.66.112.0/20,Netflix'
+    - 'IP-CIDR,69.107.0.0/18,Netflix'
+    - 'IP-CIDR,70.232.92.0/22,Netflix'
+    - 'IP-CIDR,72.21.192.0/19,Netflix'
+    - 'IP-CIDR,72.41.0.0/16,Netflix'
+    - 'IP-CIDR,72.44.0.0/16,Netflix'
+    - 'IP-CIDR,75.101.128.0/17,Netflix'
+    - 'IP-CIDR,76.223.172.0/22,Netflix'
+    - 'IP-CIDR,96.0.0.0/9,Netflix'
+    - 'IP-CIDR,99.0.0.0/8,Netflix'
+    - 'IP-CIDR,100.24.0.0/13,Netflix'
+    - 'IP-CIDR,107.20.0.0/14,Netflix'
+    - 'IP-CIDR,136.18.50.0/23,Netflix'
+    - 'IP-CIDR,142.4.160.0/19,Netflix'
+    - 'IP-CIDR,150.222.0.0/16,Netflix'
+    - 'IP-CIDR,151.148.0.0/16,Netflix'
+    - 'IP-CIDR,161.178.0.0/16,Netflix'
+    - 'IP-CIDR,161.193.0.0/16,Netflix'
+    - 'IP-CIDR,162.250.236.0/22,Netflix'
+    - 'IP-CIDR,172.96.96.0/20,Netflix'
+    - 'IP-CIDR,174.129.0.0/16,Netflix'
+    - 'IP-CIDR,176.32.0.0/16,Netflix'
+    - 'IP-CIDR,184.72.0.0/16,Netflix'
+    - 'IP-CIDR,184.73.0.0/16,Netflix'
+    - 'IP-CIDR,192.26.25.0/24,Netflix'
+    - 'IP-CIDR,192.43.175.0/24,Netflix'
+    - 'IP-CIDR,199.127.232.0/22,Netflix'
+    - 'IP-CIDR,204.45.0.0/16,Netflix'
+    - 'IP-CIDR,204.236.192.0/18,Netflix'
+    - 'IP-CIDR,205.251.192.0/18,Netflix'
+    - 'IP-CIDR,207.171.160.0/19,Netflix'
+    - 'IP-CIDR,208.86.88.0/23,Netflix'
+    - 'IP-CIDR,208.110.48.0/20,Netflix'
+    - 'IP-CIDR,209.54.176.0/21,Netflix'
+    - 'IP-CIDR,216.182.224.0/20,Netflix'
+    - 'IP-CIDR6,2607:fb10::/32,Netflix'
+    - 'IP-CIDR6,2a00:86c0::/32,Netflix'
+    - 'IP-CIDR6,2a03:5640::/32,Netflix'
+    - 'IP-CIDR6,2600:1F00::/24,Netflix'
+    - 'IP-CIDR6,2600:F000::/24,Netflix'
+    - 'IP-CIDR6,2605:9CC0::/32,Netflix'
+    - 'IP-CIDR6,2606:F40::/32,Netflix'
+    - 'IP-CIDR6,2620:107::/32,Netflix'
+    - 'DOMAIN,injections.adguard.org,DIRECT,no-resolve'
+    - 'DOMAIN,local.adguard.org,DIRECT,no-resolve'
+    - 'DOMAIN-SUFFIX,local,DIRECT,no-resolve'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT,no-resolve'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT,no-resolve'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT,no-resolve'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT,no-resolve'
+    - 'IP-CIDR,17.0.0.0/8,DIRECT,no-resolve'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT,no-resolve'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT,no-resolve'
+    - 'IP-CIDR6,fe80::/10,DIRECT,no-resolve'
     - 'GEOIP,telegram,Telegram,no-resolve'
+    - 'GEOIP,CN,DIRECT,no-resolve'
     - 'GEOIP,CN,DIRECT'
     - 'MATCH,节点选择'
