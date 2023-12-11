@@ -1,0 +1,452 @@
+22:56:16 INF [API] listening addr=127.0.0.1:50332
+22:56:16 INF [DNS] server listening addr=127.0.0.1:53
+22:56:16 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+22:56:16 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50350 rAddr=api.github.com:443 proxy=DIRECT
+22:56:16 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50349 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+22:56:16 INF [Config] initial compatible provider name=ChatGPT
+22:56:16 INF [Config] initial compatible provider name=Steam
+22:56:16 INF [Config] initial compatible provider name=国外使用
+22:56:16 INF [Config] initial compatible provider name=磁力下载
+22:56:16 INF [Config] initial compatible provider name=微软服务
+22:56:16 INF [Config] initial compatible provider name=Netflix
+22:56:16 INF [Config] initial compatible provider name=哔哩哔哩
+22:56:16 INF [Config] initial compatible provider name=Telegram
+22:56:16 INF [Config] initial compatible provider name=Twitter
+22:56:16 INF [Config] initial compatible provider name=国内使用
+22:56:16 INF [Config] initial compatible provider name=节点选择
+22:56:16 INF [Config] initial compatible provider name=苹果服务
+22:56:16 INF [Config] initial compatible provider name=故障转移
+22:56:16 INF [Config] initial compatible provider name=自动选择
+22:56:16 INF [Config] initial compatible provider name=谷歌服务
+22:56:16 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50340 rAddr=self.events.data.microsoft.com:443 proxy=DIRECT
+22:56:16 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+22:56:18 INF [TCP] connected lAddr=127.0.0.1:50403 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[套餐到期：长期有效]
+22:56:25 INF [TCP] connected lAddr=127.0.0.1:50492 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:26 INF [TCP] connected lAddr=127.0.0.1:50494 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:27 INF [TCP] connected lAddr=127.0.0.1:50496 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:56:27 INF [TCP] connected lAddr=127.0.0.1:50498 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:27 INF [TCP] connected lAddr=127.0.0.1:50501 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:27 INF [TCP] connected lAddr=127.0.0.1:50500 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:28 INF [TCP] connected lAddr=127.0.0.1:50506 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:56:32 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50504 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+22:56:33 INF [TCP] connected lAddr=127.0.0.1:50510 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:56:38 INF [TCP] connected lAddr=127.0.0.1:50512 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:56:40 INF [TCP] connected lAddr=127.0.0.1:50514 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:56:41 INF [TCP] connected lAddr=127.0.0.1:50516 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:00 INF [TCP] connected lAddr=127.0.0.1:50536 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:02 INF [TCP] connected lAddr=127.0.0.1:50538 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:10 INF [TCP] connected lAddr=127.0.0.1:50540 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:13 INF [TCP] connected lAddr=127.0.0.1:50542 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+22:57:13 INF [TCP] connected lAddr=127.0.0.1:50544 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:14 INF [TCP] connected lAddr=127.0.0.1:50546 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:17 INF [TCP] connected lAddr=127.0.0.1:50548 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:57:31 INF [TCP] connected lAddr=127.0.0.1:50552 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:32 INF [TCP] connected lAddr=127.0.0.1:50555 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:33 INF [TCP] connected lAddr=127.0.0.1:50558 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:33 INF [TCP] connected lAddr=127.0.0.1:50557 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:35 INF [TCP] connected lAddr=127.0.0.1:50561 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:36 INF [TCP] connected lAddr=127.0.0.1:50563 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:57:36 INF [TCP] connected lAddr=127.0.0.1:50565 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:40 INF [TCP] connected lAddr=127.0.0.1:50571 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:57:41 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50566 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+22:57:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50569 rAddr=blog.gimo.me:443 rule=Match rulePayload=
+22:57:43 INF [TCP] connected lAddr=127.0.0.1:50573 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:57:59 INF [TCP] connected lAddr=127.0.0.1:50575 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52525 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52527 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52537 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52530 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52534 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52536 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52543 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52545 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52549 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:01 INF [TCP] connected lAddr=127.0.0.1:52547 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:02 INF [TCP] connected lAddr=127.0.0.1:52551 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:02 INF [TCP] connected lAddr=127.0.0.1:52535 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:02 INF [TCP] connected lAddr=127.0.0.1:52553 rAddr=array809.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:03 INF [TCP] connected lAddr=127.0.0.1:52555 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:04 INF [TCP] connected lAddr=127.0.0.1:52557 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:04 INF [TCP] connected lAddr=127.0.0.1:52560 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52533 rAddr=cdn.v2ex.com:443 rule=Match rulePayload=
+22:58:08 INF [TCP] connected lAddr=127.0.0.1:52562 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:18 INF [TCP] connected lAddr=127.0.0.1:52565 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:28 INF [TCP] connected lAddr=127.0.0.1:52567 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:58:28 INF [TCP] connected lAddr=127.0.0.1:52569 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:29 INF [TCP] connected lAddr=127.0.0.1:52571 rAddr=array803.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:31 INF [TCP] connected lAddr=127.0.0.1:52575 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:46 INF [TCP] connected lAddr=127.0.0.1:52577 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:48 INF [TCP] connected lAddr=127.0.0.1:52579 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:49 INF [TCP] connected lAddr=127.0.0.1:52583 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:53 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52581 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+22:58:54 INF [TCP] connected lAddr=127.0.0.1:52585 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:58:55 INF [TCP] connected lAddr=127.0.0.1:52587 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:02 INF [TCP] connected lAddr=127.0.0.1:52591 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:04 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52589 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+22:59:04 INF [TCP] connected lAddr=127.0.0.1:52593 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:05 INF [TCP] connected lAddr=127.0.0.1:52595 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:05 INF [TCP] connected lAddr=127.0.0.1:52597 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:09 INF [TCP] connected lAddr=127.0.0.1:52599 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:11 INF [TCP] connected lAddr=127.0.0.1:52601 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:18 INF [TCP] connected lAddr=127.0.0.1:52603 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:20 INF [TCP] connected lAddr=127.0.0.1:52605 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52607 rAddr=api.onedrive.com:443 rule=DomainSuffix rulePayload=onedrive.com
+22:59:31 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52609 rAddr=api.onedrive.com:443 rule=DomainSuffix rulePayload=onedrive.com
+22:59:34 INF [TCP] connected lAddr=127.0.0.1:52613 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52615 rAddr=api.onedrive.com:443 rule=DomainSuffix rulePayload=onedrive.com
+22:59:40 INF [TCP] connected lAddr=127.0.0.1:52617 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:51 INF [TCP] connected lAddr=127.0.0.1:52619 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:54 INF [TCP] connected lAddr=127.0.0.1:52621 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:57 INF [TCP] connected lAddr=127.0.0.1:52625 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52627 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52631 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52632 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52634 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52633 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:58 INF [TCP] connected lAddr=127.0.0.1:52629 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:59 INF [TCP] connected lAddr=127.0.0.1:52639 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+22:59:59 INF [TCP] connected lAddr=127.0.0.1:52641 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+22:59:59 INF [TCP] connected lAddr=127.0.0.1:52642 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:00 INF [TCP] connected lAddr=127.0.0.1:52645 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52623 rAddr=functional.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:00:14 INF [TCP] connected lAddr=127.0.0.1:52649 rAddr=array806.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:16 INF [TCP] connected lAddr=127.0.0.1:52651 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52647 rAddr=x1.c.lencr.org:80 rule=Match rulePayload=
+23:00:16 INF [TCP] connected lAddr=127.0.0.1:52647 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:17 INF [TCP] connected lAddr=127.0.0.1:52656 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:19 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52652 rAddr=rasa.github.io:443 rule=Match rulePayload=
+23:00:19 INF [TCP] connected lAddr=127.0.0.1:52659 rAddr=rasa.github.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:20 INF [TCP] connected lAddr=127.0.0.1:52661 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:20 INF [TCP] connected lAddr=127.0.0.1:52663 rAddr=ci.appveyor.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:20 INF [TCP] connected lAddr=127.0.0.1:52665 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:20 INF [TCP] connected lAddr=127.0.0.1:52667 rAddr=ci.appveyor.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:21 INF [TCP] connected lAddr=127.0.0.1:52669 rAddr=badges.gitter.im:443 mode=rule rule=IPCIDR(3.0.0.0/8) proxy=Netflix[台湾WAP-T]
+23:00:21 INF [TCP] connected lAddr=127.0.0.1:52670 rAddr=rasa.github.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:21 INF [TCP] connected lAddr=127.0.0.1:52673 rAddr=cdnjs.cloudflare.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:22 INF [TCP] connected lAddr=127.0.0.1:52675 rAddr=img.shields.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:52647 rAddr=crl.pki.goog:80 rule=DomainSuffix rulePayload=pki.goog
+23:00:22 INF [TCP] connected lAddr=127.0.0.1:52677 rAddr=awesome.re:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:23 INF [TCP] connected lAddr=127.0.0.1:52681 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:24 INF [TCP] connected lAddr=127.0.0.1:52678 rAddr=cdnjs.cloudflare.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:24 INF [TCP] connected lAddr=127.0.0.1:52683 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:26 INF [TCP] connected lAddr=127.0.0.1:52685 rAddr=badges.gitter.im:443 mode=rule rule=IPCIDR(3.0.0.0/8) proxy=Netflix[台湾WAP-T]
+23:00:28 INF [TCP] connected lAddr=127.0.0.1:52687 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:33 INF [TCP] connected lAddr=127.0.0.1:52690 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:33 INF [TCP] connected lAddr=127.0.0.1:52692 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:34 INF [TCP] connected lAddr=127.0.0.1:52698 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:34 INF [TCP] connected lAddr=127.0.0.1:52694 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:36 INF [TCP] connected lAddr=127.0.0.1:52700 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52702 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52704 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52710 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52712 rAddr=repology.org:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52718 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52713 rAddr=repology.org:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52706 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:37 INF [TCP] connected lAddr=127.0.0.1:52722 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:38 INF [TCP] connected lAddr=127.0.0.1:52729 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:38 INF [TCP] connected lAddr=127.0.0.1:52708 rAddr=repology.org:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:38 INF [TCP] connected lAddr=127.0.0.1:52715 rAddr=repology.org:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:00:38 INF [TCP] connected lAddr=127.0.0.1:52730 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:00:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:52696 rAddr=www.google-analytics.com:443 rule=DomainKeyword rulePayload=google
+23:00:39 INF [TCP] connected lAddr=127.0.0.1:52735 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:41 INF [TCP] connected lAddr=127.0.0.1:52739 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52716 rAddr=repology.org:443 rule=Match rulePayload=
+23:00:42 INF [TCP] connected lAddr=127.0.0.1:52741 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52725 rAddr=repology.org:443 rule=Match rulePayload=
+23:00:42 INF [TCP] connected lAddr=127.0.0.1:52742 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:52728 rAddr=translate.googleapis.com:443 rule=DomainKeyword rulePayload=google
+23:00:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:52727 rAddr=translate.googleapis.com:443 rule=DomainKeyword rulePayload=google
+23:00:43 INF [TCP] connected lAddr=127.0.0.1:52745 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:45 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52737 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+23:00:46 INF [TCP] connected lAddr=127.0.0.1:52747 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:00:50 INF [TCP] connected lAddr=127.0.0.1:52751 rAddr=m.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:00:51 INF [TCP] connected lAddr=127.0.0.1:52753 rAddr=dict.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:00:51 INF [TCP] connected lAddr=127.0.0.1:52754 rAddr=dict.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:00:53 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52749 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:00:58 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52757 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:00:59 INF [TCP] connected lAddr=127.0.0.1:52761 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:00 INF [TCP] connected lAddr=127.0.0.1:52763 rAddr=badges.gitter.im:443 mode=rule rule=IPCIDR(3.0.0.0/8) proxy=Netflix[台湾WAP-T]
+23:01:01 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52759 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:01:01 INF [TCP] connected lAddr=127.0.0.1:52765 rAddr=m.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:01:02 INF [TCP] connected lAddr=127.0.0.1:52767 rAddr=dict.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:01:02 INF [TCP] connected lAddr=127.0.0.1:52768 rAddr=dict.youdao.com:443 mode=rule rule=DomainSuffix(youdao.com) proxy=DIRECT
+23:01:04 INF [TCP] connected lAddr=127.0.0.1:52771 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:08 INF [TCP] connected lAddr=127.0.0.1:52775 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:09 INF [TCP] connected lAddr=127.0.0.1:52777 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:09 INF [TCP] connected lAddr=127.0.0.1:52782 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:10 INF [TCP] connected lAddr=127.0.0.1:52785 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:10 WRN [TCP] dial failed error=hinet.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=Netflix lAddr=127.0.0.1:52773 rAddr=badges.gitter.im:443 rule=IPCIDR rulePayload=3.0.0.0/8
+23:01:11 WRN [TCP] dial failed error=dial tcp4 112.74.104.46:443: connectex: No connection could be made because the target machine actively refused it. proxy=DIRECT lAddr=127.0.0.1:52781 rAddr=cav2.maougame.com:443 rule=GeoIP rulePayload=CN
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52795 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52802 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52801 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52805 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52798 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52807 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:12 INF [TCP] connected lAddr=127.0.0.1:52809 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:01:13 INF [TCP] connected lAddr=127.0.0.1:52797 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:13 INF [TCP] connected lAddr=127.0.0.1:52815 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:01:13 INF [TCP] connected lAddr=127.0.0.1:52817 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:13 INF [TCP] connected lAddr=127.0.0.1:52819 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:13 INF [TCP] connected lAddr=127.0.0.1:52813 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:14 WRN [TCP] dial failed error=dial tcp4 112.74.104.46:443: connectex: No connection could be made because the target machine actively refused it. proxy=DIRECT lAddr=127.0.0.1:52791 rAddr=cav2.maougame.com:443 rule=GeoIP rulePayload=CN
+23:01:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52779 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:01:14 INF [TCP] connected lAddr=127.0.0.1:52825 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52787 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:01:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52789 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:01:15 INF [TCP] connected lAddr=127.0.0.1:52823 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52793 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:01:17 INF [TCP] connected lAddr=127.0.0.1:52647 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:01:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52811 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:01:18 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52821 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:01:18 INF [TCP] connected lAddr=127.0.0.1:52828 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:21 INF [TCP] connected lAddr=127.0.0.1:52830 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:21 INF [TCP] connected lAddr=127.0.0.1:52832 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52834 rAddr=th.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:01:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52833 rAddr=th.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:01:30 INF [TCP] connected lAddr=127.0.0.1:52838 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:30 INF [TCP] connected lAddr=127.0.0.1:52840 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:34 INF [TCP] connected lAddr=127.0.0.1:52844 rAddr=cav2.maougame.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:46 INF [TCP] connected lAddr=127.0.0.1:52846 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:01:47 INF [TCP] connected lAddr=127.0.0.1:52850 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[剩余流量：69.11 GB]
+23:01:53 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:52850 rAddr=crl.pki.goog:80 rule=DomainSuffix rulePayload=pki.goog
+23:02:24 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52859 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:02:24 INF [TCP] connected lAddr=127.0.0.1:52863 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:02:29 INF [TCP] connected lAddr=127.0.0.1:52866 rAddr=res.u-tools.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:02:36 INF [TCP] connected lAddr=127.0.0.1:52870 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:02:58 INF [TCP] connected lAddr=127.0.0.1:52891 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:01 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52889 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:03:01 INF [TCP] connected lAddr=127.0.0.1:52893 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:12 INF [TCP] connected lAddr=127.0.0.1:52898 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:13 INF [TCP] connected lAddr=127.0.0.1:52901 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:18 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52903 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+23:03:19 INF [TCP] connected lAddr=127.0.0.1:52905 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:19 INF [TCP] connected lAddr=127.0.0.1:52907 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:38 INF [TCP] connected lAddr=127.0.0.1:52912 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:03:49 INF [TCP] connected lAddr=127.0.0.1:52914 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:04:09 INF [TCP] connected lAddr=127.0.0.1:52917 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:15 INF [TCP] connected lAddr=127.0.0.1:52921 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:16 INF [TCP] connected lAddr=127.0.0.1:52923 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52919 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:04:16 INF [TCP] connected lAddr=127.0.0.1:52925 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:16 INF [TCP] connected lAddr=127.0.0.1:52928 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:29 INF [TCP] connected lAddr=127.0.0.1:52930 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:34 INF [TCP] connected lAddr=127.0.0.1:52933 rAddr=i.imgur.com:443 mode=rule rule=IPCIDR(104.244.42.0/21) proxy=Twitter[剩余流量：69.11 GB]
+23:04:34 INF [TCP] connected lAddr=127.0.0.1:52934 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:34 INF [TCP] connected lAddr=127.0.0.1:52937 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:35 INF [TCP] connected lAddr=127.0.0.1:52941 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:36 INF [TCP] connected lAddr=127.0.0.1:52943 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52939 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:04:41 INF [TCP] connected lAddr=127.0.0.1:52945 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:45 INF [TCP] connected lAddr=127.0.0.1:52947 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:45 INF [TCP] connected lAddr=127.0.0.1:52949 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:46 INF [TCP] connected lAddr=127.0.0.1:52953 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:46 INF [TCP] connected lAddr=127.0.0.1:52951 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:47 INF [TCP] connected lAddr=127.0.0.1:52955 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:47 INF [TCP] connected lAddr=127.0.0.1:52967 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:47 INF [TCP] connected lAddr=127.0.0.1:52957 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:48 INF [TCP] connected lAddr=127.0.0.1:52971 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:48 INF [TCP] connected lAddr=127.0.0.1:52973 rAddr=yesicon.app:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:04:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52959 rAddr=yesicon.app:443 rule=Match rulePayload=
+23:04:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52962 rAddr=yesicon.app:443 rule=Match rulePayload=
+23:04:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52961 rAddr=yesicon.app:443 rule=Match rulePayload=
+23:04:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52965 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:04:52 INF [TCP] connected lAddr=127.0.0.1:52975 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:04:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52969 rAddr=yesicon.app:443 rule=Match rulePayload=
+23:05:03 INF [TCP] connected lAddr=127.0.0.1:52980 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:03 INF [TCP] connected lAddr=127.0.0.1:52984 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:04 INF [TCP] connected lAddr=127.0.0.1:52982 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:04 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52978 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:07 INF [TCP] connected lAddr=127.0.0.1:52986 rAddr=www.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:52994 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:52993 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:52991 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:53002 rAddr=cdn-ukwest.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:53004 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:53006 rAddr=cdn-ukwest.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:08 INF [TCP] connected lAddr=127.0.0.1:53008 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53012 rAddr=cdn-ukwest.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53014 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53018 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53020 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53030 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53026 rAddr=cdn-ukwest.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53028 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53031 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53029 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:09 INF [TCP] connected lAddr=127.0.0.1:53036 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53038 rAddr=cdn-ukwest.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53040 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53046 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53050 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53052 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:10 INF [TCP] connected lAddr=127.0.0.1:53048 rAddr=fps.cdnpk.net:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:11 INF [TCP] connected lAddr=127.0.0.1:53056 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:05:11 INF [TCP] connected lAddr=127.0.0.1:53058 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:11 INF [TCP] connected lAddr=127.0.0.1:53062 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:11 INF [TCP] connected lAddr=127.0.0.1:53066 rAddr=cdn-share-sprites.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:11 INF [TCP] connected lAddr=127.0.0.1:53064 rAddr=cdn-share-sprites.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:12 INF [TCP] connected lAddr=127.0.0.1:53016 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52989 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52988 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52990 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:52992 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:13 INF [TCP] connected lAddr=127.0.0.1:53072 rAddr=media.flaticon.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:13 INF [TCP] connected lAddr=127.0.0.1:53075 rAddr=js.hs-scripts.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:13 INF [TCP] connected lAddr=127.0.0.1:53080 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:13 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53010 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53017 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53024 rAddr=media.flaticon.com:443 rule=Match rulePayload=
+23:05:14 INF [TCP] connected lAddr=127.0.0.1:53076 rAddr=cdn.polyfill.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:14 INF [TCP] connected lAddr=127.0.0.1:53082 rAddr=js.hs-scripts.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:14 INF [TCP] connected lAddr=127.0.0.1:53084 rAddr=cdn.polyfill.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53042 rAddr=fps.cdnpk.net:443 rule=Match rulePayload=
+23:05:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53044 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:53054 rAddr=translate.googleapis.com:443 rule=DomainKeyword rulePayload=google
+23:05:16 INF [TCP] connected lAddr=127.0.0.1:53088 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:05:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53060 rAddr=cdn-share-sprites.flaticon.com:443 rule=Match rulePayload=
+23:05:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53065 rAddr=cdn-share-sprites.flaticon.com:443 rule=Match rulePayload=
+23:05:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53070 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:05:18 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:53074 rAddr=accounts.google.com:443 rule=DomainKeyword rulePayload=google
+23:05:18 INF [TCP] connected lAddr=127.0.0.1:53092 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[剩余流量：69.11 GB]
+23:05:18 INF [TCP] connected lAddr=127.0.0.1:53094 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:19 INF [TCP] connected lAddr=127.0.0.1:53096 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:19 INF [TCP] connected lAddr=127.0.0.1:53098 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53086 rAddr=cdn.polyfill.io:443 rule=Match rulePayload=
+23:05:20 INF [TCP] connected lAddr=127.0.0.1:53102 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:20 INF [TCP] connected lAddr=127.0.0.1:53104 rAddr=cdn.polyfill.io:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:20 INF [TCP] connected lAddr=127.0.0.1:53106 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53090 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+23:05:24 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53100 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:05:27 INF [TCP] connected lAddr=127.0.0.1:53110 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:05:29 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53108 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53118 rAddr=www.sov2ex.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53121 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53120 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53125 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53124 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53128 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53130 rAddr=sov2ex.oss-cn-shanghai.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:34 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53112 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:05:34 INF [TCP] connected lAddr=127.0.0.1:53134 rAddr=www.sov2ex.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:05:35 INF [TCP] connected lAddr=127.0.0.1:53136 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:38 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53116 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:39 INF [TCP] connected lAddr=127.0.0.1:53139 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53132 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:39 INF [TCP] connected lAddr=127.0.0.1:53141 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:42 INF [TCP] connected lAddr=127.0.0.1:53143 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:43 INF [TCP] connected lAddr=127.0.0.1:53145 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:53 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:53147 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:55 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53149 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:05:58 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53151 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:58 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53153 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:05:59 INF [TCP] connected lAddr=127.0.0.1:53159 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:05:59 INF [TCP] connected lAddr=127.0.0.1:53161 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53155 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:00 INF [TCP] connected lAddr=127.0.0.1:53163 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:02 INF [TCP] connected lAddr=127.0.0.1:53165 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:02 INF [TCP] connected lAddr=127.0.0.1:53167 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:02 INF [TCP] connected lAddr=127.0.0.1:53169 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:03 INF [TCP] connected lAddr=127.0.0.1:53173 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:04 INF [TCP] connected lAddr=127.0.0.1:53177 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:06 INF [TCP] connected lAddr=127.0.0.1:53183 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:07 INF [TCP] connected lAddr=127.0.0.1:53187 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:07 INF [TCP] connected lAddr=127.0.0.1:53189 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53171 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:08 INF [TCP] connected lAddr=127.0.0.1:53191 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53175 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53179 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53181 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:10 INF [TCP] connected lAddr=127.0.0.1:53193 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[剩余流量：69.11 GB]
+23:06:11 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53185 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+23:06:11 INF [TCP] connected lAddr=127.0.0.1:53197 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:12 INF [TCP] connected lAddr=127.0.0.1:53201 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:13 INF [TCP] connected lAddr=127.0.0.1:53205 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:13 INF [TCP] connected lAddr=127.0.0.1:53207 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:13 INF [TCP] connected lAddr=127.0.0.1:53209 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:15 INF [TCP] connected lAddr=127.0.0.1:53215 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53195 rAddr=skydrive.wns.windows.com:443 rule=DomainSuffix rulePayload=windows.com
+23:06:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53199 rAddr=lonelystar.org:443 rule=Match rulePayload=
+23:06:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53203 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:18 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53211 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:19 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53213 rAddr=lonelystar.org:80 rule=Match rulePayload=
+23:06:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53217 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:21 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53220 rAddr=lonelystar.org:443 rule=Match rulePayload=
+23:06:34 INF [TCP] connected lAddr=127.0.0.1:53265 rAddr=functional.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:36 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53263 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:37 INF [TCP] connected lAddr=127.0.0.1:53269 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53267 rAddr=functional.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53213 rAddr=lonelystar.org:80 rule=Match rulePayload=
+23:06:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53272 rAddr=skydrive.wns.windows.com:443 rule=DomainSuffix rulePayload=windows.com
+23:06:45 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53274 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:49 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53276 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:49 INF [TCP] connected lAddr=127.0.0.1:53280 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:49 INF [TCP] connected lAddr=127.0.0.1:53282 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:50 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53278 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:53 INF [TCP] connected lAddr=127.0.0.1:53288 rAddr=crl.pki.goog:80 mode=rule rule=DomainSuffix(pki.goog) proxy=谷歌服务[剩余流量：69.11 GB]
+23:06:55 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53284 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:55 INF [TCP] connected lAddr=127.0.0.1:53292 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[剩余流量：69.11 GB]
+23:06:56 INF [TCP] connected lAddr=127.0.0.1:53294 rAddr=test.steampowered.com:80 mode=rule rule=DomainSuffix(steampowered.com) proxy=Steam[英国UK-T]
+23:06:56 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53286 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:06:58 INF [TCP] connected lAddr=127.0.0.1:53297 rAddr=api.steampowered.com:443 mode=rule rule=DomainSuffix(steampowered.com) proxy=Steam[英国UK-T]
+23:06:59 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53290 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:06:59 INF [TCP] connected lAddr=127.0.0.1:53301 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+23:07:02 INF [TCP] connected lAddr=127.0.0.1:53305 rAddr=ext2-hkg1.steamserver.net:27035 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:02 INF [TCP] connected lAddr=127.0.0.1:53306 rAddr=ext7-hkg1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:03 INF [TCP] connected lAddr=127.0.0.1:53314 rAddr=ext2-tyo3.steamserver.net:27031 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:03 INF [TCP] connected lAddr=127.0.0.1:53317 rAddr=ext4-sgp1.steamserver.net:27023 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:04 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53299 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:04 INF [TCP] connected lAddr=127.0.0.1:53324 rAddr=ext4-sgp1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:04 INF [TCP] connected lAddr=127.0.0.1:53319 rAddr=ext1-sgp1.steamserver.net:27023 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:04 INF [TCP] connected lAddr=127.0.0.1:53326 rAddr=ext1-lax1.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:05 INF [TCP] connected lAddr=127.0.0.1:53329 rAddr=ext6-hkg1.steamserver.net:27021 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:06 INF [TCP] connected lAddr=127.0.0.1:53316 rAddr=ext2-tyo3.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:07 INF [TCP] connected lAddr=127.0.0.1:53331 rAddr=test.steampowered.com:80 mode=rule rule=DomainSuffix(steampowered.com) proxy=Steam[英国UK-T]
+23:07:07 WRN [TCP] dial failed error=uk.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=Steam lAddr=127.0.0.1:53304 rAddr=ext6-hkg1.steamserver.net:27021 rule=DomainSuffix rulePayload=steamserver.net
+23:07:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53312 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:07 WRN [TCP] dial failed error=uk.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=Steam lAddr=127.0.0.1:53308 rAddr=ext4-tyo3.steamserver.net:27021 rule=DomainSuffix rulePayload=steamserver.net
+23:07:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53322 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53333 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53335 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53337 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:07:16 INF [TCP] connected lAddr=127.0.0.1:53344 rAddr=ext2-tyo3.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:16 INF [TCP] connected lAddr=127.0.0.1:53341 rAddr=ext1-hkg1.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:16 INF [TCP] connected lAddr=127.0.0.1:53343 rAddr=ext5-hkg1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:17 INF [TCP] connected lAddr=127.0.0.1:53350 rAddr=ext2-tyo3.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:17 INF [TCP] connected lAddr=127.0.0.1:53349 rAddr=ext1-tyo3.steamserver.net:27032 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:17 INF [TCP] connected lAddr=127.0.0.1:53353 rAddr=ext1-sgp1.steamserver.net:27019 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:17 INF [TCP] connected lAddr=127.0.0.1:53354 rAddr=ext1-sgp1.steamserver.net:27028 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53339 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:18 INF [TCP] connected lAddr=127.0.0.1:53361 rAddr=ext2-lax1.steamserver.net:27024 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:18 INF [TCP] connected lAddr=127.0.0.1:53357 rAddr=ext3-sgp1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:19 INF [TCP] connected lAddr=127.0.0.1:53363 rAddr=ext1-hkg1.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:20 WRN [TCP] dial failed error=uk.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=Steam lAddr=127.0.0.1:53342 rAddr=ext1-hkg1.steamserver.net:27035 rule=DomainSuffix rulePayload=steamserver.net
+23:07:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53358 rAddr=www.v2ex.com:443 rule=Match rulePayload=
+23:07:23 INF [TCP] connected lAddr=127.0.0.1:53369 rAddr=steam-chat.com:443 mode=rule rule=DomainSuffix(steam-chat.com) proxy=Steam[英国UK-T]
+23:07:24 INF [TCP] connected lAddr=127.0.0.1:53371 rAddr=api.steampp.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:07:24 INF [TCP] connected lAddr=127.0.0.1:53375 rAddr=steam-chat.com:443 mode=rule rule=DomainSuffix(steam-chat.com) proxy=Steam[英国UK-T]
+23:07:24 INF [TCP] connected lAddr=127.0.0.1:53373 rAddr=steam-chat.com:443 mode=rule rule=DomainSuffix(steam-chat.com) proxy=Steam[英国UK-T]
+23:07:24 INF [TCP] connected lAddr=127.0.0.1:53377 rAddr=steam-chat.com:443 mode=rule rule=DomainSuffix(steam-chat.com) proxy=Steam[英国UK-T]
+23:07:25 INF [TCP] connected lAddr=127.0.0.1:53379 rAddr=api.steampp.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:07:25 INF [TCP] connected lAddr=127.0.0.1:53381 rAddr=api.steampp.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:07:25 INF [TCP] connected lAddr=127.0.0.1:53384 rAddr=shop.static.steampp.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:07:25 INF [TCP] connected lAddr=127.0.0.1:53383 rAddr=steampp.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:07:25 WRN [TCP] dial failed error=uk.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=Steam lAddr=127.0.0.1:53365 rAddr=test.steampowered.com:80 rule=DomainSuffix rulePayload=steampowered.com
+23:07:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.24.210.200:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53367 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:07:30 INF [TCP] connected lAddr=127.0.0.1:53391 rAddr=in.appcenter.ms:443 mode=rule rule=DomainSuffix(appcenter.ms) proxy=微软服务[剩余流量：69.11 GB]
+23:07:30 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.118.179:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53387 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:07:30 INF [TCP] connected lAddr=127.0.0.1:53395 rAddr=test.steampowered.com:80 mode=rule rule=DomainSuffix(steampowered.com) proxy=Steam[英国UK-T]
+23:07:32 INF [TCP] connected lAddr=127.0.0.1:53403 rAddr=ext5-hkg1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:32 INF [TCP] connected lAddr=127.0.0.1:53402 rAddr=ext4-hkg1.steamserver.net:27035 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:32 INF [TCP] connected lAddr=127.0.0.1:53401 rAddr=ext4-hkg1.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:32 INF [TCP] connected lAddr=127.0.0.1:53407 rAddr=ext3-tyo3.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:33 INF [TCP] connected lAddr=127.0.0.1:53415 rAddr=ext2-sgp1.steamserver.net:27038 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:33 INF [TCP] connected lAddr=127.0.0.1:53411 rAddr=ext1-sgp1.steamserver.net:27033 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:33 INF [TCP] connected lAddr=127.0.0.1:53409 rAddr=ext2-tyo3.steamserver.net:27021 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:34 INF [TCP] connected lAddr=127.0.0.1:53419 rAddr=ext2-lax1.steamserver.net:27029 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:34 INF [TCP] connected lAddr=127.0.0.1:53417 rAddr=ext3-sgp1.steamserver.net:443 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:34 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53389 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:07:35 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53392 rAddr=in.appcenter.ms:443 rule=DomainSuffix rulePayload=appcenter.ms
+23:07:35 INF [TCP] connected lAddr=127.0.0.1:53422 rAddr=ext4-hkg1.steamserver.net:27022 mode=rule rule=DomainSuffix(steamserver.net) proxy=Steam[英国UK-T]
+23:07:36 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.219.232:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:53399 rAddr=server.codeium.com:443 rule=Match rulePayload=
