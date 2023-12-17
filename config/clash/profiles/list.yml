@@ -10,13 +10,13 @@ files:
       - name: GLOBAL
         now: 柬埔寨KH-T
       - name: 节点选择
-        now: 国外使用
+        now: 新加坡-优化
       - name: ChatGPT
-        now: 日本-优化-GPT
+        now: 日本-优化3-GPT
       - name: 国内使用
         now: 日本-优化-GPT
       - name: 国外使用
-        now: 澳大利亚AU-T
+        now: 日本JP-T-GPT
       - name: Netflix
         now: 台湾WAP-T
       - name: 磁力下载
@@ -37,8 +37,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 6280063233
-      download: 61288381001
+      upload: 6457897174
+      download: 64622951433
       total: 139586437120
     homeWeb: https://mojie.cyou
     mode: rule

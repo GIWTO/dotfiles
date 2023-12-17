@@ -1,619 +1,619 @@
 {
-    "apps": [
-        {
-            "Version": "21.07",
-            "Source": "main",
-            "Name": "7zip",
-            "Updated": "2022-05-07T19:40:39.8455588+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "34.0.1",
-            "Source": "main",
-            "Name": "adb",
-            "Updated": "2023-03-23T16:01:55.0435231+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2023.1.1.26",
-            "Source": "extras",
-            "Name": "android-studio",
-            "Updated": "2023-12-04T14:31:22.5732158+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.5.5",
-            "Source": "chawyehsu_dorado",
-            "Name": "another-redis-desktop-manager",
-            "Updated": "2022-05-08T00:08:06.3845937+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.36.0-1",
-            "Source": "main",
-            "Name": "aria2",
-            "Updated": "2022-05-08T00:08:09.0186862+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2022-04-26",
-            "Source": "main",
-            "Name": "cacert",
-            "Updated": "2022-05-08T01:26:09.707624+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.25.2",
-            "Source": "main",
-            "Name": "cmake",
-            "Updated": "2023-02-26T16:58:09.3559608+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8.1.2_2",
-            "Source": "main",
-            "Name": "curl",
-            "Updated": "2023-06-05T17:26:35.2619418+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.11.2",
-            "Source": "main",
-            "Name": "dark",
-            "Updated": "2022-05-08T01:22:27.7646597+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "5.5.0.1488",
-            "Source": "extras",
-            "Name": "diskgenius",
-            "Updated": "2023-11-24T09:17:19.3906473+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "10.1.1002.1",
-            "Source": "echoiron_echo-scoop",
-            "Name": "dismpp",
-            "Updated": "2023-05-13T23:43:42.086601+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2022-12",
-            "Source": "extras",
-            "Name": "eclipse-java",
-            "Updated": "2023-01-09T13:58:20.163473+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.14.0.20230315",
-            "Source": "extras",
-            "Name": "eclipse-mat",
-            "Updated": "2023-08-28T10:42:19.688335+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.4.1.1024",
-            "Source": "extras",
-            "Name": "everything",
-            "Updated": "2023-11-13T19:17:52.6468338+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "5.0.1",
-            "Source": "main",
-            "Name": "ffmpeg",
-            "Updated": "2022-05-08T00:37:15.9067794+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "5.0.20211.51073",
-            "Source": "extras",
-            "Name": "fiddler",
-            "Updated": "2022-05-08T00:07:12.9028849+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.10.0",
-            "Source": "extras",
-            "Name": "flutter",
-            "Updated": "2023-05-13T20:56:20.2145117+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.38.0",
-            "Source": "main",
-            "Name": "fzf",
-            "Updated": "2023-02-25T21:34:41.5143784+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "11.2.0",
-            "Source": "main",
-            "Name": "gcc",
-            "Updated": "2023-02-25T23:14:43.5760118+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.4.9.151",
-            "Source": "extras",
-            "Name": "geekuninstaller",
-            "Updated": "2022-05-08T00:39:57.1666388+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.42.0.windows.2",
-            "Source": "chawyehsu_dorado",
-            "Name": "git",
-            "Updated": "2023-11-17T16:25:13.1419639+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.20.1",
-            "Source": "main",
-            "Name": "go",
-            "Updated": "2023-02-25T21:52:49.8093288+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "119.0.6045.124",
-            "Source": "extras",
-            "Name": "googlechrome",
-            "Updated": "2023-11-10T22:58:48.8514402+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "22.3.2",
-            "Source": "java",
-            "Name": "graalvm-jdk17",
-            "Updated": "2023-08-28T10:48:25.2292221+08:00",
-            "Info": ""
-        },
-        {
-            "Version": null,
-            "Source": null,
-            "Name": "gradle",
-            "Updated": "2023-11-10T23:27:31.1578193+08:00",
-            "Info": "Install failed"
-        },
-        {
-            "Version": "3.7",
-            "Source": "main",
-            "Name": "grep",
-            "Updated": "2022-05-08T00:41:58.3813024+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.3.0",
-            "Source": "main",
-            "Name": "gsudo",
-            "Updated": "2022-05-08T16:09:53.3608449+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "5.46",
-            "Source": "extras",
-            "Name": "honeyview",
-            "Updated": "2022-05-08T00:42:07.805273+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "6.40.11",
-            "Source": "echoiron_echo-scoop",
-            "Name": "idm",
-            "Updated": "2022-05-08T00:44:27.19218+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.50",
-            "Source": "main",
-            "Name": "innounp",
-            "Updated": "2022-05-08T14:27:57.833433+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.6.6",
-            "Source": "extras",
-            "Name": "jd-gui",
-            "Updated": "2022-06-04T10:00:31.8947919+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.1.0",
-            "Source": "nerd-fonts",
-            "Name": "JetBrainsMono-NF",
-            "Updated": "2022-05-08T01:16:40.5635027+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "5.5",
-            "Source": "extras",
-            "Name": "jmeter",
-            "Updated": "2022-08-17T22:51:55.8665082+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.34",
-            "Source": "extras",
-            "Name": "lazygit",
-            "Updated": "2022-05-08T01:10:59.0490815+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "11.0.16-8",
-            "Source": "java",
-            "Name": "liberica11-full-jdk",
-            "Updated": "2022-07-31T13:11:22.5429709+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.0.0",
-            "Source": "main",
-            "Name": "lsd",
-            "Updated": "2023-12-11T16:45:43.0393486+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.10.3",
-            "Source": "extras",
-            "Name": "Magpie",
-            "Updated": "2023-12-13T19:35:37.4318316+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "4.4",
-            "Source": "main",
-            "Name": "make",
-            "Updated": "2023-02-25T21:33:11.4659852+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.9.1",
-            "Source": "main",
-            "Name": "maven",
-            "Updated": "2023-04-15T23:08:22.1750489+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.4",
-            "Source": "extras",
-            "Name": "memreduct",
-            "Updated": "2022-05-08T01:11:43.8742216+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "12.2.0-rt_v10-rev1",
-            "Source": "main",
-            "Name": "mingw",
-            "Updated": "2023-02-25T22:18:31.459874+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "23.4",
-            "Source": "caoli5288_scoop-bucket",
-            "Name": "mobaxterm",
-            "Updated": "2023-11-16T18:50:40.9562249+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.8.3",
-            "Source": "main",
-            "Name": "neovim",
-            "Updated": "2023-02-25T09:11:06.6319242+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.23.3",
-            "Source": "main",
-            "Name": "nginx",
-            "Updated": "2023-02-21T17:33:19.0321613+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "7.94",
-            "Source": "main",
-            "Name": "nmap",
-            "Updated": "2023-06-02T11:52:49.372495+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8.4",
-            "Source": "extras",
-            "Name": "notepadplusplus",
-            "Updated": "2022-05-08T01:12:27.7726788+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.1.11",
-            "Source": "main",
-            "Name": "nvm",
-            "Updated": "2023-05-16T12:37:51.9447213+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8.9.1.0p1",
-            "Source": "main",
-            "Name": "openssh",
-            "Updated": "2022-07-31T11:51:16.2268069+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8u333",
-            "Source": "iszy",
-            "Name": "oraclejdk8",
-            "Updated": "2022-08-27T14:11:07.2527332+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.1.2",
-            "Source": "main",
-            "Name": "pandoc",
-            "Updated": "2023-03-28T10:28:45.3560808+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.6.1a",
-            "Source": "lzwme_scoop-proxy-cn",
-            "Name": "PixivBiu",
-            "Updated": "2023-11-18T16:19:08.6273152+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "10.19.7",
-            "Source": "extras",
-            "Name": "postman",
-            "Updated": "2023-11-13T16:07:56.1899455+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.7.21630",
-            "Source": "echoiron_echo-scoop",
-            "Name": "potplayer",
-            "Updated": "2022-05-21T18:05:07.4475928+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.78",
-            "Source": "extras",
-            "Name": "putty",
-            "Updated": "2023-06-27T11:23:10.8934389+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "9.6.0",
-            "Source": "echoiron_echo-scoop",
-            "Name": "qq",
-            "Updated": "2023-06-01T13:59:39.6052369+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.7.1",
-            "Source": "extras",
-            "Name": "quicklook",
-            "Updated": "2022-05-08T01:23:38.3579641+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "13.0.0",
-            "Source": "main",
-            "Name": "ripgrep",
-            "Updated": "2023-02-25T21:36:15.5607962+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.2.1-1",
-            "Source": "main",
-            "Name": "ruby",
-            "Updated": "2023-02-25T21:52:09.502654+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.67.1",
-            "Source": "main",
-            "Name": "rust",
-            "Updated": "2023-02-24T21:18:25.7235442+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.39",
-            "Source": "extras",
-            "Name": "screentogif",
-            "Updated": "2023-12-11T22:52:31.754465+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.7.3-Beta",
-            "Source": "chawyehsu_dorado",
-            "Name": "snipaste-beta",
-            "Updated": "2022-05-08T01:23:46.2364324+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.3.0.2",
-            "Source": "extras",
-            "Name": "SpaceSniffer",
-            "Updated": "2022-07-01T09:00:16.2550636+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "3.41.0",
-            "Source": "main",
-            "Name": "sqlite",
-            "Updated": "2023-02-24T21:19:20.9469039+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "nightly-20220523",
-            "Source": "versions",
-            "Name": "steam",
-            "Updated": "2022-05-23T17:08:08.1731217+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2.8.6",
-            "Source": "chawyehsu_dorado",
-            "Name": "steampp",
-            "Updated": "2023-01-06T20:14:18.970792+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.2020.01.26",
-            "Source": "main",
-            "Name": "sudo",
-            "Updated": "2022-05-08T01:24:07.2931552+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.39",
-            "Source": "hoilc_scoop-lemon",
-            "Name": "tcping",
-            "Updated": "2023-03-07T15:21:14.8460068+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "msys-inetutils-1.7-1",
-            "Source": "main",
-            "Name": "telnet",
-            "Updated": "2022-05-08T01:24:22.6201258+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8.0.362-9",
-            "Source": "java",
-            "Name": "temurin8-jdk",
-            "Updated": "2023-03-23T16:02:37.2480915+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "4.6.1.4",
-            "Source": "chawyehsu_dorado",
-            "Name": "todesk",
-            "Updated": "2023-03-06T17:00:45.2416666+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "9.0.71",
-            "Source": "versions",
-            "Name": "tomcat9",
-            "Updated": "2023-02-21T11:20:47.0496375+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.83",
-            "Source": "extras",
-            "Name": "trafficmonitor",
-            "Updated": "2022-07-26T21:52:42.3634573+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.20.7",
-            "Source": "main",
-            "Name": "tree-sitter",
-            "Updated": "2023-02-24T21:21:16.4191354+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.77.0",
-            "Source": "extras",
-            "Name": "vcredist-aio",
-            "Updated": "2023-11-16T18:50:14.7113859+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.0.96",
-            "Source": "extras",
-            "Name": "Ventoy",
-            "Updated": "2023-11-18T14:26:16.500534+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "8.2.2824",
-            "Source": "main",
-            "Name": "vim",
-            "Updated": "2022-05-08T01:25:05.6418114+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.84.2",
-            "Source": "extras",
-            "Name": "vscode",
-            "Updated": "2023-11-13T09:02:55.3513254+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "2023.2.4-232.10203.14",
-            "Source": "extras",
-            "Name": "WebStorm",
-            "Updated": "2023-11-10T22:46:30.719722+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "1.21.3",
-            "Source": "main",
-            "Name": "wget",
-            "Updated": "2022-05-08T01:26:16.4337032+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "6.20",
-            "Source": "extras",
-            "Name": "winrar",
-            "Updated": "2023-02-18T16:04:20.5557527+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "4.0.5",
-            "Source": "extras",
-            "Name": "wireshark",
-            "Updated": "2023-04-27T16:55:55.7317764+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "R236",
-            "Source": "echoiron_echo-scoop",
-            "Name": "xiaowan",
-            "Updated": "2022-05-08T13:44:58.0463794+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "23.05.1740",
-            "Source": "extras",
-            "Name": "xmind",
-            "Updated": "2023-10-19T10:34:43.4810528+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "7.0.0056",
-            "Source": "lzwme_scoop-proxy-cn",
-            "Name": "xshell",
-            "Updated": "2023-11-16T18:50:26.6835479+08:00",
-            "Info": ""
-        },
-        {
-            "Version": "0.10.1",
-            "Source": "main",
-            "Name": "zig",
-            "Updated": "2023-02-25T22:50:23.6437105+08:00",
-            "Info": ""
-        }
-    ],
     "buckets": [
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2023-12-13T16:26:47+08:00",
+            "Updated": "2023-12-16T12:25:27+08:00",
             "Manifests": 1890
         },
         {
             "Name": "hoilc_scoop-lemon",
             "Source": "https://github.com/hoilc/scoop-lemon",
-            "Updated": "2023-12-13T17:15:02+08:00",
-            "Manifests": 934
+            "Updated": "2023-12-16T09:04:20+08:00",
+            "Manifests": 943
         },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2023-12-13T16:26:31+08:00",
-            "Manifests": 1266
+            "Updated": "2023-12-16T12:25:55+08:00",
+            "Manifests": 1267
+        }
+    ],
+    "apps": [
+        {
+            "Version": "21.07",
+            "Name": "7zip",
+            "Updated": "2022-05-07T19:40:39.8455588+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "34.0.1",
+            "Name": "adb",
+            "Updated": "2023-03-23T16:01:55.0435231+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2023.1.1.26",
+            "Name": "android-studio",
+            "Updated": "2023-12-04T14:31:22.5732158+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.5.5",
+            "Name": "another-redis-desktop-manager",
+            "Updated": "2022-05-08T00:08:06.3845937+08:00",
+            "Source": "chawyehsu_dorado",
+            "Info": ""
+        },
+        {
+            "Version": "1.36.0-1",
+            "Name": "aria2",
+            "Updated": "2022-05-08T00:08:09.0186862+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2022-04-26",
+            "Name": "cacert",
+            "Updated": "2022-05-08T01:26:09.707624+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.25.2",
+            "Name": "cmake",
+            "Updated": "2023-02-26T16:58:09.3559608+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "8.1.2_2",
+            "Name": "curl",
+            "Updated": "2023-06-05T17:26:35.2619418+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.11.2",
+            "Name": "dark",
+            "Updated": "2022-05-08T01:22:27.7646597+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "5.5.0.1488",
+            "Name": "diskgenius",
+            "Updated": "2023-11-24T09:17:19.3906473+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "10.1.1002.1",
+            "Name": "dismpp",
+            "Updated": "2023-05-13T23:43:42.086601+08:00",
+            "Source": "echoiron_echo-scoop",
+            "Info": ""
+        },
+        {
+            "Version": "2022-12",
+            "Name": "eclipse-java",
+            "Updated": "2023-01-09T13:58:20.163473+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.14.0.20230315",
+            "Name": "eclipse-mat",
+            "Updated": "2023-08-28T10:42:19.688335+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.1.1024",
+            "Name": "everything",
+            "Updated": "2023-11-13T19:17:52.6468338+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "5.0.1",
+            "Name": "ffmpeg",
+            "Updated": "2022-05-08T00:37:15.9067794+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "5.0.20211.51073",
+            "Name": "fiddler",
+            "Updated": "2022-05-08T00:07:12.9028849+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "3.10.0",
+            "Name": "flutter",
+            "Updated": "2023-05-13T20:56:20.2145117+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.38.0",
+            "Name": "fzf",
+            "Updated": "2023-02-25T21:34:41.5143784+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "11.2.0",
+            "Name": "gcc",
+            "Updated": "2023-02-25T23:14:43.5760118+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.9.151",
+            "Name": "geekuninstaller",
+            "Updated": "2022-05-08T00:39:57.1666388+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2.42.0.windows.2",
+            "Name": "git",
+            "Updated": "2023-11-17T16:25:13.1419639+08:00",
+            "Source": "chawyehsu_dorado",
+            "Info": ""
+        },
+        {
+            "Version": "1.20.1",
+            "Name": "go",
+            "Updated": "2023-02-25T21:52:49.8093288+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "119.0.6045.124",
+            "Name": "googlechrome",
+            "Updated": "2023-11-10T22:58:48.8514402+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "22.3.2",
+            "Name": "graalvm-jdk17",
+            "Updated": "2023-08-28T10:48:25.2292221+08:00",
+            "Source": "java",
+            "Info": ""
+        },
+        {
+            "Version": null,
+            "Name": "gradle",
+            "Updated": "2023-11-10T23:27:31.1578193+08:00",
+            "Source": null,
+            "Info": "Install failed"
+        },
+        {
+            "Version": "3.7",
+            "Name": "grep",
+            "Updated": "2022-05-08T00:41:58.3813024+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.3.0",
+            "Name": "gsudo",
+            "Updated": "2022-05-08T16:09:53.3608449+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "5.46",
+            "Name": "honeyview",
+            "Updated": "2022-05-08T00:42:07.805273+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "6.40.11",
+            "Name": "idm",
+            "Updated": "2022-05-08T00:44:27.19218+08:00",
+            "Source": "echoiron_echo-scoop",
+            "Info": ""
+        },
+        {
+            "Version": "0.50",
+            "Name": "innounp",
+            "Updated": "2022-05-08T14:27:57.833433+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.6.6",
+            "Name": "jd-gui",
+            "Updated": "2022-06-04T10:00:31.8947919+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2.1.0",
+            "Name": "JetBrainsMono-NF",
+            "Updated": "2022-05-08T01:16:40.5635027+08:00",
+            "Source": "nerd-fonts",
+            "Info": ""
+        },
+        {
+            "Version": "5.5",
+            "Name": "jmeter",
+            "Updated": "2022-08-17T22:51:55.8665082+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.34",
+            "Name": "lazygit",
+            "Updated": "2022-05-08T01:10:59.0490815+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "11.0.16-8",
+            "Name": "liberica11-full-jdk",
+            "Updated": "2022-07-31T13:11:22.5429709+08:00",
+            "Source": "java",
+            "Info": ""
+        },
+        {
+            "Version": "1.0.0",
+            "Name": "lsd",
+            "Updated": "2023-12-11T16:45:43.0393486+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.10.3",
+            "Name": "Magpie",
+            "Updated": "2023-12-13T19:35:37.4318316+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "4.4",
+            "Name": "make",
+            "Updated": "2023-02-25T21:33:11.4659852+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.9.1",
+            "Name": "maven",
+            "Updated": "2023-04-15T23:08:22.1750489+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.4",
+            "Name": "memreduct",
+            "Updated": "2022-05-08T01:11:43.8742216+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "12.2.0-rt_v10-rev1",
+            "Name": "mingw",
+            "Updated": "2023-02-25T22:18:31.459874+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "23.4",
+            "Name": "mobaxterm",
+            "Updated": "2023-11-16T18:50:40.9562249+08:00",
+            "Source": "caoli5288_scoop-bucket",
+            "Info": ""
+        },
+        {
+            "Version": "0.8.3",
+            "Name": "neovim",
+            "Updated": "2023-02-25T09:11:06.6319242+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.23.3",
+            "Name": "nginx",
+            "Updated": "2023-02-21T17:33:19.0321613+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "7.94",
+            "Name": "nmap",
+            "Updated": "2023-06-02T11:52:49.372495+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "8.4",
+            "Name": "notepadplusplus",
+            "Updated": "2022-05-08T01:12:27.7726788+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.1.11",
+            "Name": "nvm",
+            "Updated": "2023-05-16T12:37:51.9447213+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "8.9.1.0p1",
+            "Name": "openssh",
+            "Updated": "2022-07-31T11:51:16.2268069+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "8u333",
+            "Name": "oraclejdk8",
+            "Updated": "2022-08-27T14:11:07.2527332+08:00",
+            "Source": "iszy",
+            "Info": ""
+        },
+        {
+            "Version": "3.1.2",
+            "Name": "pandoc",
+            "Updated": "2023-03-28T10:28:45.3560808+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2.6.1a",
+            "Name": "PixivBiu",
+            "Updated": "2023-11-18T16:19:08.6273152+08:00",
+            "Source": "lzwme_scoop-proxy-cn",
+            "Info": ""
+        },
+        {
+            "Version": "10.19.7",
+            "Name": "postman",
+            "Updated": "2023-11-13T16:07:56.1899455+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.7.21630",
+            "Name": "potplayer",
+            "Updated": "2022-05-21T18:05:07.4475928+08:00",
+            "Source": "echoiron_echo-scoop",
+            "Info": ""
+        },
+        {
+            "Version": "0.78",
+            "Name": "putty",
+            "Updated": "2023-06-27T11:23:10.8934389+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "9.6.0",
+            "Name": "qq",
+            "Updated": "2023-06-01T13:59:39.6052369+08:00",
+            "Source": "echoiron_echo-scoop",
+            "Info": ""
+        },
+        {
+            "Version": "3.7.1",
+            "Name": "quicklook",
+            "Updated": "2022-05-08T01:23:38.3579641+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "13.0.0",
+            "Name": "ripgrep",
+            "Updated": "2023-02-25T21:36:15.5607962+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.2.1-1",
+            "Name": "ruby",
+            "Updated": "2023-02-25T21:52:09.502654+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.67.1",
+            "Name": "rust",
+            "Updated": "2023-02-24T21:18:25.7235442+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2.39",
+            "Name": "screentogif",
+            "Updated": "2023-12-11T22:52:31.754465+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2.7.3-Beta",
+            "Name": "snipaste-beta",
+            "Updated": "2022-05-08T01:23:46.2364324+08:00",
+            "Source": "chawyehsu_dorado",
+            "Info": ""
+        },
+        {
+            "Version": "1.3.0.2",
+            "Name": "SpaceSniffer",
+            "Updated": "2022-07-01T09:00:16.2550636+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "3.41.0",
+            "Name": "sqlite",
+            "Updated": "2023-02-24T21:19:20.9469039+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "nightly-20220523",
+            "Name": "steam",
+            "Updated": "2022-05-23T17:08:08.1731217+08:00",
+            "Source": "versions",
+            "Info": ""
+        },
+        {
+            "Version": "2.8.6",
+            "Name": "steampp",
+            "Updated": "2023-01-06T20:14:18.970792+08:00",
+            "Source": "chawyehsu_dorado",
+            "Info": ""
+        },
+        {
+            "Version": "0.2020.01.26",
+            "Name": "sudo",
+            "Updated": "2022-05-08T01:24:07.2931552+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.39",
+            "Name": "tcping",
+            "Updated": "2023-03-07T15:21:14.8460068+08:00",
+            "Source": "hoilc_scoop-lemon",
+            "Info": ""
+        },
+        {
+            "Version": "msys-inetutils-1.7-1",
+            "Name": "telnet",
+            "Updated": "2022-05-08T01:24:22.6201258+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "8.0.362-9",
+            "Name": "temurin8-jdk",
+            "Updated": "2023-03-23T16:02:37.2480915+08:00",
+            "Source": "java",
+            "Info": ""
+        },
+        {
+            "Version": "4.6.1.4",
+            "Name": "todesk",
+            "Updated": "2023-03-06T17:00:45.2416666+08:00",
+            "Source": "chawyehsu_dorado",
+            "Info": ""
+        },
+        {
+            "Version": "9.0.71",
+            "Name": "tomcat9",
+            "Updated": "2023-02-21T11:20:47.0496375+08:00",
+            "Source": "versions",
+            "Info": ""
+        },
+        {
+            "Version": "1.83",
+            "Name": "trafficmonitor",
+            "Updated": "2022-07-26T21:52:42.3634573+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.20.7",
+            "Name": "tree-sitter",
+            "Updated": "2023-02-24T21:21:16.4191354+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.77.0",
+            "Name": "vcredist-aio",
+            "Updated": "2023-11-16T18:50:14.7113859+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.0.96",
+            "Name": "Ventoy",
+            "Updated": "2023-11-18T14:26:16.500534+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "8.2.2824",
+            "Name": "vim",
+            "Updated": "2022-05-08T01:25:05.6418114+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.84.2",
+            "Name": "vscode",
+            "Updated": "2023-11-13T09:02:55.3513254+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2023.2.4-232.10203.14",
+            "Name": "WebStorm",
+            "Updated": "2023-11-10T22:46:30.719722+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.21.3",
+            "Name": "wget",
+            "Updated": "2022-05-08T01:26:16.4337032+08:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "6.20",
+            "Name": "winrar",
+            "Updated": "2023-02-18T16:04:20.5557527+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "4.0.5",
+            "Name": "wireshark",
+            "Updated": "2023-04-27T16:55:55.7317764+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "R236",
+            "Name": "xiaowan",
+            "Updated": "2022-05-08T13:44:58.0463794+08:00",
+            "Source": "echoiron_echo-scoop",
+            "Info": ""
+        },
+        {
+            "Version": "23.05.1740",
+            "Name": "xmind",
+            "Updated": "2023-10-19T10:34:43.4810528+08:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "7.0.0056",
+            "Name": "xshell",
+            "Updated": "2023-11-16T18:50:26.6835479+08:00",
+            "Source": "lzwme_scoop-proxy-cn",
+            "Info": ""
+        },
+        {
+            "Version": "0.10.1",
+            "Name": "zig",
+            "Updated": "2023-02-25T22:50:23.6437105+08:00",
+            "Source": "main",
+            "Info": ""
         }
     ]
 }
