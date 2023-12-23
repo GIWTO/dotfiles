@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: 柬埔寨KH-T
       - name: 节点选择
-        now: 日本-优化3-GPT
+        now: 新加坡SG-T
       - name: ChatGPT
         now: 日本JP-T-GPT
       - name: 国内使用
@@ -37,8 +37,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 6626540589
-      download: 66399529072
+      upload: 6757925627
+      download: 68468333152
       total: 139586437120
     homeWeb: https://mojie.cyou
     mode: rule
