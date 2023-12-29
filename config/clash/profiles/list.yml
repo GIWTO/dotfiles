@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: 柬埔寨KH-T
       - name: 节点选择
-        now: 新加坡SG-T
+        now: 日本JP-T-GPT
       - name: ChatGPT
         now: 日本JP-T-GPT
       - name: 国内使用
@@ -30,16 +30,16 @@ files:
       - name: Twitter
         now: 节点选择
       - name: 微软服务
-        now: 节点选择
+        now: 日本JP-T-GPT
       - name: 苹果服务
         now: DIRECT
       - name: Steam
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 6757925627
-      download: 68468333152
+      upload: 7119394977
+      download: 73480756317
       total: 139586437120
-    homeWeb: https://mojie.cyou
+    homeWeb: https://mojie.live
     mode: rule
 index: 1

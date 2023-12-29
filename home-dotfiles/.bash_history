@@ -66,3 +66,4 @@ pwd
 vim C:\Users\wang\.dotfiles\./home-dotfiles/.vimrc
 ./install
 ./install
+rm -rf node_modules
