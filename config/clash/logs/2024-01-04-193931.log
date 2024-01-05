@@ -1,0 +1,27 @@
+19:39:31 INF [API] listening addr=127.0.0.1:57592
+19:39:31 INF [DNS] server listening addr=127.0.0.1:53
+19:39:31 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+19:39:32 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:57607 rAddr=api.github.com:443 proxy=DIRECT
+19:39:32 INF [Config] initial compatible provider name=谷歌服务
+19:39:32 INF [Config] initial compatible provider name=Steam
+19:39:32 INF [Config] initial compatible provider name=自动选择
+19:39:32 INF [Config] initial compatible provider name=Telegram
+19:39:32 INF [Config] initial compatible provider name=Netflix
+19:39:32 INF [Config] initial compatible provider name=故障转移
+19:39:32 INF [Config] initial compatible provider name=节点选择
+19:39:32 INF [Config] initial compatible provider name=磁力下载
+19:39:32 INF [Config] initial compatible provider name=微软服务
+19:39:32 INF [Config] initial compatible provider name=国内使用
+19:39:32 INF [Config] initial compatible provider name=哔哩哔哩
+19:39:32 INF [Config] initial compatible provider name=ChatGPT
+19:39:32 INF [Config] initial compatible provider name=Twitter
+19:39:32 INF [Config] initial compatible provider name=苹果服务
+19:39:32 INF [Config] initial compatible provider name=国外使用
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57636 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57634 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57637 rAddr=mojie.cyou:443 mode=rule rule=Domain(mojie.cyou) proxy=DIRECT
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57603 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57604 rAddr=mojie.cyou:443 mode=rule rule=Domain(mojie.cyou) proxy=DIRECT
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57642 rAddr=mojie.cyou:443 mode=rule rule=Domain(mojie.cyou) proxy=DIRECT
+19:39:32 INF [TCP] connected lAddr=127.0.0.1:57651 rAddr=mojie.cyou:443 mode=rule rule=Domain(mojie.cyou) proxy=DIRECT
+19:39:32 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
