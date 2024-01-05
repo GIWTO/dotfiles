@@ -2054,3 +2054,19 @@
 08:59:33 INF [TCP] connected lAddr=127.0.0.1:59587 rAddr=crl.comodoca.com:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
 08:59:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.115.206.76:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59591 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
 08:59:43 INF [TCP] connected lAddr=127.0.0.1:59596 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:00:15 INF [TCP] connected lAddr=127.0.0.1:59634 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+09:00:25 INF [TCP] connected lAddr=127.0.0.1:59639 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:00:27 INF [TCP] connected lAddr=127.0.0.1:59641 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:00:28 INF [TCP] connected lAddr=127.0.0.1:59644 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:00:44 INF [TCP] connected lAddr=127.0.0.1:59652 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+09:00:46 INF [TCP] connected lAddr=127.0.0.1:59654 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:00:46 INF [TCP] connected lAddr=127.0.0.1:59656 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+09:00:49 INF [TCP] connected lAddr=127.0.0.1:59660 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+09:01:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.115.206.76:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59667 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:01:23 INF [TCP] connected lAddr=127.0.0.1:59670 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:01:51 INF [TCP] connected lAddr=127.0.0.1:59680 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+09:01:52 INF [TCP] connected lAddr=127.0.0.1:59682 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:01:52 INF [TCP] connected lAddr=127.0.0.1:59684 rAddr=ocsp.digicert.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:01:53 INF [TCP] connected lAddr=127.0.0.1:59686 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:01:54 INF [TCP] connected lAddr=127.0.0.1:59688 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:02:11 INF [TCP] connected lAddr=127.0.0.1:59693 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
