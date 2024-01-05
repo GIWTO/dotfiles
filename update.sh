@@ -19,6 +19,7 @@ scoop export > "$scoopExportFile"
 cd "$localRepoPath" || exit
 
 # 执行 Git 操作
+"$gitPath/git" pull origin master
 "$gitPath/git" add *
 "$gitPath/git" commit -m "Update"
 
