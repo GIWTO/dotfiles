@@ -1816,3 +1816,241 @@
 23:22:15 INF [TCP] connected lAddr=127.0.0.1:57987 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
 23:23:45 INF [TCP] connected lAddr=127.0.0.1:57999 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
 23:23:46 INF [TCP] connected lAddr=127.0.0.1:58001 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:25:16 INF [TCP] connected lAddr=127.0.0.1:58015 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+23:25:17 INF [TCP] connected lAddr=127.0.0.1:58019 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:25:17 INF [TCP] connected lAddr=127.0.0.1:58017 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:25:53 INF [TCP] connected lAddr=127.0.0.1:58023 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:26:38 INF [TCP] connected lAddr=127.0.0.1:58028 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+23:26:39 INF [TCP] connected lAddr=127.0.0.1:58031 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=微软服务[日本JP-T-GPT]
+23:26:45 INF [TCP] connected lAddr=127.0.0.1:58033 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+23:26:51 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.25.206:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:58035 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:26:56 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.25.206:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:58037 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+23:27:00 INF [TCP] connected lAddr=127.0.0.1:58039 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:28:01 INF [TCP] connected lAddr=127.0.0.1:58049 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+23:28:33 INF [TCP] connected lAddr=127.0.0.1:58052 rAddr=crl.pki.goog:80 mode=rule rule=DomainSuffix(pki.goog) proxy=谷歌服务[柬埔寨KH-T]
+23:28:33 INF [TCP] connected lAddr=127.0.0.1:58052 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+23:29:05 INF [TCP] connected lAddr=127.0.0.1:58059 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+23:31:21 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.107.117:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:58072 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+23:31:21 INF [TCP] connected lAddr=127.0.0.1:58074 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+23:31:23 INF [TCP] connected lAddr=127.0.0.1:58076 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:31:24 INF [TCP] connected lAddr=127.0.0.1:58079 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:32:25 INF [TCP] connected lAddr=127.0.0.1:58098 rAddr=mmbiz.qpic.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:32:25 INF [TCP] connected lAddr=127.0.0.1:58100 rAddr=badjs.weixinbridge.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:32:26 INF [TCP] connected lAddr=127.0.0.1:58109 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+23:32:54 INF [TCP] connected lAddr=127.0.0.1:58119 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+23:32:55 INF [TCP] connected lAddr=127.0.0.1:58121 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:33:55 INF [TCP] connected lAddr=127.0.0.1:58154 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+23:33:56 INF [TCP] connected lAddr=127.0.0.1:58156 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+23:34:03 INF [TCP] connected lAddr=127.0.0.1:58158 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:34:27 INF [TCP] connected lAddr=127.0.0.1:58164 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:34:58 INF [TCP] connected lAddr=127.0.0.1:58181 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+23:35:04 INF [TCP] connected lAddr=127.0.0.1:58206 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+23:35:51 INF [TCP] connected lAddr=127.0.0.1:58261 rAddr=res.u-tools.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+23:36:40 INF [TCP] connected lAddr=127.0.0.1:58278 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: route not found proxy=微软服务 lAddr=127.0.0.1:58293 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: route not found proxy=微软服务 lAddr=127.0.0.1:58292 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: route not found proxy=微软服务 lAddr=127.0.0.1:58294 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: route not found proxy=微软服务 lAddr=127.0.0.1:58295 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: route not found proxy=微软服务 lAddr=127.0.0.1:58296 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: route not found proxy=微软服务 lAddr=127.0.0.1:58297 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: route not found proxy=微软服务 lAddr=127.0.0.1:58298 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58416 rAddr=config.edge.skype.com:443 rule=DomainSuffix rulePayload=skype.com
+08:57:14 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58413 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58432 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58431 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58424 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58420 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=dial tcp4 58.220.53.84:80: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58415 rAddr=res.u-tools.cn:80 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58418 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58423 rAddr=update.googleapis.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58421 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58425 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58417 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58436 rAddr=config.edge.skype.com:443 rule=DomainSuffix rulePayload=skype.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58414 rAddr=publish.u-tools.cn:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.24.80.167:443: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58422 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58433 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58453 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58454 rAddr=update.googleapis.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=dial tcp4 112.74.172.202:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58440 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58441 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58460 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=dial tcp4 112.74.172.202:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58442 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58451 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58456 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58452 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58466 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58458 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58463 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58461 rAddr=publish.u-tools.cn:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58478 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58419 rAddr=edge-consumer-static.azureedge.net:443 rule=DomainSuffix rulePayload=azureedge.net
+08:57:14 WRN [TCP] dial failed error=dial tcp4 112.74.172.202:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58480 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.24.80.167:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58477 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58488 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58483 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58476 rAddr=cdn.statically.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58493 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58495 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58487 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58492 rAddr=cdn.statically.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58499 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58500 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58485 rAddr=edge-consumer-static.azureedge.net:443 rule=DomainSuffix rulePayload=azureedge.net
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.24.80.167:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58504 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58505 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58508 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58509 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58512 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58513 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 52.140.208.172:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58516 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58518 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58519 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58523 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58522 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58527 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58529 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58526 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.89.45.211:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58532 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.24.80.167:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58535 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.222.214.253:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58534 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.109.185:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58537 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.243.58.152:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58540 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.24.80.167:443: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58542 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:14 INF [Config] initial compatible provider name=自动选择
+08:57:14 INF [Config] initial compatible provider name=节点选择
+08:57:14 INF [Config] initial compatible provider name=Twitter
+08:57:14 INF [Config] initial compatible provider name=ChatGPT
+08:57:14 INF [Config] initial compatible provider name=苹果服务
+08:57:14 INF [Config] initial compatible provider name=Steam
+08:57:14 INF [Config] initial compatible provider name=Telegram
+08:57:14 INF [Config] initial compatible provider name=微软服务
+08:57:14 INF [Config] initial compatible provider name=国外使用
+08:57:14 INF [Config] initial compatible provider name=国内使用
+08:57:14 INF [Config] initial compatible provider name=故障转移
+08:57:14 INF [Config] initial compatible provider name=磁力下载
+08:57:14 INF [Config] initial compatible provider name=Netflix
+08:57:14 INF [Config] initial compatible provider name=哔哩哔哩
+08:57:14 INF [Config] initial compatible provider name=谷歌服务
+08:57:14 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58695 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58696 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:16 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58697 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:16 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58698 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58699 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58700 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58701 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:16 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58702 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58960 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58961 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59072 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58962 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59073 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58721 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58748 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58725 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59077 rAddr=skydrivesync.policies.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:58753 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59076 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59098 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59096 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59097 rAddr=licensing.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59095 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59100 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59118 rAddr=wx.qlogo.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59113 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59119 rAddr=skydrivesync.policies.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59116 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59126 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:58730 rAddr=inference.location.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59129 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59132 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59134 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59139 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59143 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59145 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59147 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59148 rAddr=inference.location.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59151 rAddr=inference.location.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59153 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59155 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59157 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59160 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59162 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59164 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:58756 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59167 rAddr=business.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59169 rAddr=inference.location.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59171 rAddr=onedriveclucprodbn20019.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=微软服务[日本JP-T-GPT]
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59173 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59175 rAddr=kv801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59177 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59179 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59181 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59180 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59182 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59187 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59189 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:29 INF [TCP] connected lAddr=127.0.0.1:59192 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:29 INF [TCP] connected lAddr=127.0.0.1:59197 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:29 INF [TCP] connected lAddr=127.0.0.1:59195 rAddr=c.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:29 INF [TCP] connected lAddr=127.0.0.1:59196 rAddr=sb.scorecardresearch.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:29 INF [TCP] connected lAddr=127.0.0.1:59194 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59202 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59203 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59206 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59208 rAddr=c.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59210 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:30 INF [TCP] connected lAddr=127.0.0.1:59212 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:32 INF [TCP] connected lAddr=127.0.0.1:59221 rAddr=101.227.132.126:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:32 INF [TCP] connected lAddr=127.0.0.1:59219 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:34 INF [TCP] connected lAddr=127.0.0.1:59243 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:39 INF [TCP] connected lAddr=127.0.0.1:59245 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:57:54 INF [TCP] connected lAddr=127.0.0.1:59251 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:54 INF [TCP] connected lAddr=127.0.0.1:59250 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:54 INF [TCP] connected lAddr=127.0.0.1:59252 rAddr=github.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59257 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59256 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59258 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59263 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59262 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59267 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59266 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59272 rAddr=github.githubassets.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59276 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59277 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:56 INF [TCP] connected lAddr=127.0.0.1:59275 rAddr=avatars.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:57 INF [TCP] connected lAddr=127.0.0.1:59282 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:58 INF [TCP] connected lAddr=127.0.0.1:59286 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:57:58 INF [TCP] connected lAddr=127.0.0.1:59288 rAddr=config.immersivetranslate.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:57:58 INF [TCP] connected lAddr=127.0.0.1:59291 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:57:58 INF [TCP] connected lAddr=127.0.0.1:59290 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:58:00 INF [TCP] connected lAddr=127.0.0.1:59296 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:58:00 INF [TCP] connected lAddr=127.0.0.1:59302 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:58:00 INF [TCP] connected lAddr=127.0.0.1:59301 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[柬埔寨KH-T]
+08:58:01 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.103.191:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:59268 rAddr=github.githubassets.com:443 rule=Match rulePayload=
+08:58:02 WRN [TCP] dial failed error=kh.mjt000.com:443 connect error: dial tcp4 20.205.103.191:443: i/o timeout proxy=节点选择 lAddr=127.0.0.1:59284 rAddr=alive.github.com:443 rule=Match rulePayload=
+08:58:03 INF [TCP] connected lAddr=127.0.0.1:59305 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:58:03 INF [TCP] connected lAddr=127.0.0.1:59307 rAddr=alive.github.com:443 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:58:04 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.103.191:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59294 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:58:04 INF [TCP] connected lAddr=127.0.0.1:59309 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:58:24 INF [TCP] connected lAddr=127.0.0.1:59313 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+08:58:26 INF [TCP] connected lAddr=127.0.0.1:59315 rAddr=crl3.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+08:58:28 INF [TCP] connected lAddr=127.0.0.1:59317 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:58:28 INF [TCP] connected lAddr=127.0.0.1:59319 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:58:28 INF [TCP] connected lAddr=127.0.0.1:59322 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:58:30 INF [TCP] connected lAddr=127.0.0.1:59315 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:58:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.103.191:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59327 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+08:58:36 INF [TCP] connected lAddr=127.0.0.1:59336 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:58:38 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.205.103.191:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59333 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+08:58:52 INF [TCP] connected lAddr=127.0.0.1:59345 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:58:53 INF [TCP] connected lAddr=127.0.0.1:59347 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:58:58 INF [TCP] connected lAddr=127.0.0.1:59353 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:59:00 INF [TCP] connected lAddr=127.0.0.1:59356 rAddr=crl.pki.goog:80 mode=rule rule=DomainSuffix(pki.goog) proxy=谷歌服务[柬埔寨KH-T]
+08:59:01 INF [TCP] connected lAddr=127.0.0.1:59356 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:59:07 INF [TCP] connected lAddr=127.0.0.1:59466 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:59:07 INF [TCP] connected lAddr=127.0.0.1:59469 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+08:59:32 INF [TCP] connected lAddr=127.0.0.1:59587 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+08:59:33 INF [TCP] connected lAddr=127.0.0.1:59587 rAddr=crl.comodoca.com:80 mode=rule rule=Match() proxy=节点选择[柬埔寨KH-T]
+08:59:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.115.206.76:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59591 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:59:43 INF [TCP] connected lAddr=127.0.0.1:59596 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
