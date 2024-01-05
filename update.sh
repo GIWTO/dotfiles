@@ -24,6 +24,6 @@ cd "$localRepoPath" || exit
 "$gitPath/git" commit -m "Update"
 
 # 先执行 git push
-"$gitPath/git" push
+"$gitPath/git" push --force
 
 echo "执行完毕"

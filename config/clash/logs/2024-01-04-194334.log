@@ -2164,3 +2164,11 @@
 09:12:55 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.239.53.2:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:60283 rAddr=settings-win.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
 09:12:55 INF [TCP] connected lAddr=127.0.0.1:60285 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
 09:13:01 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.239.53.2:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:60287 rAddr=settings-win.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:13:19 INF [TCP] connected lAddr=127.0.0.1:60292 rAddr=dynsrv.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:13:20 INF [TCP] connected lAddr=127.0.0.1:60294 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+09:13:24 INF [TCP] connected lAddr=127.0.0.1:60296 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[日本JP-T-GPT]
+09:14:10 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.239.53.2:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:60298 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+09:14:10 INF [TCP] connected lAddr=127.0.0.1:60300 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:14:12 INF [TCP] connected lAddr=127.0.0.1:60302 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:14:12 INF [TCP] connected lAddr=127.0.0.1:60304 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:14:13 INF [TCP] connected lAddr=127.0.0.1:60306 rAddr=prod-eastasia.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
