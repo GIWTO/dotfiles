@@ -1,0 +1,350 @@
+12:37:21 INF [API] listening addr=127.0.0.1:49999
+12:37:21 INF [DNS] server listening addr=127.0.0.1:53
+12:37:21 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+12:37:21 INF [Config] initial compatible provider name=哔哩哔哩
+12:37:21 INF [Config] initial compatible provider name=苹果服务
+12:37:21 INF [Config] initial compatible provider name=故障转移
+12:37:21 INF [Config] initial compatible provider name=谷歌服务
+12:37:21 INF [Config] initial compatible provider name=Telegram
+12:37:21 INF [Config] initial compatible provider name=节点选择
+12:37:21 INF [Config] initial compatible provider name=国内使用
+12:37:21 INF [Config] initial compatible provider name=Netflix
+12:37:21 INF [Config] initial compatible provider name=ChatGPT
+12:37:21 INF [Config] initial compatible provider name=国外使用
+12:37:21 INF [Config] initial compatible provider name=Twitter
+12:37:21 INF [Config] initial compatible provider name=Steam
+12:37:21 INF [Config] initial compatible provider name=磁力下载
+12:37:21 INF [Config] initial compatible provider name=微软服务
+12:37:21 INF [Config] initial compatible provider name=自动选择
+12:37:21 INF [Config] initial compatible provider name=自动选择
+12:37:21 INF [Config] initial compatible provider name=谷歌服务
+12:37:21 INF [Config] initial compatible provider name=Steam
+12:37:21 INF [Config] initial compatible provider name=苹果服务
+12:37:21 INF [Config] initial compatible provider name=Netflix
+12:37:21 INF [Config] initial compatible provider name=国内使用
+12:37:21 INF [Config] initial compatible provider name=故障转移
+12:37:21 INF [Config] initial compatible provider name=Twitter
+12:37:21 INF [Config] initial compatible provider name=ChatGPT
+12:37:21 INF [Config] initial compatible provider name=Telegram
+12:37:21 INF [Config] initial compatible provider name=国外使用
+12:37:21 INF [Config] initial compatible provider name=节点选择
+12:37:21 INF [Config] initial compatible provider name=微软服务
+12:37:21 INF [Config] initial compatible provider name=哔哩哔哩
+12:37:21 INF [Config] initial compatible provider name=磁力下载
+12:37:21 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+12:37:21 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+12:37:26 WRN [TCP] dial failed error=all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:50076 rAddr=api.github.com:443
+12:37:26 WRN [TCP] dial failed error=all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:50082 rAddr=m33o212ji.mojieurl.com:443 rule=Domain rulePayload=m33o212ji.mojieurl.com
+12:37:26 WRN [TCP] dial failed error=all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:50072 rAddr=m33o212ji.mojieurl.com:443 rule=Domain rulePayload=m33o212ji.mojieurl.com
+12:37:31 WRN [TCP] dial failed error=m.cnmjcn.com:16617 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:63651->114.114.114.114:53: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50071 rAddr=raw.githubusercontent.com:443 rule=Match rulePayload=
+12:37:31 WRN [TCP] dial failed error=m.cnmjcn.com:16617 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:63651->114.114.114.114:53: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50081 rAddr=raw.githubusercontent.com:443 rule=Match rulePayload=
+12:37:31 WRN [TCP] dial failed error=m.cnmjcn.com:16617 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:63651->114.114.114.114:53: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50067 rAddr=open.u-tools.cn:443 rule=Match rulePayload=
+12:37:31 WRN [TCP] dial failed error=m.cnmjcn.com:16617 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:63651->114.114.114.114:53: i/o timeout proxy=节点选择 lAddr=127.0.0.1:50085 rAddr=api.github.com:443 rule=Match rulePayload=
+12:37:31 INF [Config] initial compatible provider name=Telegram
+12:37:31 INF [Config] initial compatible provider name=苹果服务
+12:37:31 INF [Config] initial compatible provider name=Twitter
+12:37:31 INF [Config] initial compatible provider name=磁力下载
+12:37:31 INF [Config] initial compatible provider name=ChatGPT
+12:37:31 INF [Config] initial compatible provider name=国内使用
+12:37:31 INF [Config] initial compatible provider name=自动选择
+12:37:31 INF [Config] initial compatible provider name=谷歌服务
+12:37:31 INF [Config] initial compatible provider name=节点选择
+12:37:31 INF [Config] initial compatible provider name=Netflix
+12:37:31 INF [Config] initial compatible provider name=Steam
+12:37:31 INF [Config] initial compatible provider name=微软服务
+12:37:31 INF [Config] initial compatible provider name=哔哩哔哩
+12:37:31 INF [Config] initial compatible provider name=国外使用
+12:37:31 INF [Config] initial compatible provider name=故障转移
+12:37:31 WRN [TCP] dial failed error=all DNS requests failed, first error: read udp4 192.168.227.2:63713->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50087 rAddr=m33o212ji.mojieurl.com:443 rule=Domain rulePayload=m33o212ji.mojieurl.com
+12:37:31 WRN [TCP] dial failed error=all DNS requests failed, first error: read udp4 192.168.227.2:63713->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50086 rAddr=m33o212ji.mojieurl.com:443 rule=Domain rulePayload=m33o212ji.mojieurl.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50192 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50083 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50195 rAddr=v20.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50198 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50194 rAddr=g.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50196 rAddr=assets.msn.com:443 rule=DomainSuffix rulePayload=msn.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50084 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50193 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 rule=DomainSuffix rulePayload=azure.cn
+12:37:33 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:50197 rAddr=assets.msn.com:443 rule=DomainSuffix rulePayload=msn.com
+12:37:33 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50318 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[新加坡SG-T]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50324 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[新加坡SG-T]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50089 rAddr=in.appcenter.ms:443 mode=rule rule=DomainSuffix(appcenter.ms) proxy=微软服务[日本JP-T-GPT]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50088 rAddr=in.appcenter.ms:443 mode=rule rule=DomainSuffix(appcenter.ms) proxy=微软服务[日本JP-T-GPT]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50323 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[新加坡SG-T]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50322 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[新加坡SG-T]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50317 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[新加坡SG-T]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50348 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:33 INF [TCP] connected lAddr=127.0.0.1:50350 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50353 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50362 rAddr=business.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50366 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50365 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50354 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50381 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50356 rAddr=arc.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50357 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50361 rAddr=business.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50379 rAddr=skyapi.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50384 rAddr=hcfy.app:443 mode=rule rule=IPCIDR(52.0.0.0/8) proxy=Netflix[台湾WAP-T]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50383 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[日本JP-T-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50364 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:34 INF [TCP] connected lAddr=127.0.0.1:50398 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:35 INF [TCP] connected lAddr=127.0.0.1:50396 rAddr=deff.nelreports.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:35 INF [TCP] connected lAddr=127.0.0.1:50406 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:35 INF [TCP] connected lAddr=127.0.0.1:50409 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:35 INF [TCP] connected lAddr=127.0.0.1:50418 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:35 INF [TCP] connected lAddr=127.0.0.1:50427 rAddr=www.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50439 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50438 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50440 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50456 rAddr=aliyuncdn.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50454 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50455 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50420 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50463 rAddr=aliyuncdn.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50419 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50462 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50465 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50471 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50460 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50468 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50467 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50469 rAddr=substrate.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50435 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50437 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50434 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50494 rAddr=aliyuncdn.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50441 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50496 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50498 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50499 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50500 rAddr=next.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50484 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50489 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50461 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50470 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50505 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:36 INF [TCP] connected lAddr=127.0.0.1:50466 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50510 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50524 rAddr=www.antdv.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50534 rAddr=zos.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50535 rAddr=zos.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50531 rAddr=zos.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50536 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50539 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50532 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50533 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50538 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50537 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50530 rAddr=www.surely.cool:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50513 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50528 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50553 rAddr=sutongiot.com:17101 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50550 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50557 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50518 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50492 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50526 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50561 rAddr=webapi.amap.com:443 mode=rule rule=DomainSuffix(amap.com) proxy=DIRECT
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50554 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:37 INF [TCP] connected lAddr=127.0.0.1:50563 rAddr=telem-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50571 rAddr=webapi.amap.com:443 mode=rule rule=DomainSuffix(amap.com) proxy=DIRECT
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50567 rAddr=arc.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50559 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50507 rAddr=bcd.developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:38 WRN [TCP] dial failed error=sg.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50320 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:38 WRN [TCP] dial failed error=sg.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50321 rAddr=assets.msn.com:443 rule=DomainSuffix rulePayload=msn.com
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50512 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50575 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50576 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50583 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50579 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:38 INF [TCP] connected lAddr=127.0.0.1:50587 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50581 rAddr=bcd.developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50589 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50358 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50355 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50363 rAddr=substrate.office.com:443 rule=DomainSuffix rulePayload=office.com
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50359 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50387 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50593 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:39 WRN [TCP] dial failed error=hinet.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=Netflix lAddr=127.0.0.1:50394 rAddr=hcfy.app:443 rule=IPCIDR rulePayload=52.0.0.0/8
+12:37:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50402 rAddr=assets.msn.com:443 rule=DomainSuffix rulePayload=msn.com
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50597 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50599 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:39 INF [TCP] connected lAddr=127.0.0.1:50595 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50601 rAddr=interactive-examples.mdn.mozilla.net:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50607 rAddr=arc.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50609 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50611 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50614 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50616 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50618 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:40 INF [TCP] connected lAddr=127.0.0.1:50620 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50603 rAddr=developer.mozilla.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:41 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50442 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:41 WRN [TCP] dial failed error=hinet.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=Netflix lAddr=127.0.0.1:50436 rAddr=hcfy.app:443 rule=IPCIDR rulePayload=52.0.0.0/8
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50633 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50632 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50624 rAddr=www.v2ex.com:443 mode=rule rule=IPCIDR(54.0.0.0/8) proxy=Netflix[台湾WAP-T]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50630 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[日本JP-T-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50627 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50636 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:41 WRN [TCP] dial failed error=hinet.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=Netflix lAddr=127.0.0.1:50464 rAddr=hcfy.app:443 rule=IPCIDR rulePayload=52.0.0.0/8
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50626 rAddr=services.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50642 rAddr=browser.events.data.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50638 rAddr=hcfy.app:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:37:41 INF [TCP] connected lAddr=127.0.0.1:50644 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50646 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50648 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50650 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50654 rAddr=captcha.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50652 rAddr=ntp.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50656 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50622 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50658 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50661 rAddr=xux-web-config.oss-accelerate.aliyuncs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50660 rAddr=lbs.amap.com:443 mode=rule rule=DomainSuffix(amap.com) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50664 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50666 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:50668 rAddr=c.dun.163.com:443 mode=rule rule=DomainSuffix(163.com) proxy=DIRECT
+12:37:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50569 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:37:43 INF [TCP] connected lAddr=127.0.0.1:50670 rAddr=2fau51.tdum.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50585 rAddr=assets.msn.com:443 rule=DomainSuffix rulePayload=msn.com
+12:37:43 INF [TCP] connected lAddr=127.0.0.1:50672 rAddr=webapi.amap.com:443 mode=rule rule=DomainSuffix(amap.com) proxy=DIRECT
+12:37:44 INF [TCP] connected lAddr=127.0.0.1:50674 rAddr=sutongiot.com:17101 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:44 INF [TCP] connected lAddr=127.0.0.1:50676 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+12:37:44 INF [TCP] connected lAddr=127.0.0.1:50678 rAddr=webapi.amap.com:443 mode=rule rule=DomainSuffix(amap.com) proxy=DIRECT
+12:37:44 INF [TCP] connected lAddr=127.0.0.1:50677 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:45 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50605 rAddr=roaming.officeapps.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:37:45 INF [TCP] connected lAddr=127.0.0.1:50682 rAddr=roaming.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:45 INF [TCP] connected lAddr=127.0.0.1:50684 rAddr=www.pdsmartparking.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:45 INF [TCP] connected lAddr=127.0.0.1:50686 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:37:45 INF [TCP] connected lAddr=127.0.0.1:50688 rAddr=cd30rl.tdum.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:37:46 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.35.20:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50640 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:37:46 INF [TCP] connected lAddr=127.0.0.1:50690 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:57 INF [TCP] connected lAddr=127.0.0.1:50693 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:57 INF [TCP] connected lAddr=127.0.0.1:50695 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+12:37:57 INF [TCP] connected lAddr=127.0.0.1:50697 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:58 INF [TCP] connected lAddr=127.0.0.1:50699 rAddr=sydney.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:37:59 INF [TCP] connected lAddr=127.0.0.1:50702 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+12:37:59 INF [TCP] connected lAddr=127.0.0.1:50704 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+12:37:59 INF [TCP] connected lAddr=127.0.0.1:50706 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+12:38:02 INF [TCP] connected lAddr=127.0.0.1:50808 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:03 INF [TCP] connected lAddr=127.0.0.1:50810 rAddr=edge-consumer-static.azureedge.net:443 mode=rule rule=DomainSuffix(azureedge.net) proxy=微软服务[日本JP-T-GPT]
+12:38:05 INF [TCP] connected lAddr=127.0.0.1:50812 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:38:10 INF [TCP] connected lAddr=127.0.0.1:50814 rAddr=services.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+12:38:15 INF [TCP] connected lAddr=127.0.0.1:50816 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:38:31 INF [TCP] connected lAddr=127.0.0.1:50819 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+12:38:33 INF [TCP] connected lAddr=127.0.0.1:50821 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:33 INF [TCP] connected lAddr=127.0.0.1:50823 rAddr=go.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:33 INF [TCP] connected lAddr=127.0.0.1:50825 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:34 INF [TCP] connected lAddr=127.0.0.1:50829 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:34 INF [TCP] connected lAddr=127.0.0.1:50827 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:38 INF [TCP] connected lAddr=127.0.0.1:50857 rAddr=default.exp-tas.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:38:38 INF [TCP] connected lAddr=127.0.0.1:50862 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:52 INF [TCP] connected lAddr=127.0.0.1:50926 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:38:53 INF [TCP] connected lAddr=127.0.0.1:50930 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:53 INF [TCP] connected lAddr=127.0.0.1:50932 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:53 INF [TCP] connected lAddr=127.0.0.1:50934 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50936 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50938 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50940 rAddr=api.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50941 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50944 rAddr=api.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:54 INF [TCP] connected lAddr=127.0.0.1:50946 rAddr=pica.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50948 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50950 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50952 rAddr=captcha.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50954 rAddr=c.dun.163.com:443 mode=rule rule=DomainSuffix(163.com) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50956 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+12:38:55 INF [TCP] connected lAddr=127.0.0.1:50958 rAddr=ac.dun.163.com:443 mode=rule rule=DomainSuffix(163.com) proxy=DIRECT
+12:39:03 INF [TCP] connected lAddr=127.0.0.1:50964 rAddr=r.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+12:39:03 INF [TCP] connected lAddr=127.0.0.1:50962 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:39:04 INF [TCP] connected lAddr=127.0.0.1:50966 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:39:05 INF [TCP] connected lAddr=127.0.0.1:50968 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:39:06 INF [TCP] connected lAddr=127.0.0.1:50973 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+12:39:06 INF [TCP] connected lAddr=127.0.0.1:50975 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:39:09 INF [TCP] connected lAddr=127.0.0.1:50977 rAddr=answers.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+12:39:10 INF [TCP] connected lAddr=127.0.0.1:50980 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+12:39:10 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50970 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:13 INF [TCP] connected lAddr=127.0.0.1:50986 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化2-GPT]
+12:39:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50982 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:39:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50984 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50988 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:39:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50991 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50994 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:39:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50996 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:39:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:50998 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:31 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51000 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:39:34 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51002 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:37 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51004 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:39 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51006 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:40 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51008 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:42 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51011 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:44 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51014 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:39:45 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51016 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:45 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51018 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:46 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51120 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:48 INF [TCP] connected lAddr=127.0.0.1:51228 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:39:49 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51123 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:51 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51125 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:54 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51230 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:39:55 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51232 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:57 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51234 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:58 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51237 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:39:59 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51239 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51242 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:01 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51245 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:40:02 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51247 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:03 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51249 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:03 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51251 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:04 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51253 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:05 INF [TCP] connected lAddr=127.0.0.1:51268 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:40:06 INF [TCP] connected lAddr=127.0.0.1:51270 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化2-GPT]
+12:40:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51255 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51257 rAddr=login.microsoftonline.com:443 rule=DomainSuffix rulePayload=microsoftonline.com
+12:40:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51259 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51261 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51263 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51266 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:11 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51275 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:12 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51277 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:13 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51292 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:13 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51295 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:13 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51299 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51308 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51311 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51313 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:18 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51315 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51318 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:20 INF [TCP] connected lAddr=127.0.0.1:51339 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+12:40:21 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51320 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51322 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51324 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:22 INF [TCP] connected lAddr=127.0.0.1:51348 rAddr=pic3.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+12:40:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51326 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:23 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51328 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:23 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51330 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:23 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51332 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51335 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51337 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51341 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51344 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51346 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:29 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51350 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:30 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51352 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:31 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51354 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:31 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51356 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:34 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51360 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:35 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51362 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:35 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.75.124.162:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51364 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:36 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51366 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:38 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.138.10:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51368 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:40 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51370 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+12:40:40 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51373 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:41 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.210.90.5:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51376 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.138.10:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51378 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+12:40:43 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.222.7.102:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51380 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+12:40:44 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 4.215.248.57:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:51383 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com

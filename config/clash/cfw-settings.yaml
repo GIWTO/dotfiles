@@ -13,3 +13,5 @@ hideTrayIcon: false
 randomMixedPort: false
 connShowProcess: true
 showTrayProxyDelayIndicator: true
+unsafeURLsText: |
+  urls: ["blj.shmh.gov.cn"]
