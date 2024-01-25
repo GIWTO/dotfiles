@@ -1,0 +1,59 @@
+13:16:47 INF [API] listening addr=127.0.0.1:63537
+13:16:47 ERR [DNS] start DNS server failed error=listen udp 127.0.0.1:53: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. addr=127.0.0.1:53
+13:16:47 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+13:16:47 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:63552 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+13:16:47 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:63559 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+13:16:47 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:63554 rAddr=api.github.com:443 proxy=DIRECT
+13:16:47 INF [Config] initial compatible provider name=Netflix
+13:16:47 INF [Config] initial compatible provider name=苹果服务
+13:16:47 INF [Config] initial compatible provider name=Steam
+13:16:47 INF [Config] initial compatible provider name=微软服务
+13:16:47 INF [Config] initial compatible provider name=Twitter
+13:16:47 INF [Config] initial compatible provider name=中转节点
+13:16:47 INF [Config] initial compatible provider name=自动选择
+13:16:47 INF [Config] initial compatible provider name=节点选择
+13:16:47 INF [Config] initial compatible provider name=Telegram
+13:16:47 INF [Config] initial compatible provider name=ChatGPT
+13:16:47 INF [Config] initial compatible provider name=故障转移
+13:16:47 INF [Config] initial compatible provider name=谷歌服务
+13:16:47 INF [Config] initial compatible provider name=哔哩哔哩
+13:16:47 INF [Config] initial compatible provider name=直连节点
+13:16:47 INF [Config] initial compatible provider name=磁力下载
+13:16:47 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+13:16:52 WRN [TCP] dial failed error=dial tcp4 185.199.109.133:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:63551 rAddr=raw.githubusercontent.com:443
+13:16:52 INF [TCP] connected lAddr=127.0.0.1:63647 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:16:57 INF [TCP] connected lAddr=127.0.0.1:63691 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:16:59 INF [TCP] connected lAddr=127.0.0.1:63712 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:16:59 INF [TCP] connected lAddr=127.0.0.1:63709 rAddr=cdn.oaistatic.com:443 mode=rule rule=DomainSuffix(oaistatic.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:16:59 INF [TCP] connected lAddr=127.0.0.1:63716 rAddr=cdn.oaistatic.com:443 mode=rule rule=DomainSuffix(oaistatic.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:16:59 INF [TCP] connected lAddr=127.0.0.1:63715 rAddr=cdn.oaistatic.com:443 mode=rule rule=DomainSuffix(oaistatic.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:17:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.14.149:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63689 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+13:17:04 INF [TCP] connected lAddr=127.0.0.1:63734 rAddr=widget.intercom.io:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:04 INF [TCP] connected lAddr=127.0.0.1:63736 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[套餐到期：长期有效]
+13:17:04 INF [TCP] connected lAddr=127.0.0.1:63738 rAddr=widget.intercom.io:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63742 rAddr=featuregates.org:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:05 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.9.151:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63726 rAddr=nav-edge.smartscreen.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63744 rAddr=s.gravatar.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63740 rAddr=tcr9i.chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63749 rAddr=a.nel.cloudflare.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63747 rAddr=tcr9i.chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:17:05 INF [TCP] connected lAddr=127.0.0.1:63751 rAddr=tcr9i.chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+13:17:06 INF [TCP] connected lAddr=127.0.0.1:63754 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:07 INF [TCP] connected lAddr=127.0.0.1:63757 rAddr=api-iam.intercom.io:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+13:17:19 INF [TCP] connected lAddr=127.0.0.1:63768 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+13:17:19 INF [TCP] connected lAddr=127.0.0.1:63771 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+13:17:20 INF [TCP] connected lAddr=127.0.0.1:63776 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+13:17:22 INF [TCP] connected lAddr=127.0.0.1:63787 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+13:17:24 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.9.151:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63773 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+13:17:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.14.149:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63777 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+13:17:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.9.151:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63780 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+13:17:25 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.9.151:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63783 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+13:17:36 INF [TCP] connected lAddr=127.0.0.1:63806 rAddr=api.aliyundrive.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+13:17:36 INF [TCP] connected lAddr=127.0.0.1:63809 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+13:17:36 INF [TCP] connected lAddr=127.0.0.1:63810 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+13:18:46 INF [TCP] connected lAddr=127.0.0.1:63892 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+13:18:51 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.9.151:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63890 rAddr=www.msftconnecttest.com:80 rule=DomainSuffix rulePayload=msftconnecttest.com
+13:18:51 INF [TCP] connected lAddr=127.0.0.1:57148 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+13:19:22 INF [TCP] connected lAddr=127.0.0.1:51856 rAddr=www.pdsmartparking.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+13:19:31 INF [TCP] connected lAddr=127.0.0.1:51865 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+13:19:59 INF [TCP] connected lAddr=127.0.0.1:51893 rAddr=res.u-tools.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT

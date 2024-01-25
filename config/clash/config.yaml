@@ -1,6 +1,6 @@
 mixed-port: 41001
 allow-lan: true
-external-controller: 127.0.0.1:62278
+external-controller: 127.0.0.1:52588
 secret: 'c7d7a172-23ca-4302-a7a5-c9aff2e4b79e'
 dns:
   enable: true

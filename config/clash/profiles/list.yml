@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: 日本-优化2-GPT
       - name: 节点选择
-        now: 中转节点
+        now: 套餐到期：长期有效
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 中转节点
@@ -25,6 +25,8 @@ files:
         now: DIRECT
       - name: Telegram
         now: 节点选择
+      - name: TikTok
+        now: 日本-优化-GPT
       - name: Twitter
         now: 节点选择
       - name: 微软服务
@@ -37,8 +39,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 8682385358
-      download: 97634992841
+      upload: 9991603887
+      download: 99662935634
       total: 139586437120
     homeWeb: https://mojie.live
     mode: rule

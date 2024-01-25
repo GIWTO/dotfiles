@@ -1,0 +1,90 @@
+09:40:12 INF [API] listening addr=127.0.0.1:63783
+09:40:12 ERR [DNS] start DNS server failed error=listen udp 127.0.0.1:53: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. addr=127.0.0.1:53
+09:40:12 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+09:40:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:63806 rAddr=api.github.com:443 proxy=DIRECT
+09:40:12 INF [Config] initial compatible provider name=Telegram
+09:40:12 INF [Config] initial compatible provider name=中转节点
+09:40:12 INF [Config] initial compatible provider name=苹果服务
+09:40:12 INF [Config] initial compatible provider name=微软服务
+09:40:12 INF [Config] initial compatible provider name=ChatGPT
+09:40:12 INF [Config] initial compatible provider name=自动选择
+09:40:12 INF [Config] initial compatible provider name=哔哩哔哩
+09:40:12 INF [Config] initial compatible provider name=谷歌服务
+09:40:12 INF [Config] initial compatible provider name=Steam
+09:40:12 INF [Config] initial compatible provider name=直连节点
+09:40:12 INF [Config] initial compatible provider name=节点选择
+09:40:12 INF [Config] initial compatible provider name=Netflix
+09:40:12 INF [Config] initial compatible provider name=故障转移
+09:40:12 INF [Config] initial compatible provider name=Twitter
+09:40:12 INF [Config] initial compatible provider name=磁力下载
+09:40:12 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+09:40:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:63805 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+09:40:12 INF [TCP] connected lAddr=127.0.0.1:63796 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=微软服务[日本JP-T-GPT]
+09:40:12 INF [TCP] connected lAddr=127.0.0.1:63798 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=微软服务[日本JP-T-GPT]
+09:40:12 INF [TCP] connected lAddr=127.0.0.1:63797 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=微软服务[日本JP-T-GPT]
+09:40:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.13.12:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63795 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:40:17 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.13.12:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63799 rAddr=outlook.office365.com:443 rule=DomainSuffix rulePayload=office365.com
+09:40:17 INF [TCP] connected lAddr=127.0.0.1:63902 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:40:22 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.13.12:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63897 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:40:24 INF [TCP] connected lAddr=127.0.0.1:63917 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:40:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.13.12:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:63913 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:40:41 INF [TCP] connected lAddr=127.0.0.1:63940 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+09:40:44 INF [TCP] connected lAddr=127.0.0.1:63944 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本-优化-GPT]
+09:41:08 INF [TCP] connected lAddr=127.0.0.1:63977 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:41:13 INF [TCP] connected lAddr=127.0.0.1:63981 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+09:41:18 INF [TCP] connected lAddr=127.0.0.1:63987 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+09:41:45 INF [TCP] connected lAddr=127.0.0.1:64003 rAddr=mmbiz.qpic.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:41:47 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 4.241.111.233:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:64000 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:41:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 4.241.111.233:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:64006 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:42:31 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 4.241.111.233:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:64033 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:42:52 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 4.241.111.233:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:64047 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+09:43:01 INF [TCP] connected lAddr=127.0.0.1:55927 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+09:43:06 INF [TCP] connected lAddr=127.0.0.1:63242 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+09:43:06 INF [TCP] connected lAddr=127.0.0.1:63244 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+09:43:08 INF [TCP] connected lAddr=127.0.0.1:63247 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:43:23 INF [TCP] connected lAddr=127.0.0.1:65439 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+09:43:45 INF [TCP] connected lAddr=127.0.0.1:50794 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:44:07 INF [TCP] connected lAddr=127.0.0.1:50810 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:44:28 INF [TCP] connected lAddr=127.0.0.1:50827 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:44:28 INF [TCP] connected lAddr=127.0.0.1:50829 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:44:47 INF [TCP] connected lAddr=127.0.0.1:50843 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:46:08 INF [TCP] connected lAddr=127.0.0.1:50890 rAddr=ublockorigin.pages.dev:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:46:30 INF [TCP] connected lAddr=127.0.0.1:50903 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:46:48 INF [TCP] connected lAddr=127.0.0.1:50914 rAddr=res.u-tools.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:46:52 INF [TCP] connected lAddr=127.0.0.1:50918 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:48:32 INF [TCP] connected lAddr=127.0.0.1:51078 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:49:13 INF [TCP] connected lAddr=127.0.0.1:51101 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:49:18 INF [TCP] connected lAddr=127.0.0.1:51106 rAddr=hcfy.app:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:49:30 INF [TCP] connected lAddr=127.0.0.1:51114 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:50:13 INF [TCP] connected lAddr=127.0.0.1:51169 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:50:14 INF [TCP] connected lAddr=127.0.0.1:51172 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:50:29 INF [TCP] connected lAddr=127.0.0.1:51213 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+09:50:29 INF [TCP] connected lAddr=127.0.0.1:51215 rAddr=onedriveclucprodbn20001.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=微软服务[日本JP-T-GPT]
+09:50:33 INF [TCP] connected lAddr=127.0.0.1:51219 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:50:44 INF [TCP] connected lAddr=127.0.0.1:51226 rAddr=xiaojianzheng.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:50:44 INF [TCP] connected lAddr=127.0.0.1:51228 rAddr=xiaojianzheng.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:51:00 INF [TCP] connected lAddr=127.0.0.1:51238 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:51:14 INF [TCP] connected lAddr=127.0.0.1:51247 rAddr=www.seekhue.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:51:14 INF [TCP] connected lAddr=127.0.0.1:51250 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:51:40 INF [TCP] connected lAddr=127.0.0.1:51264 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:52:14 INF [TCP] connected lAddr=127.0.0.1:51331 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:52:14 INF [TCP] connected lAddr=127.0.0.1:51333 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:52:16 INF [TCP] connected lAddr=127.0.0.1:51336 rAddr=ublockorigin.github.io:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:52:35 INF [TCP] connected lAddr=127.0.0.1:51347 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:53:44 INF [TCP] connected lAddr=127.0.0.1:51418 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:53:44 INF [TCP] connected lAddr=127.0.0.1:51420 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:53:58 INF [TCP] connected lAddr=127.0.0.1:51443 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+09:54:07 INF [TCP] connected lAddr=127.0.0.1:51450 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:54:37 INF [TCP] connected lAddr=127.0.0.1:51466 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:54:48 INF [TCP] connected lAddr=127.0.0.1:51473 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:54:49 INF [TCP] connected lAddr=127.0.0.1:51476 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+09:55:14 INF [TCP] connected lAddr=127.0.0.1:51489 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:56:39 INF [TCP] connected lAddr=127.0.0.1:51532 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:58:41 INF [TCP] connected lAddr=127.0.0.1:51599 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:58:45 INF [TCP] connected lAddr=127.0.0.1:51603 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+09:58:45 INF [TCP] connected lAddr=127.0.0.1:51604 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+09:59:42 INF [TCP] connected lAddr=127.0.0.1:51634 rAddr=blj.shmh.gov.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:59:42 INF [TCP] connected lAddr=127.0.0.1:51636 rAddr=blj.shmh.gov.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:59:42 INF [TCP] connected lAddr=127.0.0.1:51638 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+09:59:49 INF [TCP] connected lAddr=127.0.0.1:51644 rAddr=blj.shmh.gov.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+09:59:49 INF [TCP] connected lAddr=127.0.0.1:51646 rAddr=blj.shmh.gov.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
