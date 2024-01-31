@@ -10,13 +10,13 @@ files:
       - name: GLOBAL
         now: 日本-优化2-GPT
       - name: 节点选择
-        now: 柬埔寨KH-T
+        now: 日本JP-T-GPT
       - name: ChatGPT
         now: 美国LA-优化3-GPT
-      - name: 中转节点
-        now: 英国-优化3
-      - name: 直连节点
-        now: 尼日利亚NI-T
+      - name: 境内使用
+        now: 日本-优化-GPT
+      - name: 海外使用
+        now: 日本JP-T-GPT
       - name: Netflix
         now: 台湾WAP-T
       - name: 磁力下载
@@ -24,7 +24,7 @@ files:
       - name: 哔哩哔哩
         now: DIRECT
       - name: Telegram
-        now: 节点选择
+        now: 台湾-优化
       - name: TikTok
         now: 日本-优化-GPT
       - name: Twitter

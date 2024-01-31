@@ -1,0 +1,538 @@
+17:32:34 INF [API] listening addr=127.0.0.1:52209
+17:32:34 ERR [DNS] start DNS server failed error=listen udp 127.0.0.1:53: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. addr=127.0.0.1:53
+17:32:34 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+17:32:34 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:52223 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+17:32:34 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:52230 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+17:32:34 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:52224 rAddr=api.github.com:443 proxy=DIRECT
+17:32:34 INF [Config] initial compatible provider name=境内使用
+17:32:34 INF [Config] initial compatible provider name=节点选择
+17:32:34 INF [Config] initial compatible provider name=谷歌服务
+17:32:34 INF [Config] initial compatible provider name=Steam
+17:32:34 INF [Config] initial compatible provider name=Netflix
+17:32:34 INF [Config] initial compatible provider name=Twitter
+17:32:34 INF [Config] initial compatible provider name=Telegram
+17:32:34 INF [Config] initial compatible provider name=磁力下载
+17:32:34 INF [Config] initial compatible provider name=微软服务
+17:32:34 INF [Config] initial compatible provider name=TikTok
+17:32:34 INF [Config] initial compatible provider name=ChatGPT
+17:32:34 INF [Config] initial compatible provider name=海外使用
+17:32:34 INF [Config] initial compatible provider name=故障转移
+17:32:34 INF [Config] initial compatible provider name=自动选择
+17:32:34 INF [Config] initial compatible provider name=苹果服务
+17:32:34 INF [Config] initial compatible provider name=哔哩哔哩
+17:32:34 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+17:32:35 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:52222 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+17:32:38 INF [TCP] connected lAddr=127.0.0.1:52275 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化-GPT]
+17:32:38 INF [TCP] connected lAddr=127.0.0.1:52277 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化-GPT]
+17:32:38 INF [TCP] connected lAddr=127.0.0.1:52279 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:41 INF [TCP] connected lAddr=127.0.0.1:52282 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:41 INF [TCP] connected lAddr=127.0.0.1:52285 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:32:42 INF [TCP] connected lAddr=127.0.0.1:52287 rAddr=tomcat.apache.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:32:42 INF [TCP] connected lAddr=127.0.0.1:52289 rAddr=tomcat.apache.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:32:43 INF [TCP] connected lAddr=127.0.0.1:52298 rAddr=tomcat.apache.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:32:43 INF [TCP] connected lAddr=127.0.0.1:52300 rAddr=tomcat.apache.org:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:32:46 INF [TCP] connected lAddr=127.0.0.1:52303 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:32:47 INF [TCP] connected lAddr=127.0.0.1:52306 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:47 INF [TCP] connected lAddr=127.0.0.1:52308 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:32:47 INF [TCP] connected lAddr=127.0.0.1:52318 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:47 INF [TCP] connected lAddr=127.0.0.1:52310 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:32:48 INF [TCP] connected lAddr=127.0.0.1:52312 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化-GPT]
+17:32:48 INF [TCP] connected lAddr=127.0.0.1:52315 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:48 INF [TCP] connected lAddr=127.0.0.1:52314 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:48 INF [TCP] connected lAddr=127.0.0.1:52316 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:48 INF [TCP] connected lAddr=127.0.0.1:52317 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:32:49 INF [TCP] connected lAddr=127.0.0.1:52326 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[日本-优化-GPT]
+17:32:50 INF [TCP] connected lAddr=127.0.0.1:52329 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:33:00 INF [TCP] connected lAddr=127.0.0.1:52336 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:33:04 INF [TCP] connected lAddr=127.0.0.1:52345 rAddr=r.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:33:04 INF [TCP] connected lAddr=127.0.0.1:52350 rAddr=r.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:33:07 INF [TCP] connected lAddr=127.0.0.1:52353 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:33:07 INF [TCP] connected lAddr=127.0.0.1:52355 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:33:07 INF [TCP] connected lAddr=127.0.0.1:52359 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:33:08 INF [TCP] connected lAddr=127.0.0.1:52357 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:33:08 INF [TCP] connected lAddr=127.0.0.1:52363 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52365 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52367 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52369 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52370 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52371 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52375 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52376 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52379 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52381 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52382 rAddr=g.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52385 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52388 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52386 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52387 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:09 INF [TCP] connected lAddr=127.0.0.1:52393 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:11 INF [TCP] connected lAddr=127.0.0.1:52397 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:33:35 INF [TCP] connected lAddr=127.0.0.1:52417 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:33:35 INF [TCP] connected lAddr=127.0.0.1:52417 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+17:33:35 INF [TCP] connected lAddr=127.0.0.1:52417 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:33:36 INF [TCP] connected lAddr=127.0.0.1:52417 rAddr=crl.pki.goog:80 mode=rule rule=DomainSuffix(pki.goog) proxy=谷歌服务[日本-优化-GPT]
+17:33:39 INF [TCP] connected lAddr=127.0.0.1:52441 rAddr=updatecollect.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:41 INF [TCP] connected lAddr=127.0.0.1:52444 rAddr=updatecollect.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:41 INF [TCP] connected lAddr=127.0.0.1:52446 rAddr=updatepro.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:44 INF [TCP] connected lAddr=127.0.0.1:52456 rAddr=updatepro.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:33:59 INF [TCP] connected lAddr=127.0.0.1:52475 rAddr=cloud.tencent.com:443 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:34:02 INF [TCP] connected lAddr=127.0.0.1:52480 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:02 INF [TCP] connected lAddr=127.0.0.1:52483 rAddr=img-home.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:34:03 INF [TCP] connected lAddr=127.0.0.1:52485 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:05 INF [TCP] connected lAddr=127.0.0.1:52488 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:06 INF [TCP] connected lAddr=127.0.0.1:52490 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:07 INF [TCP] connected lAddr=127.0.0.1:52493 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:07 INF [TCP] connected lAddr=127.0.0.1:52495 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:07 INF [TCP] connected lAddr=127.0.0.1:52497 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:07 INF [TCP] connected lAddr=127.0.0.1:52499 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:08 INF [TCP] connected lAddr=127.0.0.1:52501 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:08 INF [TCP] connected lAddr=127.0.0.1:52505 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:08 INF [TCP] connected lAddr=127.0.0.1:52507 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:08 INF [TCP] connected lAddr=127.0.0.1:52503 rAddr=sploit-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:34:09 INF [TCP] connected lAddr=127.0.0.1:52509 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:34:09 INF [TCP] connected lAddr=127.0.0.1:52512 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:09 INF [TCP] connected lAddr=127.0.0.1:52516 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:13 INF [TCP] connected lAddr=127.0.0.1:52520 rAddr=passport-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:34:14 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.191.188.112:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52514 rAddr=www.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+17:34:14 INF [TCP] connected lAddr=127.0.0.1:52523 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:34:24 INF [TCP] connected lAddr=127.0.0.1:52532 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+17:34:36 INF [TCP] connected lAddr=127.0.0.1:52545 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:34:36 INF [TCP] connected lAddr=127.0.0.1:52545 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:34:51 INF [TCP] connected lAddr=127.0.0.1:52562 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:35:07 INF [TCP] connected lAddr=127.0.0.1:52579 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+17:35:23 INF [TCP] connected lAddr=127.0.0.1:52590 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+17:35:27 INF [TCP] connected lAddr=127.0.0.1:54206 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+17:35:27 INF [TCP] connected lAddr=127.0.0.1:54204 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+17:36:54 INF [TCP] connected lAddr=127.0.0.1:52164 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:36:54 INF [TCP] connected lAddr=127.0.0.1:52167 rAddr=xiaojianzheng.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:36:55 INF [TCP] connected lAddr=127.0.0.1:52170 rAddr=xiaojianzheng.cn:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:37:02 INF [TCP] connected lAddr=127.0.0.1:52177 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:37:24 INF [TCP] connected lAddr=127.0.0.1:52189 rAddr=www.seekhue.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:37:24 INF [TCP] connected lAddr=127.0.0.1:52192 rAddr=www.seekhue.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:37:25 INF [TCP] connected lAddr=127.0.0.1:52194 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:37:25 INF [TCP] connected lAddr=127.0.0.1:52196 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:38:54 INF [TCP] connected lAddr=127.0.0.1:52270 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:39:37 INF [TCP] connected lAddr=127.0.0.1:52308 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:39:52 INF [TCP] connected lAddr=127.0.0.1:52334 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:40:08 INF [TCP] connected lAddr=127.0.0.1:52346 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:41:22 INF [TCP] connected lAddr=127.0.0.1:52387 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:33 INF [TCP] connected lAddr=127.0.0.1:52395 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:41:44 INF [TCP] connected lAddr=127.0.0.1:52405 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:41:44 INF [TCP] connected lAddr=127.0.0.1:52413 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:41:44 INF [TCP] connected lAddr=127.0.0.1:52409 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:41:44 INF [TCP] connected lAddr=127.0.0.1:52412 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:41:45 INF [TCP] connected lAddr=127.0.0.1:52419 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:45 INF [TCP] connected lAddr=127.0.0.1:52411 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:41:46 INF [TCP] connected lAddr=127.0.0.1:52422 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52424 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52429 rAddr=g.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52428 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52426 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52431 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52432 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52436 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52448 rAddr=img-home.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52439 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52442 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52443 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52446 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52454 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52456 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52460 rAddr=img-home.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52462 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:47 INF [TCP] connected lAddr=127.0.0.1:52464 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52469 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52473 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52479 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52482 rAddr=cdn-static-devbit.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52484 rAddr=bizapi.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:48 INF [TCP] connected lAddr=127.0.0.1:52486 rAddr=bizapi.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:41:49 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.78.232.101:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52403 rAddr=th.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+17:41:49 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.78.232.101:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52407 rAddr=storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+17:41:49 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.78.232.101:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52410 rAddr=th.bing.com:443 rule=DomainSuffix rulePayload=bing.com
+17:41:49 INF [TCP] connected lAddr=127.0.0.1:52488 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:41:51 INF [TCP] connected lAddr=127.0.0.1:52491 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:41:51 INF [TCP] connected lAddr=127.0.0.1:52493 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:02 INF [TCP] connected lAddr=127.0.0.1:52502 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:42:05 INF [TCP] connected lAddr=127.0.0.1:52508 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:05 INF [TCP] connected lAddr=127.0.0.1:52510 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:06 INF [TCP] connected lAddr=127.0.0.1:52512 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:09 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.78.232.101:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:52505 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+17:42:09 INF [TCP] connected lAddr=127.0.0.1:52517 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:09 INF [TCP] connected lAddr=127.0.0.1:52515 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:42:21 INF [TCP] connected lAddr=127.0.0.1:52525 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:21 INF [TCP] connected lAddr=127.0.0.1:52528 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:25 INF [TCP] connected lAddr=127.0.0.1:52531 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:42:29 INF [TCP] connected lAddr=127.0.0.1:52535 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:29 INF [TCP] connected lAddr=127.0.0.1:52537 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:29 INF [TCP] connected lAddr=127.0.0.1:52538 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:29 INF [TCP] connected lAddr=127.0.0.1:52541 rAddr=static.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:29 INF [TCP] connected lAddr=127.0.0.1:52542 rAddr=unpkg.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52545 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52548 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52550 rAddr=unpkg.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52552 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52554 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52558 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52560 rAddr=pic4.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52562 rAddr=pic4.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52563 rAddr=pic2.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52566 rAddr=captcha.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:42:30 INF [TCP] connected lAddr=127.0.0.1:52556 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:42:31 INF [TCP] connected lAddr=127.0.0.1:52568 rAddr=c.dun.163.com:443 mode=rule rule=DomainSuffix(163.com) proxy=DIRECT
+17:42:31 INF [TCP] connected lAddr=127.0.0.1:52570 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+17:42:31 INF [TCP] connected lAddr=127.0.0.1:52572 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52580 rAddr=cloudcache.tencentcs.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52581 rAddr=cloudcache.tencent-cloud.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52584 rAddr=qccommunity.qcloudimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52586 rAddr=tam.cdn-go.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52589 rAddr=developer.qcloudimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:44 INF [TCP] connected lAddr=127.0.0.1:52588 rAddr=ask.qcloudimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52593 rAddr=cloud.tencent.com:443 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52595 rAddr=cloudcache.tencent-cloud.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52597 rAddr=dscache.tencent-cloud.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52599 rAddr=cloudcache.tencentcs.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52601 rAddr=web.sdk.qcloud.com:443 mode=rule rule=DomainSuffix(qcloud.com) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52603 rAddr=ping.cloud.tencent.com:443 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:42:45 INF [TCP] connected lAddr=127.0.0.1:52604 rAddr=sensors.cloud.tencent.com:8106 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:43:54 INF [TCP] connected lAddr=127.0.0.1:52645 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:44:05 INF [TCP] connected lAddr=127.0.0.1:52654 rAddr=ping.cloud.tencent.com:443 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:44:05 INF [TCP] connected lAddr=127.0.0.1:52656 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:05 INF [TCP] connected lAddr=127.0.0.1:52657 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:08 INF [TCP] connected lAddr=127.0.0.1:52662 rAddr=ping.cloud.tencent.com:443 mode=rule rule=DomainSuffix(tencent.com) proxy=DIRECT
+17:44:09 INF [TCP] connected lAddr=127.0.0.1:52664 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:11 INF [TCP] connected lAddr=127.0.0.1:52666 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:11 INF [TCP] connected lAddr=127.0.0.1:52669 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:44:11 INF [TCP] connected lAddr=127.0.0.1:52671 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:44:14 INF [TCP] connected lAddr=127.0.0.1:52674 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:44:14 INF [TCP] connected lAddr=127.0.0.1:52681 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:44:14 INF [TCP] connected lAddr=127.0.0.1:52676 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:44:16 INF [TCP] connected lAddr=127.0.0.1:52690 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:16 INF [TCP] connected lAddr=127.0.0.1:52685 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:16 INF [TCP] connected lAddr=127.0.0.1:52688 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52700 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52696 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52692 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52693 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52698 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52707 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52703 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52705 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52709 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52711 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52714 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:44:17 INF [TCP] connected lAddr=127.0.0.1:52713 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:18 INF [TCP] connected lAddr=127.0.0.1:52717 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:19 INF [TCP] connected lAddr=127.0.0.1:52720 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:20 INF [TCP] connected lAddr=127.0.0.1:52722 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:20 INF [TCP] connected lAddr=127.0.0.1:52724 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:23 INF [TCP] connected lAddr=127.0.0.1:52728 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:44:30 INF [TCP] connected lAddr=127.0.0.1:52735 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:44:31 INF [TCP] connected lAddr=127.0.0.1:52737 rAddr=pic1.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:44:31 INF [TCP] connected lAddr=127.0.0.1:52739 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:44:31 INF [TCP] connected lAddr=127.0.0.1:52741 rAddr=www.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:44:31 INF [TCP] connected lAddr=127.0.0.1:52743 rAddr=picx.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52746 rAddr=pica.zhimg.com:443 mode=rule rule=DomainSuffix(zhimg.com) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52748 rAddr=118.89.204.198:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52750 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52754 rAddr=mcs.volceapplog.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52756 rAddr=captcha.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52752 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52758 rAddr=c.dun.163.com:443 mode=rule rule=DomainSuffix(163.com) proxy=DIRECT
+17:44:32 INF [TCP] connected lAddr=127.0.0.1:52760 rAddr=cstaticdun.126.net:443 mode=rule rule=DomainSuffix(126.net) proxy=DIRECT
+17:44:38 INF [TCP] connected lAddr=127.0.0.1:52767 rAddr=developer.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:38 INF [TCP] connected lAddr=127.0.0.1:52765 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:38 INF [TCP] connected lAddr=127.0.0.1:52769 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:38 INF [TCP] connected lAddr=127.0.0.1:52771 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52773 rAddr=ucc.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52775 rAddr=img.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52777 rAddr=at.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52778 rAddr=i.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52781 rAddr=gw.alipayobjects.com:443 mode=rule rule=DomainKeyword(alipay) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52783 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52784 rAddr=cloud-assets.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52787 rAddr=developer.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52789 rAddr=ucc.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52791 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52793 rAddr=ucc.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:39 INF [TCP] connected lAddr=127.0.0.1:52795 rAddr=oneconsole.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52800 rAddr=bridge.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52797 rAddr=fecs.console.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52799 rAddr=t.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52804 rAddr=page.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52798 rAddr=page.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52807 rAddr=retcode.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52809 rAddr=account.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52810 rAddr=query.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52813 rAddr=www.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52819 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52818 rAddr=query.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52815 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:40 INF [TCP] connected lAddr=127.0.0.1:52822 rAddr=img.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+17:44:43 INF [TCP] connected lAddr=127.0.0.1:52825 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:44:52 INF [TCP] connected lAddr=127.0.0.1:52835 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52853 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52852 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52860 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52861 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52862 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:01 INF [TCP] connected lAddr=127.0.0.1:52867 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:02 INF [TCP] connected lAddr=127.0.0.1:52869 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:02 INF [TCP] connected lAddr=127.0.0.1:52872 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:02 INF [TCP] connected lAddr=127.0.0.1:52871 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:02 INF [TCP] connected lAddr=127.0.0.1:52873 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:07 INF [TCP] connected lAddr=127.0.0.1:52885 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:09 INF [TCP] connected lAddr=127.0.0.1:52889 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:10 INF [TCP] connected lAddr=127.0.0.1:52891 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:45:17 INF [TCP] connected lAddr=127.0.0.1:52896 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:45:20 INF [TCP] connected lAddr=127.0.0.1:52900 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:21 INF [TCP] connected lAddr=127.0.0.1:52902 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:22 INF [TCP] connected lAddr=127.0.0.1:52904 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:23 INF [TCP] connected lAddr=127.0.0.1:52907 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:23 INF [TCP] connected lAddr=127.0.0.1:52909 rAddr=www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:24 INF [TCP] connected lAddr=127.0.0.1:52911 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:24 INF [TCP] connected lAddr=127.0.0.1:52913 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:24 INF [TCP] connected lAddr=127.0.0.1:52915 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52920 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52927 rAddr=www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52922 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52926 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52923 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52921 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52924 rAddr=images2017.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52925 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52938 rAddr=account.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52940 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52918 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52936 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52942 rAddr=pic.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52944 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52945 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:25 INF [TCP] connected lAddr=127.0.0.1:52948 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:26 INF [TCP] connected lAddr=127.0.0.1:52950 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:26 INF [TCP] connected lAddr=127.0.0.1:52953 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:45:27 INF [TCP] connected lAddr=127.0.0.1:52955 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:28 INF [TCP] connected lAddr=127.0.0.1:52957 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:29 INF [TCP] connected lAddr=127.0.0.1:52960 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:30 INF [TCP] connected lAddr=127.0.0.1:52962 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:31 INF [TCP] connected lAddr=127.0.0.1:52965 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:32 INF [TCP] connected lAddr=127.0.0.1:52967 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:33 INF [TCP] connected lAddr=127.0.0.1:52970 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:33 INF [TCP] connected lAddr=127.0.0.1:52972 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:45:33 INF [TCP] connected lAddr=127.0.0.1:52976 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:45:33 INF [TCP] connected lAddr=127.0.0.1:52974 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:45:34 INF [TCP] connected lAddr=127.0.0.1:52979 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:45:34 INF [TCP] connected lAddr=127.0.0.1:52978 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:45:35 INF [TCP] connected lAddr=127.0.0.1:52982 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:35 INF [TCP] connected lAddr=127.0.0.1:52987 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:35 INF [TCP] connected lAddr=127.0.0.1:52984 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52991 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52993 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52995 rAddr=g.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52997 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52998 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53001 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:52989 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53003 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53004 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53007 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53009 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53015 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53013 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53011 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53017 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53020 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53019 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:36 INF [TCP] connected lAddr=127.0.0.1:53022 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:45:37 INF [TCP] connected lAddr=127.0.0.1:53025 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:45:40 INF [TCP] connected lAddr=127.0.0.1:53029 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:46:08 INF [TCP] connected lAddr=127.0.0.1:53062 rAddr=onedriveclucproddm20018.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=微软服务[日本JP-T-GPT]
+17:46:26 INF [TCP] connected lAddr=127.0.0.1:53078 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:46:32 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.28.30:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:53080 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+17:46:35 INF [TCP] connected lAddr=127.0.0.1:53086 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:47:03 INF [TCP] connected lAddr=127.0.0.1:53106 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:47:36 INF [TCP] connected lAddr=127.0.0.1:53126 rAddr=crl3.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+17:47:50 INF [TCP] connected lAddr=127.0.0.1:53137 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:49:53 INF [TCP] connected lAddr=127.0.0.1:53208 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:50:07 INF [TCP] connected lAddr=127.0.0.1:53218 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53254 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53246 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53248 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53239 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53252 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53244 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53236 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53250 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53237 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:43 INF [TCP] connected lAddr=127.0.0.1:53238 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+17:50:54 INF [TCP] connected lAddr=127.0.0.1:53264 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本-优化-GPT]
+17:50:54 INF [TCP] connected lAddr=127.0.0.1:53266 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本-优化-GPT]
+17:51:14 INF [TCP] connected lAddr=127.0.0.1:53280 rAddr=res.u-tools.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:52:04 INF [TCP] connected lAddr=127.0.0.1:53321 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:52:26 INF [TCP] connected lAddr=127.0.0.1:53334 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本-优化-GPT]
+17:53:15 INF [TCP] connected lAddr=127.0.0.1:53368 rAddr=aip.baidubce.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:53:28 INF [TCP] connected lAddr=127.0.0.1:53376 rAddr=mssdk.bytedance.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:53:29 INF [TCP] connected lAddr=127.0.0.1:53381 rAddr=mcs.snssdk.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:53:29 INF [TCP] connected lAddr=127.0.0.1:53379 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:30 INF [TCP] connected lAddr=127.0.0.1:53383 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:32 INF [TCP] connected lAddr=127.0.0.1:53388 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:32 INF [TCP] connected lAddr=127.0.0.1:53392 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:53:32 INF [TCP] connected lAddr=127.0.0.1:53390 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53397 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53395 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53394 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53396 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53398 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:33 INF [TCP] connected lAddr=127.0.0.1:53405 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:53:34 INF [TCP] connected lAddr=127.0.0.1:53407 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:34 INF [TCP] connected lAddr=127.0.0.1:53409 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:53:34 INF [TCP] connected lAddr=127.0.0.1:53411 rAddr=www2.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53413 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53416 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53418 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53420 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53422 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53424 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53425 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53434 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53430 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53428 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53432 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:35 INF [TCP] connected lAddr=127.0.0.1:53436 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:37 INF [TCP] connected lAddr=127.0.0.1:53440 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:37 INF [TCP] connected lAddr=127.0.0.1:53438 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:37 INF [TCP] connected lAddr=127.0.0.1:53442 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:38 INF [TCP] connected lAddr=127.0.0.1:53445 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:53:40 INF [TCP] connected lAddr=127.0.0.1:53449 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:15 INF [TCP] connected lAddr=127.0.0.1:53480 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:54:38 INF [TCP] connected lAddr=127.0.0.1:53498 rAddr=aip.baidubce.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:54:41 INF [TCP] connected lAddr=127.0.0.1:53502 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:54:43 INF [TCP] connected lAddr=127.0.0.1:53505 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:54:43 INF [TCP] connected lAddr=127.0.0.1:53509 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:54:43 INF [TCP] connected lAddr=127.0.0.1:53507 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:54:44 INF [TCP] connected lAddr=127.0.0.1:53513 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:45 INF [TCP] connected lAddr=127.0.0.1:53511 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:54:45 INF [TCP] connected lAddr=127.0.0.1:53516 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:45 INF [TCP] connected lAddr=127.0.0.1:53522 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:54:45 INF [TCP] connected lAddr=127.0.0.1:53520 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:46 INF [TCP] connected lAddr=127.0.0.1:53518 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:46 INF [TCP] connected lAddr=127.0.0.1:53526 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:46 INF [TCP] connected lAddr=127.0.0.1:53524 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:54:48 INF [TCP] connected lAddr=127.0.0.1:53530 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:54:55 INF [TCP] connected lAddr=127.0.0.1:53540 rAddr=array805.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:55:01 INF [TCP] connected lAddr=127.0.0.1:53538 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:55:06 INF [TCP] connected lAddr=127.0.0.1:53551 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:55:06 INF [TCP] connected lAddr=127.0.0.1:53553 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:55:38 INF [TCP] connected lAddr=127.0.0.1:53570 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:55:58 INF [TCP] connected lAddr=127.0.0.1:53584 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:03 INF [TCP] connected lAddr=127.0.0.1:53598 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53604 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53606 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53608 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53612 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53615 rAddr=g.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:56:04 INF [TCP] connected lAddr=127.0.0.1:53614 rAddr=mall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:07 INF [TCP] connected lAddr=127.0.0.1:53619 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:56:09 INF [TCP] connected lAddr=127.0.0.1:53622 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:04 INF [TCP] connected lAddr=127.0.0.1:53653 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+17:57:44 INF [TCP] connected lAddr=127.0.0.1:53702 rAddr=array813.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:57:52 INF [TCP] connected lAddr=127.0.0.1:53709 rAddr=aip.baidubce.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:57:55 INF [TCP] connected lAddr=127.0.0.1:53712 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:57 INF [TCP] connected lAddr=127.0.0.1:53715 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:57 INF [TCP] connected lAddr=127.0.0.1:53719 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:57:57 INF [TCP] connected lAddr=127.0.0.1:53717 rAddr=login.microsoftonline.com:443 mode=rule rule=DomainSuffix(microsoftonline.com) proxy=微软服务[日本JP-T-GPT]
+17:57:58 INF [TCP] connected lAddr=127.0.0.1:53722 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:58 INF [TCP] connected lAddr=127.0.0.1:53724 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:58 INF [TCP] connected lAddr=127.0.0.1:53723 rAddr=th.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:57:59 INF [TCP] connected lAddr=127.0.0.1:53728 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+17:57:59 INF [TCP] connected lAddr=127.0.0.1:53730 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:00 INF [TCP] connected lAddr=127.0.0.1:53734 rAddr=csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53736 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53738 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53740 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53742 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53744 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53746 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53748 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53750 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53752 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53754 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:01 INF [TCP] connected lAddr=127.0.0.1:53756 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:02 INF [TCP] connected lAddr=127.0.0.1:53759 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:02 INF [TCP] connected lAddr=127.0.0.1:53761 rAddr=ev.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:05 INF [TCP] connected lAddr=127.0.0.1:53764 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+17:58:05 INF [TCP] connected lAddr=127.0.0.1:53766 rAddr=www.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:06 INF [TCP] connected lAddr=127.0.0.1:53768 rAddr=common.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:06 INF [TCP] connected lAddr=127.0.0.1:53771 rAddr=account.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:06 INF [TCP] connected lAddr=127.0.0.1:53773 rAddr=pic.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:06 INF [TCP] connected lAddr=127.0.0.1:53775 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:06 INF [TCP] connected lAddr=127.0.0.1:53777 rAddr=count.cnblogs.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:14 INF [TCP] connected lAddr=127.0.0.1:53784 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+17:58:15 INF [TCP] connected lAddr=127.0.0.1:53786 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:15 INF [TCP] connected lAddr=127.0.0.1:53788 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+17:58:15 INF [TCP] connected lAddr=127.0.0.1:53790 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:16 INF [TCP] connected lAddr=127.0.0.1:53792 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:16 INF [TCP] connected lAddr=127.0.0.1:53793 rAddr=brssp.ibreader.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:16 INF [TCP] connected lAddr=127.0.0.1:53796 rAddr=upload-images.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:58:36 INF [TCP] connected lAddr=127.0.0.1:53810 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+17:58:52 INF [TCP] connected lAddr=127.0.0.1:53822 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+17:59:54 INF [TCP] connected lAddr=127.0.0.1:53877 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+18:00:24 INF [TCP] connected lAddr=127.0.0.1:53897 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+18:00:41 INF [TCP] connected lAddr=127.0.0.1:53907 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=微软服务[日本JP-T-GPT]
+18:00:46 INF [TCP] connected lAddr=127.0.0.1:53914 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+18:00:47 INF [TCP] connected lAddr=127.0.0.1:53913 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+18:00:47 INF [TCP] connected lAddr=127.0.0.1:53915 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本-优化-GPT]
+18:00:52 INF [TCP] connected lAddr=127.0.0.1:53924 rAddr=slscr.update.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+18:00:52 INF [TCP] connected lAddr=127.0.0.1:53926 rAddr=officeclient.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+18:00:52 INF [TCP] connected lAddr=127.0.0.1:53928 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+18:00:53 INF [TCP] connected lAddr=127.0.0.1:53930 rAddr=slscr.update.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+18:01:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 74.226.190.184:443: connectex: An established connection was aborted by the software in your host machine. proxy=微软服务 lAddr=127.0.0.1:53935 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+18:01:00 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.11.81:443: route not found proxy=微软服务 lAddr=127.0.0.1:53947 rAddr=login.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:26 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: route not found proxy=节点选择 lAddr=127.0.0.1:53956 rAddr=server.codeium.com:443 rule=Match rulePayload=
+19:07:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.102.233.158:443: route not found proxy=微软服务 lAddr=127.0.0.1:53957 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+19:07:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.11.81:443: route not found proxy=微软服务 lAddr=127.0.0.1:53958 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:26 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 74.226.176.90:443: route not found proxy=微软服务 lAddr=127.0.0.1:53959 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:26 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: route not found proxy=节点选择 lAddr=127.0.0.1:53960 rAddr=server.codeium.com:443 rule=Match rulePayload=
+19:07:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 74.226.190.184:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54092 rAddr=array805.prod.do.dsp.mp.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:27 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.11.81:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54091 rAddr=array813.prod.do.dsp.mp.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.10.103:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54095 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.94.59.60:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54097 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.94.59.60:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54099 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.102.233.158:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54101 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.11.81:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54115 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.94.59.60:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54117 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.10.103:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54120 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 13.94.59.60:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54119 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 52.175.10.103:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54123 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 74.226.176.90:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54124 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:54127 rAddr=feeds.feedburner.com:443 rule=DomainSuffix rulePayload=feedburner.com
+19:07:28 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54130 rAddr=hcfy.app:443 rule=Match rulePayload=
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 74.226.190.184:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54131 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:54136 rAddr=feeds.feedburner.com:443 rule=DomainSuffix rulePayload=feedburner.com
+19:07:28 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.102.233.158:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:54138 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+19:07:28 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54137 rAddr=hcfy.app:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54143 rAddr=io-oi.me:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54145 rAddr=io-oi.me:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54147 rAddr=xiaojianzheng.cn:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54149 rAddr=xiaojianzheng.cn:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54151 rAddr=www.seekhue.com:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54153 rAddr=www.seekhue.com:443 rule=Match rulePayload=
+19:07:29 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:54155 rAddr=blog.gimo.me:443 rule=Match rulePayload=
+19:07:32 INF [Config] initial compatible provider name=海外使用
+19:07:32 INF [Config] initial compatible provider name=境内使用
+19:07:32 INF [Config] initial compatible provider name=Telegram
+19:07:32 INF [Config] initial compatible provider name=Twitter
+19:07:32 INF [Config] initial compatible provider name=Netflix
+19:07:32 INF [Config] initial compatible provider name=谷歌服务
+19:07:32 INF [Config] initial compatible provider name=自动选择
+19:07:32 INF [Config] initial compatible provider name=哔哩哔哩
+19:07:32 INF [Config] initial compatible provider name=ChatGPT
+19:07:32 INF [Config] initial compatible provider name=微软服务
+19:07:32 INF [Config] initial compatible provider name=故障转移
+19:07:32 INF [Config] initial compatible provider name=节点选择
+19:07:32 INF [Config] initial compatible provider name=TikTok
+19:07:32 INF [Config] initial compatible provider name=Steam
+19:07:32 INF [Config] initial compatible provider name=磁力下载
+19:07:32 INF [Config] initial compatible provider name=苹果服务
+19:07:36 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:54265 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+19:07:37 WRN [TCP] dial failed error=dial tcp4 58.220.53.85:80: i/o timeout proxy=DIRECT lAddr=127.0.0.1:54267 rAddr=res.u-tools.cn:80 rule=GeoIP rulePayload=CN

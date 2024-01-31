@@ -1,0 +1,294 @@
+20:42:14 INF [API] listening addr=127.0.0.1:64196
+20:42:14 INF [DNS] server listening addr=127.0.0.1:53
+20:42:14 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+20:42:14 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64209 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+20:42:14 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64216 rAddr=m33o212ji.mojieurl.com:443 proxy=DIRECT
+20:42:14 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64210 rAddr=api.github.com:443 proxy=DIRECT
+20:42:14 INF [Config] initial compatible provider name=故障转移
+20:42:14 INF [Config] initial compatible provider name=微软服务
+20:42:14 INF [Config] initial compatible provider name=Netflix
+20:42:14 INF [Config] initial compatible provider name=海外使用
+20:42:14 INF [Config] initial compatible provider name=境内使用
+20:42:14 INF [Config] initial compatible provider name=ChatGPT
+20:42:14 INF [Config] initial compatible provider name=哔哩哔哩
+20:42:14 INF [Config] initial compatible provider name=Telegram
+20:42:14 INF [Config] initial compatible provider name=磁力下载
+20:42:14 INF [Config] initial compatible provider name=自动选择
+20:42:14 INF [Config] initial compatible provider name=节点选择
+20:42:14 INF [Config] initial compatible provider name=Twitter
+20:42:14 INF [Config] initial compatible provider name=谷歌服务
+20:42:14 INF [Config] initial compatible provider name=TikTok
+20:42:14 INF [Config] initial compatible provider name=Steam
+20:42:14 INF [Config] initial compatible provider name=苹果服务
+20:42:14 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+20:42:15 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64208 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+20:42:17 INF [TCP] connected lAddr=127.0.0.1:64273 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:17 INF [TCP] connected lAddr=127.0.0.1:64277 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:18 INF [TCP] connected lAddr=127.0.0.1:64290 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:19 INF [TCP] connected lAddr=127.0.0.1:64294 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:19 INF [TCP] connected lAddr=127.0.0.1:64299 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:19 INF [TCP] connected lAddr=127.0.0.1:64301 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:42:20 INF [TCP] connected lAddr=127.0.0.1:64303 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:42:26 INF [TCP] connected lAddr=127.0.0.1:64321 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:42:26 INF [TCP] connected lAddr=127.0.0.1:64323 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+20:42:26 INF [TCP] connected lAddr=127.0.0.1:64325 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:42:31 INF [TCP] connected lAddr=127.0.0.1:64332 rAddr=i.imgur.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:42:31 INF [TCP] connected lAddr=127.0.0.1:64334 rAddr=i.imgur.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+20:43:06 INF [TCP] connected lAddr=127.0.0.1:64350 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:43:07 INF [TCP] connected lAddr=127.0.0.1:64352 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+20:43:10 INF [TCP] connected lAddr=127.0.0.1:64357 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+20:43:37 INF [TCP] connected lAddr=127.0.0.1:64365 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[套餐到期：长期有效]
+20:43:38 INF [TCP] connected lAddr=127.0.0.1:64367 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[套餐到期：长期有效]
+20:43:59 INF [TCP] connected lAddr=127.0.0.1:62707 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+20:43:59 INF [TCP] connected lAddr=127.0.0.1:62703 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+20:44:02 INF [TCP] connected lAddr=127.0.0.1:62712 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: route not found proxy=微软服务 lAddr=127.0.0.1:58488 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:06 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: route not found proxy=节点选择 lAddr=127.0.0.1:58490 rAddr=server.codeium.com:443 rule=Match rulePayload=
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: route not found proxy=微软服务 lAddr=127.0.0.1:58491 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: route not found proxy=微软服务 lAddr=127.0.0.1:58492 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: route not found proxy=微软服务 lAddr=127.0.0.1:58493 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58594 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+08:57:06 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58598 rAddr=dsm04pap002.storage.live.com:443 rule=DomainSuffix rulePayload=live.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58602 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58607 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58611 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58613 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58614 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58617 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58618 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58621 rAddr=config.edge.skype.com:443 rule=DomainSuffix rulePayload=skype.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58623 rAddr=config.edge.skype.com:443 rule=DomainSuffix rulePayload=skype.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58627 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58628 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 40.83.126.57:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58631 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58633 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58637 rAddr=feeds.feedburner.com:443 rule=DomainSuffix rulePayload=feedburner.com
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58639 rAddr=feeds.feedburner.com:443 rule=DomainSuffix rulePayload=feedburner.com
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58636 rAddr=publish.u-tools.cn:443 rule=Match rulePayload=
+08:57:07 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58635 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58643 rAddr=hcfy.app:443 rule=Match rulePayload=
+08:57:07 WRN [TCP] dial failed error=dial tcp4 112.74.172.202:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58645 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58644 rAddr=publish.u-tools.cn:443 rule=Match rulePayload=
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58649 rAddr=hcfy.app:443 rule=Match rulePayload=
+08:57:07 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58653 rAddr=res.u-tools.cn:80 rule=Match rulePayload=
+08:57:07 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58656 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:07 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58655 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58763 rAddr=update.googleapis.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58764 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58762 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58760 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58761 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58657 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58658 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58659 rAddr=update.googleapis.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58765 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58766 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58767 rAddr=io-oi.me:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 20.194.222.41:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58789 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=dial tcp4 8.135.101.154:443: connectex: A socket operation was attempted to an unreachable host. proxy=DIRECT lAddr=127.0.0.1:58790 rAddr=open.u-tools.cn:443 rule=GeoIP rulePayload=CN
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58791 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58779 rAddr=ctldl.windowsupdate.com:80 rule=DomainSuffix rulePayload=windowsupdate.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=谷歌服务 lAddr=127.0.0.1:58788 rAddr=update.googleapis.com:443 rule=DomainKeyword rulePayload=google
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58792 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58798 rAddr=io-oi.me:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58796 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58797 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58810 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 INF [Config] initial compatible provider name=节点选择
+08:57:08 INF [Config] initial compatible provider name=Twitter
+08:57:08 INF [Config] initial compatible provider name=哔哩哔哩
+08:57:08 INF [Config] initial compatible provider name=TikTok
+08:57:08 INF [Config] initial compatible provider name=谷歌服务
+08:57:08 INF [Config] initial compatible provider name=故障转移
+08:57:08 INF [Config] initial compatible provider name=境内使用
+08:57:08 INF [Config] initial compatible provider name=自动选择
+08:57:08 INF [Config] initial compatible provider name=海外使用
+08:57:08 INF [Config] initial compatible provider name=Netflix
+08:57:08 INF [Config] initial compatible provider name=微软服务
+08:57:08 INF [Config] initial compatible provider name=Telegram
+08:57:08 INF [Config] initial compatible provider name=ChatGPT
+08:57:08 INF [Config] initial compatible provider name=苹果服务
+08:57:08 INF [Config] initial compatible provider name=磁力下载
+08:57:08 INF [Config] initial compatible provider name=Steam
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58812 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.65.161:443: connectex: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58813 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 116.162.172.120:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58814 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 110.72.101.150:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58854 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58856 rAddr=xiaojianzheng.cn:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58855 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58863 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: dial tcp4 220.205.37.41:16617: connectex: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58858 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58864 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 114.114.114.114:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58862 rAddr=xiaojianzheng.cn:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58875 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58877 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58876 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58878 rAddr=cdn.statically.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58879 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58880 rAddr=cdn.statically.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58881 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58882 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58884 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58883 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58885 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58887 rAddr=www.seekhue.com:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58886 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58888 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58890 rAddr=ublockorigin.pages.dev:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58889 rAddr=www.seekhue.com:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58891 rAddr=cdn.jsdelivr.net:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58892 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58893 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58894 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58895 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58896 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58897 rAddr=ublockorigin.github.io:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=微软服务 lAddr=127.0.0.1:58898 rAddr=settings-win.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58899 rAddr=blog.gimo.me:443 rule=Match rulePayload=
+08:57:08 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: dial udp4 8.8.8.8:53: connect: A socket operation was attempted to an unreachable host. proxy=节点选择 lAddr=127.0.0.1:58900 rAddr=blog.gimo.me:443 rule=Match rulePayload=
+08:57:14 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=谷歌服务 lAddr=127.0.0.1:59195 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=谷歌服务 lAddr=127.0.0.1:59241 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:14 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=谷歌服务 lAddr=127.0.0.1:59205 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59239 rAddr=officeclient.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59197 rAddr=insideruser.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59240 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59233 rAddr=www.bingapis.com:443 rule=DomainSuffix rulePayload=bingapis.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59196 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59242 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59238 rAddr=officeclient.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59208 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59210 rAddr=settings-win.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:15 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: read udp4 192.168.227.2:54847->223.5.5.5:53: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59204 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=谷歌服务 lAddr=127.0.0.1:59246 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:20 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=节点选择 lAddr=127.0.0.1:59235 rAddr=updatecollect.wps.cn:80 rule=Match rulePayload=
+08:57:20 WRN [TCP] dial failed error=yes.cnmjcn.net:16617 connect error: all DNS requests failed, first error: context deadline exceeded proxy=谷歌服务 lAddr=127.0.0.1:59403 rAddr=clients2.google.com:443 rule=DomainKeyword rulePayload=google
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59256 rAddr=insideruser.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59258 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59264 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59263 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59279 rAddr=activity.windows.com:443 rule=DomainSuffix rulePayload=windows.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59257 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59278 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59507 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59511 rAddr=skydrive.wns.windows.com:443 rule=DomainSuffix rulePayload=windows.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59519 rAddr=skydrivesync.policies.live.net:443 rule=DomainSuffix rulePayload=live.net
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59280 rAddr=mrodevicemgr.officeapps.live.com:443 rule=DomainSuffix rulePayload=live.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59276 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59269 rAddr=settings-win.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59275 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59277 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59284 rAddr=ecs.office.com:443 rule=DomainSuffix rulePayload=office.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59405 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59402 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59506 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: all DNS requests failed, first error: context deadline exceeded proxy=微软服务 lAddr=127.0.0.1:59404 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59522 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59523 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59547 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59526 rAddr=mrodevicemgr.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59527 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59521 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59525 rAddr=skydrivesync.policies.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59524 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59557 rAddr=updatepro.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59555 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59559 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:20 INF [TCP] connected lAddr=127.0.0.1:59562 rAddr=cs.dds.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59571 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59577 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59578 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59582 rAddr=array805.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59597 rAddr=array809.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59587 rAddr=licensing.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59599 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59584 rAddr=assets.msn.com:443 mode=rule rule=DomainSuffix(msn.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59592 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59590 rAddr=array813.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59595 rAddr=array811.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59600 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:21 INF [TCP] connected lAddr=127.0.0.1:59604 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59610 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[套餐到期：长期有效]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59713 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[套餐到期：长期有效]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59719 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59722 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59724 rAddr=licensing.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59730 rAddr=kv801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59733 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59740 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59737 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:22 INF [TCP] connected lAddr=127.0.0.1:59738 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59735 rAddr=fa000000124.resources.office.net:443 mode=rule rule=DomainSuffix(office.net) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59741 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59742 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59739 rAddr=disc801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59749 rAddr=fa000000043.resources.office.net:443 mode=rule rule=DomainSuffix(office.net) proxy=微软服务[日本JP-T-GPT]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59767 rAddr=malware-filter.gitlab.io:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:57:23 INF [TCP] connected lAddr=127.0.0.1:59771 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59789 rAddr=updatepro.wps.cn:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59784 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59786 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59791 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59795 rAddr=61.151.230.226:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59797 rAddr=101.227.132.126:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:24 INF [TCP] connected lAddr=127.0.0.1:59800 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59803 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:25 INF [TCP] connected lAddr=127.0.0.1:59816 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:26 INF [TCP] connected lAddr=127.0.0.1:59822 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59847 rAddr=wxpay.qpic.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59845 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59851 rAddr=mmbiz.qpic.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:27 INF [TCP] connected lAddr=127.0.0.1:59852 rAddr=wxpaylogo.qpic.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+08:57:28 INF [TCP] connected lAddr=127.0.0.1:59857 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:33 INF [TCP] connected lAddr=127.0.0.1:59879 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:34 INF [TCP] connected lAddr=127.0.0.1:59892 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:35 INF [TCP] connected lAddr=127.0.0.1:59895 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:36 INF [TCP] connected lAddr=127.0.0.1:59897 rAddr=fe3cr.delivery.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:36 INF [TCP] connected lAddr=127.0.0.1:59901 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:36 INF [TCP] connected lAddr=127.0.0.1:59899 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:57:37 INF [TCP] connected lAddr=127.0.0.1:59903 rAddr=onedriveclucproddm20047.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=微软服务[日本JP-T-GPT]
+08:57:37 INF [TCP] connected lAddr=127.0.0.1:59905 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:37 INF [TCP] connected lAddr=127.0.0.1:59907 rAddr=slscr.update.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:38 INF [TCP] connected lAddr=127.0.0.1:59910 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:38 INF [TCP] connected lAddr=127.0.0.1:59912 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:39 INF [TCP] connected lAddr=127.0.0.1:59914 rAddr=slscr.update.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:39 INF [TCP] connected lAddr=127.0.0.1:59916 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:39 INF [TCP] connected lAddr=127.0.0.1:59918 rAddr=filters.adtidy.org:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:57:41 INF [TCP] connected lAddr=127.0.0.1:59921 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:42 INF [TCP] connected lAddr=127.0.0.1:59924 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:42 INF [TCP] connected lAddr=127.0.0.1:59926 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:43 INF [TCP] connected lAddr=127.0.0.1:59929 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:44 INF [TCP] connected lAddr=127.0.0.1:59932 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:45 INF [TCP] connected lAddr=127.0.0.1:59934 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:46 INF [TCP] connected lAddr=127.0.0.1:59936 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:47 INF [TCP] connected lAddr=127.0.0.1:59938 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:49 INF [TCP] connected lAddr=127.0.0.1:59942 rAddr=prod-japaneast.access-point.cloudmessaging.edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:50 INF [TCP] connected lAddr=127.0.0.1:59945 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:57:59 INF [TCP] connected lAddr=127.0.0.1:59950 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:00 INF [TCP] connected lAddr=127.0.0.1:59952 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59958 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59960 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59956 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59962 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59966 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59963 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59964 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59965 rAddr=cdn.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59972 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59979 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59981 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[套餐到期：长期有效]
+08:58:01 INF [TCP] connected lAddr=127.0.0.1:59976 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+08:58:02 INF [TCP] connected lAddr=127.0.0.1:59983 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:02 INF [TCP] connected lAddr=127.0.0.1:59985 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=谷歌服务[套餐到期：长期有效]
+08:58:02 INF [TCP] connected lAddr=127.0.0.1:59987 rAddr=www.v2ex.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:22 INF [TCP] connected lAddr=127.0.0.1:59992 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+08:58:22 INF [TCP] connected lAddr=127.0.0.1:59994 rAddr=crl.comodoca.com:80 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:23 INF [TCP] connected lAddr=127.0.0.1:59994 rAddr=x2.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:23 INF [TCP] connected lAddr=127.0.0.1:59994 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:35 INF [TCP] connected lAddr=127.0.0.1:59999 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[套餐到期：长期有效]
+08:58:35 INF [TCP] connected lAddr=127.0.0.1:60001 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[套餐到期：长期有效]
+08:58:36 INF [TCP] connected lAddr=127.0.0.1:60003 rAddr=io-oi.me:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:36 INF [TCP] connected lAddr=127.0.0.1:60005 rAddr=xiaojianzheng.cn:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:37 INF [TCP] connected lAddr=127.0.0.1:60007 rAddr=www.seekhue.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:38 INF [TCP] connected lAddr=127.0.0.1:60010 rAddr=www.seekhue.com:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
+08:58:38 INF [TCP] connected lAddr=127.0.0.1:60015 rAddr=blog.gimo.me:443 mode=rule rule=Match() proxy=节点选择[套餐到期：长期有效]
