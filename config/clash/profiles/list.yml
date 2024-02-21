@@ -3,14 +3,14 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1704454085542.yml
+  - time: 1707453430500.yml
     name: 魔戒.net
-    url: https://m33o212ji.mojieurl.com/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
+    url: https://mojie.app/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
     selected:
       - name: GLOBAL
         now: 日本-优化2-GPT
       - name: 节点选择
-        now: 日本JP-T-GPT
+        now: 境内使用
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 境内使用
@@ -39,9 +39,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 10136036281
-      download: 100527227502
+      upload: 563421128
+      download: 11824396610
       total: 139586437120
     homeWeb: https://mojie.live
-    mode: rule
 index: 1

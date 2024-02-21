@@ -1,0 +1,95 @@
+14:08:33 INF [API] listening addr=127.0.0.1:59784
+14:08:33 ERR [DNS] start DNS server failed error=listen udp 127.0.0.1:53: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. addr=127.0.0.1:53
+14:08:33 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+14:08:33 INF [Config] initial compatible provider name=ChatGPT
+14:08:33 INF [Config] initial compatible provider name=微软服务
+14:08:33 INF [Config] initial compatible provider name=Netflix
+14:08:33 INF [Config] initial compatible provider name=TikTok
+14:08:33 INF [Config] initial compatible provider name=磁力下载
+14:08:33 INF [Config] initial compatible provider name=Twitter
+14:08:33 INF [Config] initial compatible provider name=Steam
+14:08:33 INF [Config] initial compatible provider name=故障转移
+14:08:33 INF [Config] initial compatible provider name=节点选择
+14:08:33 INF [Config] initial compatible provider name=自动选择
+14:08:33 INF [Config] initial compatible provider name=境内使用
+14:08:33 INF [Config] initial compatible provider name=苹果服务
+14:08:33 INF [Config] initial compatible provider name=谷歌服务
+14:08:33 INF [Config] initial compatible provider name=Telegram
+14:08:33 INF [Config] initial compatible provider name=哔哩哔哩
+14:08:33 INF [Config] initial compatible provider name=海外使用
+14:08:33 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:59798 rAddr=api.github.com:443 proxy=DIRECT
+14:08:33 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+14:08:33 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:59797 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+14:08:34 INF [TCP] connected lAddr=127.0.0.1:59833 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:08:40 INF [TCP] connected lAddr=127.0.0.1:59883 rAddr=api.aliyundrive.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:08:41 INF [TCP] connected lAddr=127.0.0.1:59885 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:08:41 INF [TCP] connected lAddr=127.0.0.1:59886 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:08:51 INF [TCP] connected lAddr=127.0.0.1:59918 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:08:51 INF [TCP] connected lAddr=127.0.0.1:59919 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:08:51 INF [TCP] connected lAddr=127.0.0.1:59920 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+14:09:01 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 23.97.66.219:443: i/o timeout proxy=微软服务 lAddr=127.0.0.1:59927 rAddr=self.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+14:09:02 INF [TCP] connected lAddr=127.0.0.1:59937 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:02 INF [TCP] connected lAddr=127.0.0.1:59938 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:03 WRN [TCP] dial failed error=dial tcp4 103.228.130.61:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:59932 rAddr=www.v2ex.com:443 rule=GeoIP rulePayload=CN
+14:09:08 WRN [TCP] dial failed error=dial tcp4 103.228.130.61:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:59939 rAddr=www.v2ex.com:443 rule=GeoIP rulePayload=CN
+14:09:11 INF [TCP] connected lAddr=127.0.0.1:59954 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:11 INF [TCP] connected lAddr=127.0.0.1:59955 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:16 INF [TCP] connected lAddr=127.0.0.1:59961 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:09:28 INF [TCP] connected lAddr=127.0.0.1:59974 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:09:30 INF [TCP] connected lAddr=127.0.0.1:59977 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:09:31 INF [TCP] connected lAddr=127.0.0.1:59980 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:31 INF [TCP] connected lAddr=127.0.0.1:59981 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:34 INF [TCP] connected lAddr=127.0.0.1:59984 rAddr=crl3.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+14:09:34 INF [TCP] connected lAddr=127.0.0.1:59984 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+14:09:41 INF [TCP] connected lAddr=127.0.0.1:59996 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:41 INF [TCP] connected lAddr=127.0.0.1:59997 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:41 INF [TCP] connected lAddr=127.0.0.1:59998 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:09:46 WRN [TCP] dial failed error=dial tcp4 103.228.130.61:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:59994 rAddr=www.v2ex.com:443 rule=GeoIP rulePayload=CN
+14:09:47 WRN [TCP] dial failed error=jp.mjt000.com:443 connect error: dial tcp4 207.46.156.118:443: i/o timeout proxy=谷歌服务 lAddr=127.0.0.1:60001 rAddr=feeds.feedburner.com:443 rule=DomainSuffix rulePayload=feedburner.com
+14:09:48 INF [TCP] connected lAddr=127.0.0.1:60012 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+14:09:49 INF [TCP] connected lAddr=127.0.0.1:60017 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:09:51 WRN [TCP] dial failed error=dial tcp4 103.228.130.61:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:60007 rAddr=www.v2ex.com:443 rule=GeoIP rulePayload=CN
+14:09:51 INF [TCP] connected lAddr=127.0.0.1:60021 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:51 INF [TCP] connected lAddr=127.0.0.1:60022 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:09:58 INF [TCP] connected lAddr=127.0.0.1:60029 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:10:01 INF [TCP] connected lAddr=127.0.0.1:60033 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:01 INF [TCP] connected lAddr=127.0.0.1:60034 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:06 INF [TCP] connected lAddr=127.0.0.1:60042 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+14:10:11 INF [TCP] connected lAddr=127.0.0.1:60048 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:11 INF [TCP] connected lAddr=127.0.0.1:60049 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:21 INF [TCP] connected lAddr=127.0.0.1:60059 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:21 INF [TCP] connected lAddr=127.0.0.1:60060 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:31 INF [TCP] connected lAddr=127.0.0.1:60076 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:31 INF [TCP] connected lAddr=127.0.0.1:60077 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:41 INF [TCP] connected lAddr=127.0.0.1:60091 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:41 INF [TCP] connected lAddr=127.0.0.1:60092 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:41 INF [TCP] connected lAddr=127.0.0.1:60095 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:10:51 INF [TCP] connected lAddr=127.0.0.1:60106 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:51 INF [TCP] connected lAddr=127.0.0.1:60107 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:10:57 INF [TCP] connected lAddr=127.0.0.1:50301 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:10:57 INF [TCP] connected lAddr=127.0.0.1:50305 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:11:01 INF [TCP] connected lAddr=127.0.0.1:50311 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:01 INF [TCP] connected lAddr=127.0.0.1:50312 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:01 INF [TCP] connected lAddr=127.0.0.1:50314 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:11:11 INF [TCP] connected lAddr=127.0.0.1:53799 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:11 INF [TCP] connected lAddr=127.0.0.1:53800 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:15 INF [TCP] connected lAddr=127.0.0.1:53437 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:11:21 INF [TCP] connected lAddr=127.0.0.1:52471 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:21 INF [TCP] connected lAddr=127.0.0.1:52472 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:30 INF [TCP] connected lAddr=127.0.0.1:54665 rAddr=www.aliyundrive.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:11:30 INF [TCP] connected lAddr=127.0.0.1:54667 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+14:11:31 INF [TCP] connected lAddr=127.0.0.1:54674 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:31 INF [TCP] connected lAddr=127.0.0.1:54675 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+14:11:36 WRN [TCP] dial failed error=dial tcp4 59.82.17.163:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:54672 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+14:11:41 WRN [TCP] dial failed error=dial tcp4 59.82.17.163:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:54680 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+14:12:05 INF [TCP] connected lAddr=127.0.0.1:54703 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+14:12:05 INF [TCP] connected lAddr=127.0.0.1:54701 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+14:12:05 INF [TCP] connected lAddr=127.0.0.1:54702 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(azure.cn) proxy=微软服务[日本JP-T-GPT]
+14:12:07 INF [TCP] connected lAddr=127.0.0.1:54708 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+14:12:08 INF [TCP] connected lAddr=127.0.0.1:54710 rAddr=chat.openai.com:443 mode=rule rule=DomainSuffix(openai.com) proxy=ChatGPT[美国LA-优化3-GPT]
+14:12:29 INF [TCP] connected lAddr=127.0.0.1:54722 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:12:44 INF [TCP] connected lAddr=127.0.0.1:54731 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:12:46 INF [TCP] connected lAddr=127.0.0.1:54736 rAddr=server.codeium.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+14:13:06 INF [TCP] connected lAddr=127.0.0.1:54752 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=DomainSuffix(windowsupdate.com) proxy=微软服务[日本JP-T-GPT]
+14:13:36 INF [TCP] connected lAddr=127.0.0.1:54769 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:13:51 INF [TCP] connected lAddr=127.0.0.1:54778 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]

@@ -1,0 +1,23 @@
+14:24:22 INF [API] listening addr=127.0.0.1:56404
+14:24:22 ERR [DNS] start DNS server failed error=listen udp 127.0.0.1:53: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. addr=127.0.0.1:53
+14:24:22 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+14:24:22 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:56418 rAddr=api.github.com:443 proxy=DIRECT
+14:24:22 INF [Config] initial compatible provider name=Twitter
+14:24:22 INF [Config] initial compatible provider name=Steam
+14:24:22 INF [Config] initial compatible provider name=海外使用
+14:24:22 INF [Config] initial compatible provider name=节点选择
+14:24:22 INF [Config] initial compatible provider name=磁力下载
+14:24:22 INF [Config] initial compatible provider name=微软服务
+14:24:22 INF [Config] initial compatible provider name=TikTok
+14:24:22 INF [Config] initial compatible provider name=自动选择
+14:24:22 INF [Config] initial compatible provider name=Netflix
+14:24:22 INF [Config] initial compatible provider name=谷歌服务
+14:24:22 INF [Config] initial compatible provider name=苹果服务
+14:24:22 INF [Config] initial compatible provider name=ChatGPT
+14:24:22 INF [Config] initial compatible provider name=境内使用
+14:24:22 INF [Config] initial compatible provider name=故障转移
+14:24:22 INF [Config] initial compatible provider name=哔哩哔哩
+14:24:22 INF [Config] initial compatible provider name=Telegram
+14:24:22 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+14:24:23 INF [TCP] connected lAddr=127.0.0.1:56546 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+14:24:23 INF [TCP] connected lAddr=127.0.0.1:56415 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
