@@ -1,6 +1,6 @@
 {
   "aria2-enabled": false,
-  "last_update": "2024-01-12T13:27:42.0046962+08:00",
+  "last_update": "2024-02-27T14:32:29.2401223+08:00",
   "aria2-split": "32",
   "aria2-max-connection-per-server": "16",
   "aria2-min-split-size": "1M",
