@@ -1,0 +1,37 @@
+13:06:48 INF [API] listening addr=127.0.0.1:50164
+13:06:48 INF [DNS] server listening addr=127.0.0.1:53
+13:06:48 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+13:06:48 INF [Config] initial compatible provider name=故障转移
+13:06:48 INF [Config] initial compatible provider name=自动选择
+13:06:48 INF [Config] initial compatible provider name=磁力下载
+13:06:48 INF [Config] initial compatible provider name=苹果服务
+13:06:48 INF [Config] initial compatible provider name=境内使用
+13:06:48 INF [Config] initial compatible provider name=谷歌服务
+13:06:48 INF [Config] initial compatible provider name=节点选择
+13:06:48 INF [Config] initial compatible provider name=Twitter
+13:06:48 INF [Config] initial compatible provider name=哔哩哔哩
+13:06:48 INF [Config] initial compatible provider name=ChatGPT
+13:06:48 INF [Config] initial compatible provider name=Telegram
+13:06:48 INF [Config] initial compatible provider name=微软服务
+13:06:48 INF [Config] initial compatible provider name=海外使用
+13:06:48 INF [Config] initial compatible provider name=TikTok
+13:06:48 INF [Config] initial compatible provider name=Netflix
+13:06:48 INF [Config] initial compatible provider name=Steam
+13:06:48 INF [Config] initial compatible provider name=Netflix
+13:06:48 INF [Config] initial compatible provider name=TikTok
+13:06:48 INF [Config] initial compatible provider name=故障转移
+13:06:48 INF [Config] initial compatible provider name=节点选择
+13:06:48 INF [Config] initial compatible provider name=ChatGPT
+13:06:48 INF [Config] initial compatible provider name=哔哩哔哩
+13:06:48 INF [Config] initial compatible provider name=Steam
+13:06:48 INF [Config] initial compatible provider name=Telegram
+13:06:48 INF [Config] initial compatible provider name=海外使用
+13:06:48 INF [Config] initial compatible provider name=境内使用
+13:06:48 INF [Config] initial compatible provider name=苹果服务
+13:06:48 INF [Config] initial compatible provider name=谷歌服务
+13:06:48 INF [Config] initial compatible provider name=自动选择
+13:06:48 INF [Config] initial compatible provider name=Twitter
+13:06:48 INF [Config] initial compatible provider name=磁力下载
+13:06:48 INF [Config] initial compatible provider name=微软服务
+13:06:48 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+13:06:48 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
