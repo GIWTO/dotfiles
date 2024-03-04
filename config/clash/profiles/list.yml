@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: 日本-优化2-GPT
       - name: 节点选择
-        now: 故障转移
+        now: 境内使用
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 境内使用
@@ -39,8 +39,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 5081462061
-      download: 26769390321
+      upload: 5438594025
+      download: 32954029531
       total: 139586437120
     homeWeb: https://mojie.live
 index: 1

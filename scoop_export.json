@@ -1,4 +1,24 @@
 {
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-02-27T08:36:30+08:00",
+            "Manifests": 1988
+        },
+        {
+            "Name": "hoilc_scoop-lemon",
+            "Source": "https://github.com/hoilc/scoop-lemon",
+            "Updated": "2024-02-27T14:18:31+08:00",
+            "Manifests": 1035
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2024-02-27T08:33:38+08:00",
+            "Manifests": 1291
+        }
+    ],
     "apps": [
         {
             "Version": "21.07",
@@ -594,26 +614,6 @@
             "Source": "main",
             "Updated": "2023-02-25T22:50:23.6437105+08:00",
             "Info": ""
-        }
-    ],
-    "buckets": [
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-02-27T08:36:30+08:00",
-            "Manifests": 1988
-        },
-        {
-            "Name": "hoilc_scoop-lemon",
-            "Source": "https://github.com/hoilc/scoop-lemon",
-            "Updated": "2024-02-27T14:18:31+08:00",
-            "Manifests": 1035
-        },
-        {
-            "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-02-27T08:33:38+08:00",
-            "Manifests": 1291
         }
     ]
 }
