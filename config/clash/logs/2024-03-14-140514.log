@@ -1,0 +1,138 @@
+14:05:14 INF [API] listening addr=127.0.0.1:65523
+14:05:14 INF [DNS] server listening addr=127.0.0.1:53
+14:05:14 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+14:05:14 INF [Config] initial compatible provider name=ChatGPT
+14:05:14 INF [Config] initial compatible provider name=谷歌服务
+14:05:14 INF [Config] initial compatible provider name=哔哩哔哩
+14:05:14 INF [Config] initial compatible provider name=微软服务
+14:05:14 INF [Config] initial compatible provider name=Telegram
+14:05:14 INF [Config] initial compatible provider name=海外使用
+14:05:14 INF [Config] initial compatible provider name=节点选择
+14:05:14 INF [Config] initial compatible provider name=自动选择
+14:05:14 INF [Config] initial compatible provider name=Steam
+14:05:14 INF [Config] initial compatible provider name=Twitter
+14:05:14 INF [Config] initial compatible provider name=苹果服务
+14:05:14 INF [Config] initial compatible provider name=境内使用
+14:05:14 INF [Config] initial compatible provider name=故障转移
+14:05:14 INF [Config] initial compatible provider name=磁力下载
+14:05:14 INF [Config] initial compatible provider name=Netflix
+14:05:14 INF [Config] initial compatible provider name=TikTok
+14:05:14 INF [Config] initial compatible provider name=自动选择
+14:05:14 INF [Config] initial compatible provider name=谷歌服务
+14:05:14 INF [Config] initial compatible provider name=苹果服务
+14:05:14 INF [Config] initial compatible provider name=磁力下载
+14:05:14 INF [Config] initial compatible provider name=海外使用
+14:05:14 INF [Config] initial compatible provider name=境内使用
+14:05:14 INF [Config] initial compatible provider name=故障转移
+14:05:14 INF [Config] initial compatible provider name=Netflix
+14:05:14 INF [Config] initial compatible provider name=ChatGPT
+14:05:14 INF [Config] initial compatible provider name=Twitter
+14:05:14 INF [Config] initial compatible provider name=哔哩哔哩
+14:05:14 INF [Config] initial compatible provider name=TikTok
+14:05:14 INF [Config] initial compatible provider name=节点选择
+14:05:14 INF [Config] initial compatible provider name=Steam
+14:05:14 INF [Config] initial compatible provider name=Telegram
+14:05:14 INF [Config] initial compatible provider name=微软服务
+14:05:14 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+14:05:14 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+14:05:14 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49155 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+14:05:14 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49159 rAddr=api.github.com:443 proxy=DIRECT
+14:05:15 INF [TCP] connected lAddr=127.0.0.1:65532 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:05:15 INF [TCP] connected lAddr=127.0.0.1:49218 rAddr=dsm04pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:05:18 INF [TCP] connected lAddr=127.0.0.1:49245 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+14:05:18 INF [TCP] connected lAddr=127.0.0.1:49247 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:05:22 INF [TCP] connected lAddr=127.0.0.1:49277 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+14:05:22 INF [TCP] connected lAddr=127.0.0.1:49279 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+14:05:25 INF [TCP] connected lAddr=127.0.0.1:49284 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:05:25 INF [TCP] connected lAddr=127.0.0.1:49285 rAddr=open.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:05:25 INF [TCP] connected lAddr=127.0.0.1:49288 rAddr=res.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:05:25 INF [TCP] connected lAddr=127.0.0.1:49289 rAddr=res.u-tools.cn:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:05:26 INF [TCP] connected lAddr=127.0.0.1:49294 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:05:26 INF [TCP] connected lAddr=127.0.0.1:49296 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:05:37 INF [TCP] connected lAddr=127.0.0.1:49309 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+14:05:52 INF [TCP] connected lAddr=127.0.0.1:49329 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+14:06:06 INF [TCP] connected lAddr=127.0.0.1:49345 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+14:06:13 INF [TCP] connected lAddr=127.0.0.1:49354 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+14:06:15 INF [TCP] connected lAddr=127.0.0.1:49359 rAddr=crl4.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+14:06:17 INF [TCP] connected lAddr=127.0.0.1:49359 rAddr=crl3.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+14:06:30 INF [TCP] connected lAddr=127.0.0.1:49377 rAddr=openapi.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:30 INF [TCP] connected lAddr=127.0.0.1:49381 rAddr=wappass.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:31 INF [TCP] connected lAddr=127.0.0.1:49383 rAddr=passport.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:31 INF [TCP] connected lAddr=127.0.0.1:49385 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:41 INF [TCP] connected lAddr=127.0.0.1:49395 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+14:06:43 INF [TCP] connected lAddr=127.0.0.1:49405 rAddr=staticiot.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:06:43 INF [TCP] connected lAddr=127.0.0.1:49406 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:43 INF [TCP] connected lAddr=127.0.0.1:49407 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:43 INF [TCP] connected lAddr=127.0.0.1:49670 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49679 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49677 rAddr=nav-edge.smartscreen.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49681 rAddr=pcs.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49683 rAddr=nd-static.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49682 rAddr=pcs.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:44 INF [TCP] connected lAddr=127.0.0.1:49687 rAddr=pcsdata.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49691 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49689 rAddr=d.pcs.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49697 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49694 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49692 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49700 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49699 rAddr=pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49705 rAddr=staticsns.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49704 rAddr=fenwan.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49703 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49711 rAddr=d.pcs.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49706 rAddr=api.youxiaohou.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49713 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49715 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49717 rAddr=dgss0.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49720 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49719 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49721 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49725 rAddr=api.youxiaohou.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49727 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49728 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:45 INF [TCP] connected lAddr=127.0.0.1:49729 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49734 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49733 rAddr=webpush.pan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49738 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49737 rAddr=staticwx.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49741 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49743 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49947 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49945 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49946 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49951 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49954 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49953 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:46 INF [TCP] connected lAddr=127.0.0.1:49957 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:49 INF [TCP] connected lAddr=127.0.0.1:49963 rAddr=xlab.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:06:56 INF [TCP] connected lAddr=127.0.0.1:49974 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:06:57 INF [TCP] connected lAddr=127.0.0.1:49976 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49985 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49988 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49987 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49991 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49993 rAddr=localhost.pan.baidu.com:10000 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49999 rAddr=localhost.pan.baidu.com:10000 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49995 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:02 INF [TCP] connected lAddr=127.0.0.1:49994 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:03 INF [TCP] connected lAddr=127.0.0.1:50262 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:03 INF [TCP] connected lAddr=127.0.0.1:50265 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:03 INF [TCP] connected lAddr=127.0.0.1:50264 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:03 INF [TCP] connected lAddr=127.0.0.1:50268 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:11 INF [TCP] connected lAddr=127.0.0.1:50280 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:11 INF [TCP] connected lAddr=127.0.0.1:50283 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:11 INF [TCP] connected lAddr=127.0.0.1:50281 rAddr=mbd.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+14:07:25 INF [TCP] connected lAddr=127.0.0.1:50317 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+14:07:36 INF [TCP] connected lAddr=127.0.0.1:50369 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:07:37 INF [TCP] connected lAddr=127.0.0.1:50371 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:07:44 INF [TCP] connected lAddr=127.0.0.1:50378 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:07:45 INF [TCP] connected lAddr=127.0.0.1:50381 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:07:53 INF [TCP] connected lAddr=127.0.0.1:50458 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+14:08:01 INF [TCP] connected lAddr=127.0.0.1:50518 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:08:02 INF [TCP] connected lAddr=127.0.0.1:50515 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:08:05 INF [TCP] connected lAddr=127.0.0.1:50535 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+14:08:13 INF [TCP] connected lAddr=127.0.0.1:50658 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+14:08:20 INF [TCP] connected lAddr=127.0.0.1:50789 rAddr=skydrive.wns.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=微软服务[日本JP-T-GPT]
+14:08:22 INF [TCP] connected lAddr=127.0.0.1:50798 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=微软服务[日本JP-T-GPT]
+14:08:23 INF [TCP] connected lAddr=127.0.0.1:50800 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]

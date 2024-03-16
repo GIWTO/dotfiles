@@ -8,9 +8,9 @@ files:
     url: https://mojie.app/api/v1/client/subscribe?token=387e9a0fdb4596a23cfd34836f2c9aa3
     selected:
       - name: GLOBAL
-        now: 日本-优化2-GPT
+        now: DIRECT
       - name: 节点选择
-        now: 海外使用
+        now: 套餐到期：长期有效
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 境内使用
@@ -39,8 +39,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 7364061534
-      download: 75201689652
+      upload: 7918277753
+      download: 94612467074
       total: 139586437120
     homeWeb: https://mojie.live
     mode: rule
