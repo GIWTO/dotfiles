@@ -27,7 +27,7 @@ dns:
     fake-ip-filter: ['*.lan', '*.localdomain', '*.example', '*.invalid', '*.localhost', '*.test', '*.local', '*.home.arpa', 'time.*.com', 'time.*.gov', 'time.*.edu.cn', 'time.*.apple.com', 'time1.*.com', 'time2.*.com', 'time3.*.com', 'time4.*.com', 'time5.*.com', 'time6.*.com', 'time7.*.com', 'ntp.*.com', 'ntp1.*.com', 'ntp2.*.com', 'ntp3.*.com', 'ntp4.*.com', 'ntp5.*.com', 'ntp6.*.com', 'ntp7.*.com', '*.time.edu.cn', '*.ntp.org.cn', +.pool.ntp.org, time1.cloud.tencent.com, music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, '*.xiami.com', '*.music.migu.cn', music.migu.cn, +.msftconnecttest.com, +.msftncsi.com, msftconnecttest.com, msftncsi.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, +.srv.nintendo.net, +.stun.playstation.net, 'xbox.*.microsoft.com', xnotify.xboxlive.com, +.ipv6.microsoft.com, +.battlenet.com.cn, +.wotgame.cn, +.wggames.cn, +.wowsgame.cn, +.wargaming.net, proxy.golang.org, 'stun.*.*', 'stun.*.*.*', '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', heartbeat.belkin.com, '*.linksys.com', '*.linksyssmartwifi.com', '*.router.asus.com', mesu.apple.com, swscan.apple.com, swquery.apple.com, swdownload.apple.com, swcdn.apple.com, swdist.apple.com, lens.l.google.com, stun.l.google.com, '*.square-enix.com', '*.finalfantasyxiv.com', '*.ffxiv.com', '*.ff14.sdo.com', ff.dorado.sdo.com, '*.mcdn.bilivideo.cn', +.media.dssott.com, +.pvp.net]
     nameserver: ['tls://223.5.5.5:853', 'tls://223.6.6.6:853', 'https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
 proxies:
-    - { name: '剩余流量：34.52 GB', type: vmess, server: yes.cnmjcn.net, port: 16617, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
+    - { name: '剩余流量：24.79 GB', type: vmess, server: yes.cnmjcn.net, port: 16617, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 套餐到期：长期有效, type: vmess, server: yes.cnmjcn.net, port: 16617, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 日本-优化-GPT, type: vmess, server: yes.cnmjcn.net, port: 16617, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
     - { name: 日本-优化2-GPT, type: vmess, server: m.cnmjin.net, port: 16617, uuid: 8993fa1c-342e-41fc-b01e-8719abde1324, alterId: 0, cipher: auto, udp: true, network: ws }
@@ -74,18 +74,19 @@ proxies:
     - { name: 尼日利亚NI-T, type: trojan, server: ni.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: ni.mjt000.com }
     - { name: 迪拜D-T, type: trojan, server: di.mjt000.com, port: 443, password: 8993fa1c-342e-41fc-b01e-8719abde1324, udp: true, sni: di.mjt000.com }
 proxy-groups:
-    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 境内使用, 海外使用, '剩余流量：34.52 GB', 套餐到期：长期有效, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
-    - { name: 自动选择, type: url-test, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 台湾-优化, 台湾-优化2, 台湾-优化3], url: 'http://www.YouTube.com', interval: 600, tolerance: 50, lazy: true }
+    - { name: 节点选择, type: select, proxies: [自动选择, 故障转移, 境内使用, 海外使用, '剩余流量：24.79 GB', 套餐到期：长期有效, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
+    - { name: 自动选择, type: url-test, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 台湾-优化, 台湾-优化2, 台湾-优化3], url: 'http://www.YouTube.com', interval: 600, tolerance: 200, lazy: true }
     - { name: 故障转移, type: fallback, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 台湾-优化, 台湾-优化2, 台湾-优化3], url: 'http://www.YouTube.com', interval: 700, lazy: true }
-    - { name: ChatGPT, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 美国USLA-T-GPT, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT] }
+    - { name: ChatGPT, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 美国USLA-T-GPT, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT] }
     - { name: 境内使用, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3] }
     - { name: 海外使用, type: select, proxies: [日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 香港wap-T, 台湾WAP-T, 越南VN-T, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
     - { name: Netflix, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
-    - { name: 磁力下载, type: select, proxies: [DIRECT, REJECT, 卢森堡LUX-T] }
+    - { name: 磁力下载, type: select, proxies: [DIRECT, 卢森堡LUX-T] }
     - { name: 哔哩哔哩, type: select, proxies: [DIRECT, 节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
-    - { name: Telegram, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
-    - { name: TikTok, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 台湾WAP-T, 越南VN-T, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
-    - { name: Twitter, type: select, proxies: [节点选择, 故障转移, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
+    - { name: Telegram, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 台湾-优化, 台湾-优化2, 台湾-优化3] }
+    - { name: TikTok, type: select, proxies: [日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 台湾WAP-T, 台湾-优化, 台湾-优化2, 台湾-优化3] }
+    - { name: Twitter, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 台湾-优化, 台湾-优化2, 台湾-优化3] }
+    - { name: Copilot, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
     - { name: 微软服务, type: select, proxies: [DIRECT, 节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
     - { name: 苹果服务, type: select, proxies: [DIRECT, 节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
     - { name: 谷歌服务, type: select, proxies: [节点选择, 日本-优化-GPT, 日本-优化2-GPT, 日本-优化3-GPT, 日本JP-T-GPT, 新加坡SG-T, 柬埔寨KH-T, 美国USLA-T-GPT, 新加坡-优化, 新加坡-优化2, 新加坡-优化3, 香港HY-优化, 香港HY-优化2, 香港wap-T, 台湾WAP-T, 越南VN-T, 香港WAP-优化, 香港WAP-优化2, 香港HKT-优化2, 印度-优化, 台湾-优化, 台湾-优化2, 台湾-优化3, 朝鲜-优化2, 朝鲜-优化3, 美国LA-优化-GPT, 美国LA-优化2-GPT, 美国LA-优化3-GPT, 英国-优化, 英国-优化2, 英国-优化3, 澳大利亚AU-T, 土耳其TR-T, 卢森堡LUX-T, 韩国KR-T, 瑞士CH-T, 葡萄牙PT-T, 俄罗斯RU-T, 哈萨克斯坦KZ-T, 乌克兰UA-T, 以色列IL-T, 英国UK-T, 阿根廷AR-T, 尼日利亚NI-T, 迪拜D-T] }
@@ -105,6 +106,31 @@ rules:
     - 'DOMAIN-SUFFIX,oaiusercontent.com,ChatGPT'
     - 'DOMAIN-SUFFIX,openai.com,ChatGPT'
     - 'DOMAIN-KEYWORD,openai,ChatGPT'
+    - 'DOMAIN-SUFFIX,coze.com,ChatGPT'
+    - 'DOMAIN-SUFFIX,ttwstatic.com,ChatGPT'
+    - 'DOMAIN-SUFFIX,byteoversea.com,ChatGPT'
+    - 'DOMAIN-SUFFIX,byteintlapi.com,ChatGPT'
+    - 'PROCESS-NAME,Thunder,磁力下载'
+    - 'PROCESS-NAME,DownloadService,磁力下载'
+    - 'PROCESS-NAME,qBittorrent,磁力下载'
+    - 'PROCESS-NAME,Transmission,磁力下载'
+    - 'PROCESS-NAME,fdm,磁力下载'
+    - 'PROCESS-NAME,aria2c,磁力下载'
+    - 'PROCESS-NAME,Folx,磁力下载'
+    - 'PROCESS-NAME,NetTransport,磁力下载'
+    - 'PROCESS-NAME,uTorrent,磁力下载'
+    - 'PROCESS-NAME,WebTorrent,磁力下载'
+    - 'PROCESS-NAME,aria2c.exe,磁力下载'
+    - 'PROCESS-NAME,BitComet.exe,磁力下载'
+    - 'PROCESS-NAME,fdm.exe,磁力下载'
+    - 'PROCESS-NAME,NetTransport.exe,磁力下载'
+    - 'PROCESS-NAME,qbittorrent.exe,磁力下载'
+    - 'PROCESS-NAME,Thunder.exe,磁力下载'
+    - 'PROCESS-NAME,ThunderVIP.exe,磁力下载'
+    - 'PROCESS-NAME,transmission-daemon.exe,磁力下载'
+    - 'PROCESS-NAME,transmission-qt.exe,磁力下载'
+    - 'PROCESS-NAME,uTorrent.exe,磁力下载'
+    - 'PROCESS-NAME,WebTorrent.exe,磁力下载'
     - 'DOMAIN-SUFFIX,byteoversea.com,TikTok'
     - 'DOMAIN-SUFFIX,muscdn.com,TikTok'
     - 'DOMAIN-SUFFIX,musical.ly,TikTok'
@@ -163,6 +189,54 @@ rules:
     - 'DOMAIN-SUFFIX,netflixdnstest8.com,Netflix'
     - 'DOMAIN-SUFFIX,netflixdnstest9.com,Netflix'
     - 'DOMAIN-SUFFIX,netflixdnstest10.com,Netflix'
+    - 'DOMAIN,api.msn.com,Copilot'
+    - 'DOMAIN,api.statsig.com,Copilot'
+    - 'DOMAIN,assets.msn.com,Copilot'
+    - 'DOMAIN,browser-intake-datadoghq.com,Copilot'
+    - 'DOMAIN,copilot.microsoft.com,Copilot'
+    - 'DOMAIN,gateway.bingviz.microsoft.net,Copilot'
+    - 'DOMAIN,gateway.bingviz.microsoftapp.net,Copilot'
+    - 'DOMAIN,in.appcenter.ms,Copilot'
+    - 'DOMAIN,location.microsoft.com,Copilot'
+    - 'DOMAIN,odc.officeapps.live.com,Copilot'
+    - 'DOMAIN,openai-api.arkoselabs.com,Copilot'
+    - 'DOMAIN,openaicomproductionae4b.blob.core.windows.net,Copilot'
+    - 'DOMAIN,production-openaicom-storage.azureedge.net,Copilot'
+    - 'DOMAIN,r.bing.com,Copilot'
+    - 'DOMAIN,self.events.data.microsoft.com,Copilot'
+    - 'DOMAIN,services.bingapis.com,Copilot'
+    - 'DOMAIN,static.cloudflareinsights.com,Copilot'
+    - 'DOMAIN,www.bing.com,Copilot'
+    - 'DOMAIN-SUFFIX,algolia.net,Copilot'
+    - 'DOMAIN-SUFFIX,api.microsoftapp.net,Copilot'
+    - 'DOMAIN-SUFFIX,auth0.com,Copilot'
+    - 'DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot'
+    - 'DOMAIN-SUFFIX,cdn.cloudflare.net,Copilot'
+    - 'DOMAIN-SUFFIX,challenges.cloudflare.com,Copilot'
+    - 'DOMAIN-SUFFIX,chatgpt.livekit.cloud,Copilot'
+    - 'DOMAIN-SUFFIX,client-api.arkoselabs.com,Copilot'
+    - 'DOMAIN-SUFFIX,edgeservices.bing.com,Copilot'
+    - 'DOMAIN-SUFFIX,events.statsigapi.net,Copilot'
+    - 'DOMAIN-SUFFIX,featuregates.org,Copilot'
+    - 'DOMAIN-SUFFIX,host.livekit.cloud,Copilot'
+    - 'DOMAIN-SUFFIX,identrust.com,Copilot'
+    - 'DOMAIN-SUFFIX,intercom.io,Copilot'
+    - 'DOMAIN-SUFFIX,intercomcdn.com,Copilot'
+    - 'DOMAIN-SUFFIX,launchdarkly.com,Copilot'
+    - 'DOMAIN-SUFFIX,oaistatic.com,Copilot'
+    - 'DOMAIN-SUFFIX,oaiusercontent.com,Copilot'
+    - 'DOMAIN-SUFFIX,observeit.net,Copilot'
+    - 'DOMAIN-SUFFIX,openai.com,Copilot'
+    - 'DOMAIN-SUFFIX,openaiapi-site.azureedge.net,Copilot'
+    - 'DOMAIN-SUFFIX,openaicom.imgix.net,Copilot'
+    - 'DOMAIN-SUFFIX,poe.com,Copilot'
+    - 'DOMAIN-SUFFIX,segment.io,Copilot'
+    - 'DOMAIN-SUFFIX,sentry.io,Copilot'
+    - 'DOMAIN-SUFFIX,stripe.com,Copilot'
+    - 'DOMAIN-SUFFIX,turn.livekit.cloud,Copilot'
+    - 'DOMAIN-KEYWORD,openaicom-api,Copilot'
+    - 'IP-CIDR,24.199.123.28/32,Copilot,no-resolve'
+    - 'IP-CIDR,64.23.132.171/32,Copilot,no-resolve'
     - 'DOMAIN,e122475.dscg.akamaiedge.net,节点选择'
     - 'DOMAIN,licdn.cn.cdn20.com,节点选择'
     - 'DOMAIN,linkedin.sc.omtrdc.net,节点选择'
@@ -1370,54 +1444,7 @@ rules:
     - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
     - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
-    - 'DOMAIN-KEYWORD,admarvel,REJECT'
-    - 'DOMAIN-KEYWORD,admaster,REJECT'
-    - 'DOMAIN-KEYWORD,adsage,REJECT'
-    - 'DOMAIN-KEYWORD,adsmogo,REJECT'
-    - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
-    - 'DOMAIN-KEYWORD,adwords,REJECT'
-    - 'DOMAIN-KEYWORD,adservice,REJECT'
-    - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
-    - 'DOMAIN-KEYWORD,domob,REJECT'
-    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
-    - 'DOMAIN-KEYWORD,duomeng,REJECT'
-    - 'DOMAIN-KEYWORD,dwtrack,REJECT'
-    - 'DOMAIN-KEYWORD,guanggao,REJECT'
-    - 'DOMAIN-KEYWORD,lianmeng,REJECT'
-    - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
-    - 'DOMAIN-KEYWORD,mopub,REJECT'
-    - 'DOMAIN-KEYWORD,omgmta,REJECT'
-    - 'DOMAIN-KEYWORD,openx,REJECT'
-    - 'DOMAIN-KEYWORD,partnerad,REJECT'
-    - 'DOMAIN-KEYWORD,pingfore,REJECT'
-    - 'DOMAIN-KEYWORD,supersonicads,REJECT'
-    - 'DOMAIN-KEYWORD,uedas,REJECT'
-    - 'DOMAIN-KEYWORD,umeng,REJECT'
-    - 'DOMAIN-KEYWORD,usage,REJECT'
-    - 'DOMAIN-SUFFIX,vungle.com,REJECT'
-    - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
-    - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
-    - 'PROCESS-NAME,Thunder,磁力下载'
-    - 'PROCESS-NAME,DownloadService,磁力下载'
-    - 'PROCESS-NAME,qBittorrent,磁力下载'
-    - 'PROCESS-NAME,Transmission,磁力下载'
-    - 'PROCESS-NAME,fdm,磁力下载'
-    - 'PROCESS-NAME,aria2c,磁力下载'
-    - 'PROCESS-NAME,Folx,磁力下载'
-    - 'PROCESS-NAME,NetTransport,磁力下载'
-    - 'PROCESS-NAME,uTorrent,磁力下载'
-    - 'PROCESS-NAME,WebTorrent,磁力下载'
-    - 'PROCESS-NAME,aria2c.exe,磁力下载'
-    - 'PROCESS-NAME,BitComet.exe,磁力下载'
-    - 'PROCESS-NAME,fdm.exe,磁力下载'
-    - 'PROCESS-NAME,NetTransport.exe,磁力下载'
-    - 'PROCESS-NAME,qbittorrent.exe,磁力下载'
-    - 'PROCESS-NAME,Thunder.exe,磁力下载'
-    - 'PROCESS-NAME,ThunderVIP.exe,磁力下载'
-    - 'PROCESS-NAME,transmission-daemon.exe,磁力下载'
-    - 'PROCESS-NAME,transmission-qt.exe,磁力下载'
-    - 'PROCESS-NAME,uTorrent.exe,磁力下载'
-    - 'PROCESS-NAME,WebTorrent.exe,磁力下载'
     - 'GEOIP,telegram,Telegram,no-resolve'
+    - 'DOMAIN-KEYWORD,CN,DIRECT'
     - 'GEOIP,CN,DIRECT'
     - 'MATCH,节点选择'

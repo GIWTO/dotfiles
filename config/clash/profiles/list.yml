@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: DIRECT
       - name: 节点选择
-        now: 套餐到期：长期有效
+        now: 日本JP-T-GPT
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 境内使用
@@ -39,8 +39,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 7918277753
-      download: 94612467074
+      upload: 8422367557
+      download: 104554958290
       total: 139586437120
     homeWeb: https://mojie.live
     mode: rule
