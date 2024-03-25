@@ -10,7 +10,7 @@ files:
       - name: GLOBAL
         now: DIRECT
       - name: 节点选择
-        now: 剩余流量：13.34 GB
+        now: 海外使用
       - name: ChatGPT
         now: 美国LA-优化3-GPT
       - name: 境内使用
@@ -41,8 +41,8 @@ files:
         now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 8991593574
-      download: 116273356695
+      upload: 9271546155
+      download: 122256372893
       total: 139586437120
     homeWeb: https://mojie.live
     mode: rule
