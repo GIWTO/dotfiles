@@ -1,0 +1,115 @@
+10:25:12 INF [API] listening addr=127.0.0.1:57271
+10:25:12 INF [DNS] server listening addr=127.0.0.1:53
+10:25:12 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+10:25:13 INF [Config] initial compatible provider name=谷歌服务
+10:25:13 INF [Config] initial compatible provider name=TikTok
+10:25:13 INF [Config] initial compatible provider name=海外使用
+10:25:13 INF [Config] initial compatible provider name=故障转移
+10:25:13 INF [Config] initial compatible provider name=Steam
+10:25:13 INF [Config] initial compatible provider name=Telegram
+10:25:13 INF [Config] initial compatible provider name=磁力下载
+10:25:13 INF [Config] initial compatible provider name=微软服务
+10:25:13 INF [Config] initial compatible provider name=苹果服务
+10:25:13 INF [Config] initial compatible provider name=境内使用
+10:25:13 INF [Config] initial compatible provider name=自动选择
+10:25:13 INF [Config] initial compatible provider name=哔哩哔哩
+10:25:13 INF [Config] initial compatible provider name=Netflix
+10:25:13 INF [Config] initial compatible provider name=Copilot
+10:25:13 INF [Config] initial compatible provider name=节点选择
+10:25:13 INF [Config] initial compatible provider name=ChatGPT
+10:25:13 INF [Config] initial compatible provider name=Twitter
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57313 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57314 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57283 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57282 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57326 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57333 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57335 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57338 rAddr=api.github.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:13 INF [TCP] connected lAddr=127.0.0.1:57343 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:25:14 INF [TCP] connected lAddr=127.0.0.1:57345 rAddr=raw.githubusercontent.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:25:14 INF [TCP] connected lAddr=127.0.0.1:57311 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=苹果服务[DIRECT]
+10:25:15 ERR [Inbound] start failed error=Error creating interface: Access is denied. type=TUN stackType=gvisor inet=198.18.0.1/16
+10:25:18 INF [TCP] connected lAddr=127.0.0.1:57360 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:25:22 INF [TCP] connected lAddr=127.0.0.1:57365 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:25:22 INF [TCP] connected lAddr=127.0.0.1:57368 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:25:26 INF [TCP] connected lAddr=127.0.0.1:57370 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:25:27 INF [TCP] connected lAddr=127.0.0.1:57372 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:26:09 INF [TCP] connected lAddr=127.0.0.1:57409 rAddr=open.u-tools.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:26:33 INF [TCP] connected lAddr=127.0.0.1:57421 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:26:43 INF [TCP] connected lAddr=127.0.0.1:57424 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:26:44 INF [TCP] connected lAddr=127.0.0.1:57426 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:26:57 INF [TCP] connected lAddr=127.0.0.1:63848 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+10:26:57 INF [TCP] connected lAddr=127.0.0.1:63846 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+10:27:32 INF [TCP] connected lAddr=127.0.0.1:63856 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=微软服务[日本JP-T-GPT]
+10:27:45 INF [TCP] connected lAddr=127.0.0.1:63859 rAddr=res.u-tools.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:28:13 INF [TCP] connected lAddr=127.0.0.1:63869 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:28:14 INF [TCP] connected lAddr=127.0.0.1:63871 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:28:33 INF [TCP] connected lAddr=127.0.0.1:63874 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63882 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63885 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63883 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63889 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63890 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:26 INF [TCP] connected lAddr=127.0.0.1:63893 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:29:43 INF [TCP] connected lAddr=127.0.0.1:63898 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:29:44 INF [TCP] connected lAddr=127.0.0.1:63900 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:30:33 INF [TCP] connected lAddr=127.0.0.1:63904 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:31:13 INF [TCP] connected lAddr=127.0.0.1:63911 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:31:14 INF [TCP] connected lAddr=127.0.0.1:63913 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:32:33 INF [TCP] connected lAddr=127.0.0.1:63932 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:32:43 INF [TCP] connected lAddr=127.0.0.1:63935 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:32:43 INF [TCP] connected lAddr=127.0.0.1:63937 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:34:13 INF [TCP] connected lAddr=127.0.0.1:63949 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:34:13 INF [TCP] connected lAddr=127.0.0.1:63951 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:34:33 INF [TCP] connected lAddr=127.0.0.1:63958 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:35:43 INF [TCP] connected lAddr=127.0.0.1:64093 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:35:43 INF [TCP] connected lAddr=127.0.0.1:64095 rAddr=feeds.feedburner.com:443 mode=rule rule=DomainSuffix(feedburner.com) proxy=谷歌服务[日本JP-T-GPT]
+10:35:53 INF [TCP] connected lAddr=127.0.0.1:64111 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:35:53 INF [TCP] connected lAddr=127.0.0.1:64113 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:05 INF [TCP] connected lAddr=127.0.0.1:64115 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+10:36:05 INF [TCP] connected lAddr=127.0.0.1:64117 rAddr=www.bingapis.com:443 mode=rule rule=DomainSuffix(bingapis.com) proxy=微软服务[日本JP-T-GPT]
+10:36:08 INF [TCP] connected lAddr=127.0.0.1:64119 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:08 INF [TCP] connected lAddr=127.0.0.1:64121 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:09 INF [TCP] connected lAddr=127.0.0.1:64123 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:09 INF [TCP] connected lAddr=127.0.0.1:64125 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:09 INF [TCP] connected lAddr=127.0.0.1:64127 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:09 INF [TCP] connected lAddr=127.0.0.1:64129 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:10 INF [TCP] connected lAddr=127.0.0.1:64131 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:10 INF [TCP] connected lAddr=127.0.0.1:64133 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:13 INF [TCP] connected lAddr=127.0.0.1:64137 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:13 INF [TCP] connected lAddr=127.0.0.1:64139 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64141 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64143 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64145 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64148 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64147 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:16 INF [TCP] connected lAddr=127.0.0.1:64151 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:17 INF [TCP] connected lAddr=127.0.0.1:64153 rAddr=mojie0201.xn--8stx8olrwkucjq3b.com:443 mode=rule rule=DomainKeyword(mojie) proxy=自动选择[日本JP-T-GPT]
+10:36:17 INF [TCP] connected lAddr=127.0.0.1:64158 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:17 INF [TCP] connected lAddr=127.0.0.1:64160 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:17 INF [TCP] connected lAddr=127.0.0.1:64162 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:22 INF [TCP] connected lAddr=127.0.0.1:64179 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:23 INF [TCP] connected lAddr=127.0.0.1:64182 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:33 INF [TCP] connected lAddr=127.0.0.1:64202 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=哔哩哔哩[DIRECT]
+10:36:36 INF [TCP] connected lAddr=127.0.0.1:64204 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:36 INF [TCP] connected lAddr=127.0.0.1:64206 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:39 INF [TCP] connected lAddr=127.0.0.1:64208 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:39 INF [TCP] connected lAddr=127.0.0.1:64210 rAddr=chat.chatra.io:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:40 INF [TCP] connected lAddr=127.0.0.1:64212 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:40 INF [TCP] connected lAddr=127.0.0.1:64214 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:41 INF [TCP] connected lAddr=127.0.0.1:64218 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:41 INF [TCP] connected lAddr=127.0.0.1:64216 rAddr=edge-http.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:41 INF [TCP] connected lAddr=127.0.0.1:64220 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64222 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64224 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64226 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64228 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64230 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:43 INF [TCP] connected lAddr=127.0.0.1:64232 rAddr=p2p.binance.com:443 mode=rule rule=Match() proxy=节点选择[日本JP-T-GPT]
+10:36:44 INF [TCP] connected lAddr=127.0.0.1:64234 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:44 INF [TCP] connected lAddr=127.0.0.1:64237 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:44 INF [TCP] connected lAddr=127.0.0.1:64236 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:44 INF [TCP] connected lAddr=127.0.0.1:64240 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=微软服务[日本JP-T-GPT]
+10:36:59 INF [TCP] connected lAddr=127.0.0.1:64246 rAddr=chat.chatra.io:443 mode=global
+10:37:00 INF [TCP] connected lAddr=127.0.0.1:64248 rAddr=chat.chatra.io:443 mode=global

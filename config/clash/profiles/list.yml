@@ -3,14 +3,14 @@ files:
     time: 1623476280663.yml
     name: config.yaml
     selected: []
-  - time: 1714027868576.yml
+  - time: 1714444658640.yml
     name: 魔戒.net
-    url: https://mojie.app/api/v1/client/subscribe?token=4062db904377e6c3125430395ca9a773
+    url: https://mojie.app/api/v1/client/subscribe?token=7eb552aeb10bc561616d45612bcd0510
     selected: []
     interval: 24
     subInfo:
-      upload: 928183413
-      download: 112089578373
+      upload: 122409
+      download: 5163676
       total: 139586437120
     homeWeb: https://mojie.live
 index: 1
