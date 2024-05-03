@@ -6,11 +6,43 @@ files:
   - time: 1714444658640.yml
     name: 魔戒.net
     url: https://mojie.app/api/v1/client/subscribe?token=7eb552aeb10bc561616d45612bcd0510
-    selected: []
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 节点选择
+        now: 故障转移
+      - name: ChatGPT
+        now: 美国LA-优化3-GPT
+      - name: 境内使用
+        now: 日本-优化-GPT
+      - name: 海外使用
+        now: 日本JP-T-GPT
+      - name: Netflix
+        now: 台湾WAP-T
+      - name: 磁力下载
+        now: DIRECT
+      - name: 哔哩哔哩
+        now: DIRECT
+      - name: Telegram
+        now: 台湾-优化
+      - name: TikTok
+        now: 日本-优化-GPT
+      - name: Twitter
+        now: 节点选择
+      - name: Copilot
+        now: 节点选择
+      - name: 微软服务
+        now: 日本JP-T-GPT
+      - name: 苹果服务
+        now: DIRECT
+      - name: 谷歌服务
+        now: 节点选择
+      - name: Steam
+        now: 英国UK-T
     interval: 24
     subInfo:
-      upload: 122409
-      download: 5163676
+      upload: 30220624
+      download: 3857494024
       total: 139586437120
     homeWeb: https://mojie.live
 index: 1
