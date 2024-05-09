@@ -1,7 +1,0 @@
-10:37:09 INF [API] listening addr=127.0.0.1:64266
-10:37:09 INF [DNS] server listening addr=127.0.0.1:53
-10:37:09 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
-10:37:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64282 rAddr=api.github.com:443 proxy=DIRECT
-10:37:10 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64278 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
-10:37:14 WRN [TCP] dial failed error=dial tcp4 185.199.111.133:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:64288 rAddr=raw.githubusercontent.com:443
-10:37:15 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:64303 rAddr=raw.githubusercontent.com:443 proxy=DIRECT

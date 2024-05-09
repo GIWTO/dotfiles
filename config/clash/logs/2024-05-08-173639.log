@@ -1,0 +1,17 @@
+17:36:39 INF [API] listening addr=127.0.0.1:50080
+17:36:39 INF [DNS] server listening addr=127.0.0.1:53
+17:36:39 INF [Inbound] Mixed(http+socks) listening addr=[::]:41001
+17:36:39 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50095 rAddr=api.github.com:443 proxy=DIRECT
+17:36:39 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50094 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+17:36:44 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50089 rAddr=feeds.feedburner.com:443
+17:36:44 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50088 rAddr=feeds.feedburner.com:443
+17:36:46 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:50118 rAddr=quantum-air.xyz:443 proxy=DIRECT
+17:36:49 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50112 rAddr=feeds.feedburner.com:443
+17:36:49 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:50114 rAddr=feeds.feedburner.com:443
+17:37:15 WRN [Metadata] parse failed error=script not found
+17:37:15 WRN [Metadata] parse failed error=script not found
+17:37:16 WRN [Metadata] parse failed error=script not found
+17:37:16 WRN [Metadata] parse failed error=script not found
+17:37:18 WRN [Metadata] parse failed error=script not found
+17:37:18 WRN [Metadata] parse failed error=script not found
+17:37:18 WRN [Metadata] parse failed error=script not found
