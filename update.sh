@@ -7,7 +7,7 @@ localRepoPath="/c/Users/wang/.dotfiles"
 cd "$localRepoPath" || exit
 
 # 设置 Git 安装路径
-gitPath="/c/Users/wang/scoop/apps/git/current/cmd"
+gitPath="/d/scoop/apps/git/current/cmd"
 
 # 设置日志文件路径
 scoopExportFile="$localRepoPath/scoop_export.json"

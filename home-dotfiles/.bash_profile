@@ -15,3 +15,4 @@ parse_git_branch() {
 #export PS1="\[\e[32;1m\]\W $\[\e[0m\]\[\033[32m\]\$(parse_git_branch)\[\033[00m\] "
 # 显示全路径
 export PS1="\[\e[32;1m\]\w $\[\e[0m\]\[\033[32m\]\$(parse_git_branch)\[\033[00m\] "
+export PATH="$PATH:/d/scoop/shims"

@@ -67,3 +67,8 @@ vim C:\Users\wang\.dotfiles\./home-dotfiles/.vimrc
 ./install
 ./install
 rm -rf node_modules
+pwd
+rm -rf scoop/
+scoop list
+vim ~/.bashrc
+source ~/.bashrc
