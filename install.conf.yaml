@@ -8,12 +8,13 @@
 - link:
     ~/.vimrc: ./home-dotfiles/.vimrc
     ~/.bashrc: ./home-dotfiles/.bashrc
-    ~/.zshrc: ./home-dotfiles/.zshrc
     ~/.gitconfig: ./home-dotfiles/.gitconfig
     ~/.npmrc: ./home-dotfiles/.npmrc
     ~/.wslconfig: ./home-dotfiles/.wslconfig
     ~/.bash_profile: ./home-dotfiles/.bash_profile
     ~/.bash_history: ./home-dotfiles/.bash_history
+    ~/.zshrc: ./home-dotfiles/.zshrc
+    ~/.oh-my-zsh: ./home-dotfiles/.oh-my-zsh
 
     ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: 
       path: ./home-dotfiles/windows-terminal-settings.json

@@ -72,6 +72,10 @@ rm -rf scoop/
 scoop list
 vim ~/.bashrc
 source ~/.bashrc
+python
 cd .dotfiles/
-./install
-./install
+./install 
+./install -v
+./install -v
+cd .dotfiles/
+./install 
