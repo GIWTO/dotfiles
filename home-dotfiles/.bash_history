@@ -72,3 +72,6 @@ rm -rf scoop/
 scoop list
 vim ~/.bashrc
 source ~/.bashrc
+cd .dotfiles/
+./install
+./install

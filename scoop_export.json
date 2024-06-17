@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1717720420000)\/",
+                "value": "\/Date(1718483157000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024年6月7日 8:33:40"
+                "DateTime": "2024年6月16日 4:25:57"
             },
             "Manifests": 1327
         },
@@ -14,11 +14,21 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1717078964000)\/",
+                "value": "\/Date(1718498371000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024年5月30日 22:22:44"
+                "DateTime": "2024年6月16日 8:39:31"
             },
-            "Manifests": 2027
+            "Manifests": 2036
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1718482882000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024年6月16日 4:21:22"
+            },
+            "Manifests": 336
         },
         {
             "Name": "cvp",
@@ -34,19 +44,19 @@
             "Name": "hoilc_scoop-lemon",
             "Source": "https://github.com/hoilc/scoop-lemon",
             "Updated": {
-                "value": "\/Date(1717072237000)\/",
+                "value": "\/Date(1718500232000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024年5月30日 20:30:37"
+                "DateTime": "2024年6月16日 9:10:32"
             },
-            "Manifests": 1119
+            "Manifests": 1130
         },
         {
             "Name": "scoopet",
             "Source": "https://github.com/ivaquero/scoopet",
             "Updated": {
-                "value": "\/Date(1717591766000)\/",
+                "value": "\/Date(1718455688000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024年6月5日 20:49:26"
+                "DateTime": "2024年6月15日 20:48:08"
             },
             "Manifests": 85
         }
@@ -65,6 +75,13 @@
             "Name": "adb",
             "Version": "34.0.1",
             "Updated": "\/Date(1679558515043)\/"
+        },
+        {
+            "Info": "",
+            "Source": "cvp",
+            "Name": "aliyunpan",
+            "Version": "2.1.7.650",
+            "Updated": "\/Date(1718034063021)\/"
         },
         {
             "Info": "",
@@ -92,7 +109,7 @@
             "Source": "extras",
             "Name": "bandizip",
             "Version": "7.35",
-            "Updated": "\/Date(1717133347038)\/"
+            "Updated": "\/Date(1718442539698)\/"
         },
         {
             "Info": "",
@@ -169,7 +186,7 @@
             "Source": "extras",
             "Name": "everything",
             "Version": "1.4.1.1024",
-            "Updated": "\/Date(1717081623220)\/"
+            "Updated": "\/Date(1718073071930)\/"
         },
         {
             "Info": "",
@@ -184,6 +201,13 @@
             "Name": "fiddler",
             "Version": "5.0.20211.51073",
             "Updated": "\/Date(1651939632902)\/"
+        },
+        {
+            "Info": "Install failed",
+            "Source": null,
+            "Name": "firefox",
+            "Version": null,
+            "Updated": "\/Date(1718551872771)\/"
         },
         {
             "Info": "",
@@ -252,8 +276,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "idea-ultimate",
-            "Version": "2023.3.2-233.13135.103",
-            "Updated": "\/Date(1704372312088)\/"
+            "Version": "2024.1.2-241.17011.79",
+            "Updated": "\/Date(1717834875048)\/"
         },
         {
             "Info": "",
@@ -273,8 +297,8 @@
             "Info": "",
             "Source": "nerd-fonts",
             "Name": "JetBrainsMono-NF",
-            "Version": "2.1.0",
-            "Updated": "\/Date(1651943800563)\/"
+            "Version": "3.2.1",
+            "Updated": "\/Date(1718502028145)\/"
         },
         {
             "Info": "",
@@ -282,6 +306,13 @@
             "Name": "jmeter",
             "Version": "5.6.2",
             "Updated": "\/Date(1703308536432)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "keepassxc",
+            "Version": "2.7.8",
+            "Updated": "\/Date(1718458110770)\/"
         },
         {
             "Info": "",
@@ -296,6 +327,13 @@
             "Name": "liberica11-full-jdk",
             "Version": "11.0.16-8",
             "Updated": "\/Date(1659244282542)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "localsend",
+            "Version": "1.14.0",
+            "Updated": "\/Date(1717841677485)\/"
         },
         {
             "Info": "",
@@ -425,6 +463,20 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "python",
+            "Version": "3.12.4",
+            "Updated": "\/Date(1717831534087)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "qbittorrent",
+            "Version": "4.6.5",
+            "Updated": "\/Date(1718257435409)\/"
+        },
+        {
+            "Info": "",
             "Source": "echoiron_echo-scoop",
             "Name": "qq",
             "Version": "9.6.0",
@@ -537,6 +589,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "Transmission",
+            "Version": "4.0.6",
+            "Updated": "\/Date(1717836130669)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "tree-sitter",
             "Version": "0.20.7",
@@ -564,13 +623,6 @@
             "Updated": "\/Date(1651944305641)\/"
         },
         {
-            "Info": "Install failed",
-            "Source": null,
-            "Name": "vmware-workstation-pro",
-            "Version": null,
-            "Updated": "\/Date(1717723545812)\/"
-        },
-        {
             "Info": "",
             "Source": "extras",
             "Name": "vscode",
@@ -590,6 +642,13 @@
             "Name": "wget",
             "Version": "1.21.3",
             "Updated": "\/Date(1651944376433)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "Wingetui",
+            "Version": "3.0.2",
+            "Updated": "\/Date(1717824940571)\/"
         },
         {
             "Info": "",

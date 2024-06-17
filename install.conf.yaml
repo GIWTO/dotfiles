@@ -8,6 +8,7 @@
 - link:
     ~/.vimrc: ./home-dotfiles/.vimrc
     ~/.bashrc: ./home-dotfiles/.bashrc
+    ~/.zshrc: ./home-dotfiles/.zshrc
     ~/.gitconfig: ./home-dotfiles/.gitconfig
     ~/.npmrc: ./home-dotfiles/.npmrc
     ~/.wslconfig: ./home-dotfiles/.wslconfig

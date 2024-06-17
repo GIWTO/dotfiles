@@ -33,12 +33,6 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
     "profiles": 
     {
         "defaults": 
@@ -47,14 +41,14 @@
             "colorScheme": "Campbell Powershell",
             "font": 
             {
-                "face": "JetBrainsMono NF"
+                "face": "JetBrainsMono-NF"
             }
         },
         "list": 
         [
             {
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.35,
+                "backgroundImageOpacity": 0.34999999999999998,
                 "backgroundImageStretchMode": "fill",
                 "bellStyle": "taskbar",
                 "closeOnExit": "graceful",
@@ -62,11 +56,10 @@
                 "commandline": "D:\\scoop\\apps\\git\\current\\bin\\bash.exe --login -i",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
-                "elevate": true,
                 "font": 
                 {
-                    "face": "JetBrainsMono NF",
-                    "size": 11.0,
+                    "face": "JetBrainsMono Nerd Font",
+                    "size": 11,
                     "weight": "bold"
                 },
                 "foreground": "#DCDCDC",
@@ -80,19 +73,18 @@
                 "snapOnInput": true,
                 "startingDirectory": "C:\\Users\\wang",
                 "tabTitle": "Git Bash",
-                "useAcrylic": true,
-                "useAtlasEngine": true
+                "useAcrylic": true
             },
             {
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.6,
+                "backgroundImageOpacity": 0.59999999999999998,
                 "backgroundImageStretchMode": "fill",
                 "colorScheme": "Campbell Powershell",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
                 "font": 
                 {
-                    "face": "JetBrainsMono NF"
+                    "face": "JetBrainsMono Nerd Font"
                 },
                 "foreground": "#DCDCDC",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -107,12 +99,10 @@
                 "useAcrylic": true
             },
             {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell7",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -354,6 +344,5 @@
     ],
     "snapToGridOnResize": false,
     "startOnUserLogin": false,
-    "themes": [],
     "useAcrylicInTabRow": false
 }
