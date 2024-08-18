@@ -4,31 +4,51 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1718483157000)\/",
+                "value": "\/Date(1723368372000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024Äê6ÔÂ16ÈÕ 4:25:57"
+                "DateTime": "2024å¹´8æœˆ11æ—¥ 17:26:12"
             },
-            "Manifests": 1327
+            "Manifests": 1337
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1718498371000)\/",
+                "value": "\/Date(1723364979000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024Äê6ÔÂ16ÈÕ 8:39:31"
+                "DateTime": "2024å¹´8æœˆ11æ—¥ 16:29:39"
             },
-            "Manifests": 2036
+            "Manifests": 2054
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": {
+                "value": "\/Date(1723365146000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024å¹´8æœˆ11æ—¥ 16:32:26"
+            },
+            "Manifests": 468
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1718482882000)\/",
+                "value": "\/Date(1723324800000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024Äê6ÔÂ16ÈÕ 4:21:22"
+                "DateTime": "2024å¹´8æœˆ11æ—¥ 5:20:00"
             },
             "Manifests": 336
+        },
+        {
+            "Name": "apps",
+            "Source": "https://github.com/DoveBoy/Apps.git",
+            "Updated": {
+                "value": "\/Date(1722348684000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024å¹´7æœˆ30æ—¥ 22:11:24"
+            },
+            "Manifests": 690
         },
         {
             "Name": "cvp",
@@ -36,29 +56,49 @@
             "Updated": {
                 "value": "\/Date(1699577495000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2023Äê11ÔÂ10ÈÕ 8:51:35"
+                "DateTime": "2023å¹´11æœˆ10æ—¥ 8:51:35"
             },
             "Manifests": 291
+        },
+        {
+            "Name": "gendloopBucket",
+            "Source": "https://github.com/gendloop/gendloopBucket",
+            "Updated": {
+                "value": "\/Date(1723196206000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024å¹´8æœˆ9æ—¥ 17:36:46"
+            },
+            "Manifests": 56
         },
         {
             "Name": "hoilc_scoop-lemon",
             "Source": "https://github.com/hoilc/scoop-lemon",
             "Updated": {
-                "value": "\/Date(1718500232000)\/",
+                "value": "\/Date(1723367895000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024Äê6ÔÂ16ÈÕ 9:10:32"
+                "DateTime": "2024å¹´8æœˆ11æ—¥ 17:18:15"
             },
-            "Manifests": 1130
+            "Manifests": 1175
         },
         {
             "Name": "scoopet",
             "Source": "https://github.com/ivaquero/scoopet",
             "Updated": {
-                "value": "\/Date(1718455688000)\/",
+                "value": "\/Date(1723121615000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024Äê6ÔÂ15ÈÕ 20:48:08"
+                "DateTime": "2024å¹´8æœˆ8æ—¥ 20:53:35"
             },
             "Manifests": 85
+        },
+        {
+            "Name": "witchilich",
+            "Source": "https://github.com/Witchilich/scoop-witchilich",
+            "Updated": {
+                "value": "\/Date(1714157338000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2024å¹´4æœˆ27æ—¥ 2:48:58"
+            },
+            "Manifests": 24
         }
     ],
     "apps": [
@@ -106,13 +146,6 @@
         },
         {
             "Info": "",
-            "Source": "extras",
-            "Name": "bandizip",
-            "Version": "7.35",
-            "Updated": "\/Date(1718442539698)\/"
-        },
-        {
-            "Info": "",
             "Source": "main",
             "Name": "cacert",
             "Version": "2022-04-26",
@@ -131,6 +164,13 @@
             "Name": "cmake",
             "Version": "3.25.2",
             "Updated": "\/Date(1677401889355)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "CrystalDiskInfo",
+            "Version": "9.3.2",
+            "Updated": "\/Date(1722258558464)\/"
         },
         {
             "Info": "",
@@ -183,10 +223,17 @@
         },
         {
             "Info": "",
+            "Source": "hoilc_scoop-lemon",
+            "Name": "emby",
+            "Version": "4.8.8.0",
+            "Updated": "\/Date(1723358853187)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
-            "Name": "everything",
-            "Version": "1.4.1.1024",
-            "Updated": "\/Date(1718073071930)\/"
+            "Name": "fastcopy",
+            "Version": "5.7.12",
+            "Updated": "\/Date(1718671874004)\/"
         },
         {
             "Info": "",
@@ -201,13 +248,6 @@
             "Name": "fiddler",
             "Version": "5.0.20211.51073",
             "Updated": "\/Date(1651939632902)\/"
-        },
-        {
-            "Info": "Install failed",
-            "Source": null,
-            "Name": "firefox",
-            "Version": null,
-            "Updated": "\/Date(1718551872771)\/"
         },
         {
             "Info": "",
@@ -253,6 +293,13 @@
         },
         {
             "Info": "",
+            "Source": "<auto-generated>",
+            "Name": "gradle",
+            "Version": "5.1.1",
+            "Updated": "\/Date(1722346662361)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "grep",
             "Version": "3.7",
@@ -273,18 +320,11 @@
             "Updated": "\/Date(1651941727805)\/"
         },
         {
-            "Info": "",
-            "Source": "extras",
-            "Name": "idea-ultimate",
-            "Version": "2024.1.2-241.17011.79",
-            "Updated": "\/Date(1717834875048)\/"
-        },
-        {
-            "Info": "",
-            "Source": "echoiron_echo-scoop",
+            "Info": "Install failed",
+            "Source": null,
             "Name": "idm",
-            "Version": "6.40.11",
-            "Updated": "\/Date(1651941867192)\/"
+            "Version": null,
+            "Updated": "\/Date(1723115645561)\/"
         },
         {
             "Info": "",
@@ -292,6 +332,13 @@
             "Name": "innounp",
             "Version": "0.50",
             "Updated": "\/Date(1651991277833)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "jd-gui",
+            "Version": "1.6.6",
+            "Updated": "\/Date(1722686679663)\/"
         },
         {
             "Info": "",
@@ -337,6 +384,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "lockhunter",
+            "Version": "3.4.3",
+            "Updated": "\/Date(1719462165059)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "lsd",
             "Version": "1.0.0",
@@ -379,6 +433,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "mobaxterm",
+            "Version": "24.1",
+            "Updated": "\/Date(1718720310715)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "neovim",
             "Version": "0.8.3",
@@ -409,8 +470,8 @@
             "Info": "",
             "Source": "main",
             "Name": "nvm",
-            "Version": "1.1.11",
-            "Updated": "\/Date(1684211871944)\/"
+            "Version": "1.1.12",
+            "Updated": "\/Date(1723275976576)\/"
         },
         {
             "Info": "",
@@ -418,6 +479,13 @@
             "Name": "openssh",
             "Version": "8.9.1.0p1",
             "Updated": "\/Date(1659239476226)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "optimizer",
+            "Version": "16.5",
+            "Updated": "\/Date(1719462025035)\/"
         },
         {
             "Info": "",
@@ -487,7 +555,7 @@
             "Source": "extras",
             "Name": "quicklook",
             "Version": "3.7.3",
-            "Updated": "\/Date(1716966915286)\/"
+            "Updated": "\/Date(1723359523735)\/"
         },
         {
             "Info": "",
@@ -554,10 +622,24 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "streamlabs-obs",
+            "Version": "1.16.7",
+            "Updated": "\/Date(1720537869271)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "sudo",
             "Version": "0.2020.01.26",
             "Updated": "\/Date(1651944247293)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "SumatraPDF",
+            "Version": "3.5.2",
+            "Updated": "\/Date(1719462104538)\/"
         },
         {
             "Info": "",
@@ -583,6 +665,13 @@
         {
             "Info": "",
             "Source": "extras",
+            "Name": "tortoisesvn",
+            "Version": "1.14.7.29687",
+            "Updated": "\/Date(1718796972501)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "trafficmonitor",
             "Version": "1.83",
             "Updated": "\/Date(1658843562363)\/"
@@ -600,6 +689,13 @@
             "Name": "tree-sitter",
             "Version": "0.20.7",
             "Updated": "\/Date(1677244876419)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "typora",
+            "Version": "1.9.5",
+            "Updated": "\/Date(1723254841940)\/"
         },
         {
             "Info": "",
@@ -644,18 +740,11 @@
             "Updated": "\/Date(1651944376433)\/"
         },
         {
-            "Info": "",
-            "Source": "extras",
+            "Info": "Install failed",
+            "Source": null,
             "Name": "Wingetui",
-            "Version": "3.0.2",
-            "Updated": "\/Date(1717824940571)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "winrar",
-            "Version": "6.24",
-            "Updated": "\/Date(1716900978975)\/"
+            "Version": null,
+            "Updated": "\/Date(1723370639593)\/"
         },
         {
             "Info": "",

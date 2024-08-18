@@ -33,6 +33,12 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{4b25bfd9-4962-49ae-8512-bbd336462bab}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -41,14 +47,14 @@
             "colorScheme": "Campbell Powershell",
             "font": 
             {
-                "face": "JetBrainsMono-NF"
+                "face": "JetBrainsMono Nerd Font"
             }
         },
         "list": 
         [
             {
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.34999999999999998,
+                "backgroundImageOpacity": 0.35,
                 "backgroundImageStretchMode": "fill",
                 "bellStyle": "taskbar",
                 "closeOnExit": "graceful",
@@ -59,7 +65,7 @@
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "bold"
                 },
                 "foreground": "#DCDCDC",
@@ -77,7 +83,7 @@
             },
             {
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.59999999999999998,
+                "backgroundImageOpacity": 0.6,
                 "backgroundImageStretchMode": "fill",
                 "colorScheme": "Campbell Powershell",
                 "cursorColor": "#FFFFFF",
@@ -99,6 +105,8 @@
                 "useAcrylic": true
             },
             {
+                "backgroundImage": "desktopWallpaper",
+                "backgroundImageOpacity": 0.37,
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font"
@@ -344,5 +352,6 @@
     ],
     "snapToGridOnResize": false,
     "startOnUserLogin": false,
+    "themes": [],
     "useAcrylicInTabRow": false
 }

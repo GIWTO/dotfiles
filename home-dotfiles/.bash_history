@@ -79,3 +79,7 @@ cd .dotfiles/
 ./install -v
 cd .dotfiles/
 ./install 
+ls
+echo bash
+echo $SHELL
+for i in $(seq 1 3); do time zsh -i -c exit; done
