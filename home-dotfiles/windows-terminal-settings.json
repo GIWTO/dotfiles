@@ -80,7 +80,7 @@
                 "icon": "D:\\scoop\\apps\\git\\2.46.0\\usr\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
                 "opacity": 100,
-                "padding": "0, 0, 0, 0",
+                "padding": "8",
                 "snapOnInput": true,
                 "startingDirectory": "C:\\Users\\wang",
                 "tabTitle": "Git Bash",
@@ -105,7 +105,7 @@
                 "historySize": 9001,
                 "name": "Windows PowerShell",
                 "opacity": 100,
-                "padding": "0, 0, 0, 0",
+                "padding": "8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "PowerShell",
@@ -124,7 +124,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
-                "padding": "0",
+                "padding": "8",
                 "useAcrylic": true
             }
         ]
