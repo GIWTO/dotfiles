@@ -4,51 +4,41 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
             "Updated": {
-                "value": "\/Date(1723368372000)\/",
+                "value": "\/Date(1725164980000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ11æ—¥ 17:26:12"
+                "DateTime": "2024Äê9ÔÂ1ÈÕ 12:29:40"
             },
-            "Manifests": 1337
+            "Manifests": 1340
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1723364979000)\/",
+                "value": "\/Date(1725151359000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ11æ—¥ 16:29:39"
+                "DateTime": "2024Äê9ÔÂ1ÈÕ 8:42:39"
             },
-            "Manifests": 2054
+            "Manifests": 2063
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
             "Updated": {
-                "value": "\/Date(1723365146000)\/",
+                "value": "\/Date(1725165417000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ11æ—¥ 16:32:26"
+                "DateTime": "2024Äê9ÔÂ1ÈÕ 12:36:57"
             },
-            "Manifests": 468
+            "Manifests": 469
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1723324800000)\/",
+                "value": "\/Date(1725092772000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ11æ—¥ 5:20:00"
+                "DateTime": "2024Äê8ÔÂ31ÈÕ 16:26:12"
             },
             "Manifests": 336
-        },
-        {
-            "Name": "apps",
-            "Source": "https://github.com/DoveBoy/Apps.git",
-            "Updated": {
-                "value": "\/Date(1722348684000)\/",
-                "DisplayHint": 2,
-                "DateTime": "2024å¹´7æœˆ30æ—¥ 22:11:24"
-            },
-            "Manifests": 690
         },
         {
             "Name": "cvp",
@@ -56,7 +46,7 @@
             "Updated": {
                 "value": "\/Date(1699577495000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2023å¹´11æœˆ10æ—¥ 8:51:35"
+                "DateTime": "2023Äê11ÔÂ10ÈÕ 8:51:35"
             },
             "Manifests": 291
         },
@@ -64,29 +54,29 @@
             "Name": "gendloopBucket",
             "Source": "https://github.com/gendloop/gendloopBucket",
             "Updated": {
-                "value": "\/Date(1723196206000)\/",
+                "value": "\/Date(1724296018000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ9æ—¥ 17:36:46"
+                "DateTime": "2024Äê8ÔÂ22ÈÕ 11:06:58"
             },
-            "Manifests": 56
+            "Manifests": 57
         },
         {
             "Name": "hoilc_scoop-lemon",
             "Source": "https://github.com/hoilc/scoop-lemon",
             "Updated": {
-                "value": "\/Date(1723367895000)\/",
+                "value": "\/Date(1725161058000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ11æ—¥ 17:18:15"
+                "DateTime": "2024Äê9ÔÂ1ÈÕ 11:24:18"
             },
-            "Manifests": 1175
+            "Manifests": 1220
         },
         {
             "Name": "scoopet",
             "Source": "https://github.com/ivaquero/scoopet",
             "Updated": {
-                "value": "\/Date(1723121615000)\/",
+                "value": "\/Date(1725156836000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´8æœˆ8æ—¥ 20:53:35"
+                "DateTime": "2024Äê9ÔÂ1ÈÕ 10:13:56"
             },
             "Manifests": 85
         },
@@ -96,7 +86,7 @@
             "Updated": {
                 "value": "\/Date(1714157338000)\/",
                 "DisplayHint": 2,
-                "DateTime": "2024å¹´4æœˆ27æ—¥ 2:48:58"
+                "DateTime": "2024Äê4ÔÂ27ÈÕ 2:48:58"
             },
             "Manifests": 24
         }
@@ -168,9 +158,23 @@
         {
             "Info": "",
             "Source": "extras",
+            "Name": "cpu-z",
+            "Version": "2.10",
+            "Updated": "\/Date(1725026432836)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "CrystalDiskInfo",
             "Version": "9.3.2",
             "Updated": "\/Date(1722258558464)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "CrystalDiskMark",
+            "Version": "8.0.5",
+            "Updated": "\/Date(1724770880915)\/"
         },
         {
             "Info": "",
@@ -230,6 +234,13 @@
         },
         {
             "Info": "",
+            "Source": "apps",
+            "Name": "everything",
+            "Version": "1.4.1.1025",
+            "Updated": "\/Date(1724477117887)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "fastcopy",
             "Version": "5.7.12",
@@ -272,10 +283,10 @@
         },
         {
             "Info": "",
-            "Source": "chawyehsu_dorado",
+            "Source": "main",
             "Name": "git",
-            "Version": "2.42.0.windows.2",
-            "Updated": "\/Date(1700209513141)\/"
+            "Version": "2.46.0",
+            "Updated": "\/Date(1725174437247)\/"
         },
         {
             "Info": "",
@@ -320,13 +331,6 @@
             "Updated": "\/Date(1651941727805)\/"
         },
         {
-            "Info": "Install failed",
-            "Source": null,
-            "Name": "idm",
-            "Version": null,
-            "Updated": "\/Date(1723115645561)\/"
-        },
-        {
             "Info": "",
             "Source": "main",
             "Name": "innounp",
@@ -345,7 +349,7 @@
             "Source": "nerd-fonts",
             "Name": "JetBrainsMono-NF",
             "Version": "3.2.1",
-            "Updated": "\/Date(1718502028145)\/"
+            "Updated": "\/Date(1724249490394)\/"
         },
         {
             "Info": "",
@@ -365,8 +369,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "lazygit",
-            "Version": "0.34",
-            "Updated": "\/Date(1651943459049)\/"
+            "Version": "0.43.1",
+            "Updated": "\/Date(1725166464403)\/"
         },
         {
             "Info": "",
@@ -422,7 +426,7 @@
             "Source": "extras",
             "Name": "memreduct",
             "Version": "3.4",
-            "Updated": "\/Date(1651943503874)\/"
+            "Updated": "\/Date(1724831937162)\/"
         },
         {
             "Info": "",
@@ -589,8 +593,8 @@
             "Info": "",
             "Source": "main",
             "Name": "scoop-search",
-            "Version": "1.4.1",
-            "Updated": "\/Date(1716732056463)\/"
+            "Version": "1.5.0",
+            "Updated": "\/Date(1725169787177)\/"
         },
         {
             "Info": "",
@@ -612,6 +616,13 @@
             "Name": "sqlite",
             "Version": "3.41.0",
             "Updated": "\/Date(1677244760946)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.20.1",
+            "Updated": "\/Date(1725164306444)\/"
         },
         {
             "Info": "",
@@ -727,24 +738,10 @@
         },
         {
             "Info": "",
-            "Source": "extras",
-            "Name": "WebStorm",
-            "Version": "2023.2.4-232.10203.14",
-            "Updated": "\/Date(1699627590719)\/"
-        },
-        {
-            "Info": "",
             "Source": "main",
             "Name": "wget",
             "Version": "1.21.3",
             "Updated": "\/Date(1651944376433)\/"
-        },
-        {
-            "Info": "Install failed",
-            "Source": null,
-            "Name": "Wingetui",
-            "Version": null,
-            "Updated": "\/Date(1723370639593)\/"
         },
         {
             "Info": "",
@@ -780,6 +777,13 @@
             "Name": "zig",
             "Version": "0.10.1",
             "Updated": "\/Date(1677336623643)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.4",
+            "Updated": "\/Date(1725119127240)\/"
         }
     ]
 }

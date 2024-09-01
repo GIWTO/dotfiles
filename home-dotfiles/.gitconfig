@@ -4,7 +4,7 @@
 	useConfigOnly = true
 [core]
 	quotepath = false
-	autocrlf = false
+	autocrlf = true
 	editor = notepad++
 	longpaths = true
 	trustctime = false
